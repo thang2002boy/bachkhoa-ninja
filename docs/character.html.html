@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Nhân Vật</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Tùy chỉnh CSS bổ sung */
+        .rank-font {
+            font-family: 'Arial Black', sans-serif;
+        }
+
+        /* Định dạng table */
+        .detail-table th,
+        .detail-table td {
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+            /* Màu xám nhạt */
+        }
+
+        .detail-table th {
+            width: 35%;
+            /* Cho tiêu đề cột trái hẹp lại */
+            font-weight: 600;
+            /* Semi-bold */
+            color: #4b5563;
+            /* Màu xám đậm */
+        }
+
+        .detail-table td {
+            width: 65%;
+            color: #1f2937;
+            /* Màu chữ chính */
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+    <div class="container mx-auto p-4 md:p-10">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-extrabold text-indigo-800 tracking-wider pb-2 mb-6 border-b-4 border-yellow-500 inline-block pr-8"
+                id="character-name-header">
+                Đang Tải Thông Tin Nhân Vật...
+            </h1>
+            <br>
+            <button onclick="window.location.href='index.html'"
+                class="mt-4 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition duration-200 shadow-md">
+                ← Quay lại
+            </button>
+        </header>
+
+        <div id="full-detail-content" class="bg-white p-6 md:p-10 rounded-xl shadow-2xl border-t-8 border-indigo-600">
+            <p class="text-center text-gray-500">Đang tải...</p>
+        </div>
+        <div id="skill-modal" class="fixed inset-0 bg-gray-900 bg-opacity-75 hidden items-center justify-center z-50">
+            <div class="bg-white p-8 rounded-lg max-w-lg w-full shadow-2xl">
+                <div class="flex justify-between items-center border-b pb-3 mb-4">
+                    <h2 class="text-2xl font-bold text-indigo-700">Bộ Kỹ Năng Của <span id="modal-char-name"></span>
+                    </h2>
+                    <button id="close-modal-btn" class="text-gray-500 hover:text-gray-900 text-3xl">&times;</button>
+                </div>
+                <div id="modal-skill-content" class="space-y-4 max-h-96 overflow-y-auto">
+                    <p class="text-gray-600">Nội dung kỹ năng đang được cập nhật...</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="data.js"></script>
+    <script src="character.js"></script>
+</body>
+
+</html>

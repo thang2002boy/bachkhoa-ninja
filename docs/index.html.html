@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huyền Thoại Làng Lá</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .title-font {
+            font-family: 'Oswald', sans-serif;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-image: url('img/full__big.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            padding-top: 64px;
+        }
+
+        .main-content-area {
+            background-color: rgba(255, 255, 255, 0.85);
+            min-height: calc(100vh - 64px);
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+
+        .character-card {
+            overflow: hidden;
+            font-variant: small-caps;
+            font-size: larger;
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            cursor: pointer;
+        }
+
+        .character-card:hover {
+            box-shadow: 0 15px 30px rgba(249, 115, 22, 0.4),
+                0 4px 10px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px) scale(1.03);
+        }
+
+        .character-card img {
+            width: 100%;
+            height: 12rem;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .character-card:hover .character-name {
+            color: #f97316;
+        }
+
+        .character-card .character-name {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+            padding: 0 4px;
+        }
+
+        .rank-font {
+            font-family: 'Oswald', sans-serif;
+            text-shadow:
+                1px 1px 0 #000,
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000;
+            color: #f97316 !important;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="fixed top-0 left-0 w-full z-20 bg-black/20 backdrop-blur-sm shadow-xl">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-end md:justify-center h-16">
+                <div class="hidden md:block">
+                    <ul class="flex space-x-4">
+                        <li><a href="index.html"
+                                class="text-white hover:bg-amber-600 px-3 py-2 rounded-lg text-sm font-medium transition duration-300">TRANG
+                                CHỦ</a></li>
+                        <!-- <li><a href="tin-tuc.html"
+                                class="text-white hover:bg-amber-600 px-3 py-2 rounded-lg text-sm font-medium transition duration-300">TIN
+                                TỨC</a></li> -->
+                        <!-- <li><a href="su-kien.html"
+                                class="text-white hover:bg-amber-600 px-3 py-2 rounded-lg text-sm font-medium transition duration-300">SỰ
+                                KIỆN</a></li> -->
+                        <li><a href="huong-dan.html"
+                                class="text-white hover:bg-amber-600 px-3 py-2 rounded-lg text-sm font-medium transition duration-300">HƯỚNG
+                                DẪN</a></li>
+                        <li><a href="tinh-nang.html"
+                                class="text-white hover:bg-amber-600 px-3 py-2 rounded-lg text-sm font-medium transition duration-300">TÍNH
+                                NĂNG</a></li>
+                        <!-- <li><a href="lien-he.html"
+                                class="text-white hover:bg-amber-600 px-3 py-2 rounded-lg text-sm font-medium transition duration-300">LIÊN
+                                HỆ</a></li> -->
+                    </ul>
+                </div>
+                <button id="mobile-menu-button" type="button"
+                    class="md:hidden p-2 text-white hover:text-gray-100 focus:outline-none" aria-expanded="false"
+                    onclick="toggleMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="w-6 h-6">
+                        <line x1="4" x2="20" y1="12" y2="12" />
+                        <line x1="4" x2="20" y1="6" y2="6" />
+                        <line x1="4" x2="20" y1="18" y2="18" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <div class="md:hidden" id="mobile-menu" style="display: none;">
+            <ul class="pt-2 pb-3 space-y-1 px-2 bg-gray-900/95">
+                <li><a href="index.html"
+                        class="block text-white hover:bg-amber-600 px-3 py-2 rounded-md text-base font-medium">TRANG
+                        CHỦ</a></li>
+                <!-- <li><a href="tin-tuc.html"
+                        class="block text-white hover:bg-amber-600 px-3 py-2 rounded-md text-base font-medium">TIN
+                        TỨC</a></li> -->
+                <!-- <li><a href="su-kien.html"
+                        class="block text-white hover:bg-amber-600 px-3 py-2 rounded-md text-base font-medium">SỰ
+                        KIỆN</a></li> -->
+                <li><a href="huong-dan.html"
+                        class="block text-white hover:bg-amber-600 px-3 py-2 rounded-md text-base font-medium">HƯỚNG
+                        DẪN</a></li>
+                <li><a href="tinh-nang.html"
+                        class="block text-white hover:bg-amber-600 px-3 py-2 rounded-md text-base font-medium">TÍNH
+                        NĂNG</a></li>
+                <!-- <li><a href="lien-he.html"
+                        class="block text-white hover:bg-amber-600 px-3 py-2 rounded-md text-base font-medium">LIÊN
+                        HỆ</a></li> -->
+            </ul>
+        </div>
+    </header>
+
+    <div class="main-content-area">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <h1
+                class="text-4xl font-extrabold text-gray-900 mb-8 text-center border-b-2 pb-3 border-orange-500 title-font">
+                BÁCH KHOA TOÀN THƯ NINJA HUYỀN THOẠI LÀNG LÁ
+            </h1>
+
+            <div class="max-w-6xl mx-auto mb-8">
+                <div
+                    class="search-filter-controls bg-white/95 p-6 rounded-xl shadow-lg flex flex-col md:flex-row gap-4 items-center">
+
+                    <input type="text" id="searchInput" placeholder="Nhập tên hoặc từ khóa nhân vật..."
+                        class="flex-grow w-full md:w-auto p-3 border border-gray-300 rounded-lg focus:ring-orange-500 focus:border-orange-500 transition duration-150"
+                        onkeyup="searchCharacters()">
+
+                    <div class="relative w-full md:w-auto" id="classFilterContainer">
+                        <button id="classDisplayButton" type="button"
+                            class="w-full p-3 border border-gray-300 rounded-lg bg-white shadow-lg font-semibold text-gray-700 
+                   focus:ring-orange-500 focus:border-orange-500 transition duration-150 flex justify-between items-center text-sm"
+                            onclick="toggleDropdown('classDropdown')">
+                            -- Hệ (Tất Cả) --
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+
+                        <div id="classDropdown"
+                            class="absolute z-20 w-full mt-2 bg-white rounded-lg shadow-xl border border-gray-200 hidden">
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm" data-value="all"
+                                onclick="selectClass('all', this)"> - Hệ(Tất Cả) -</a>
+
+                            <a href="#"
+                                class="block px-4 py-2 hover:bg-gray-200 bg-green-100 text-green-700 font-bold text-sm"
+                                data-value="phong" onclick="selectClass('phong', this)">🌪️ Phong</a>
+                            <a href="#"
+                                class="block px-4 py-2 hover:bg-gray-200 bg-red-100 text-red-700 font-bold text-sm"
+                                data-value="hoả" onclick="selectClass('hoả', this)">🔥 Hoả</a>
+                            <a href="#"
+                                class="block px-4 py-2 hover:bg-gray-200 bg-blue-100 text-blue-700 font-bold text-sm"
+                                data-value="thuỷ" onclick="selectClass('thuỷ', this)">💧 Thuỷ</a>
+                            <a href="#"
+                                class="block px-4 py-2 hover:bg-gray-200 bg-yellow-100 text-yellow-700 font-bold text-sm"
+                                data-value="thổ" onclick="selectClass('thổ', this)">⛰️ Thổ</a>
+                            <a href="#"
+                                class="block px-4 py-2 hover:bg-gray-200 bg-purple-100 text-purple-700 font-bold text-sm"
+                                data-value="lôi" onclick="selectClass('lôi', this)">⚡ Lôi</a>
+                        </div>
+                    </div>
+                    <div class="relative w-full md:w-auto" id="tuchatFilterContainer">
+                        <button id="tuchatDisplayButton" type="button"
+                            class="w-full p-3 border border-gray-300 rounded-lg bg-white shadow-lg font-semibold text-gray-700 
+                   focus:ring-orange-500 focus:border-orange-500 transition duration-150 flex justify-between items-center text-sm"
+                            onclick="toggleDropdown('tuchatDropdown')">
+                            -- Tư Chất (Tất Cả) --
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+
+                        <div id="tuchatDropdown"
+                            class="absolute z-10 w-full mt-2 bg-white rounded-lg shadow-xl border border-gray-200 hidden">
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm" data-value="all"
+                                onclick="selectTuchat('all', this)">- Tư Chất (Tất Cả) -</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 bg-red-100 text-red-700 text-sm"
+                                data-value="sss+" onclick="selectTuchat('sss+', this)">SSS+</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 bg-pink-100 text-pink-700 text-sm"
+                                data-value="sss" onclick="selectTuchat('sss', this)">SSS</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 bg-blue-100 text-blue-700 text-sm"
+                                data-value="ss+" onclick="selectTuchat('ss+', this)">SS+</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 bg-green-100 text-green-700 text-sm"
+                                data-value="ss" onclick="selectTuchat('ss', this)">SS</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 bg-yellow-100 text-yellow-700 text-sm"
+                                data-value="s" onclick="selectTuchat('s', this)">S</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm" data-value="a"
+                                onclick="selectTuchat('a', this)">A</a>
+                        </div>
+                    </div>
+                    <select id="villageFilter" onchange="searchCharacters()"
+                        class="w-full md:w-auto p-3 border border-gray-300 rounded-lg bg-white appearance-none focus:ring-orange-500 focus:border-orange-500 transition duration-150 font-semibold text-gray-700 text-sm">
+                        <option value="all" class="text-sm">- Định Vị (Tất Cả) -</option>
+                    </select>
+                    <div class="flex flex-wrap gap-3 mt-4 md:mt-0 items-center w-full md:w-auto">
+                        <span class="font-semibold text-gray-700 text-sm">Sắp xếp theo:</span>
+                        <button
+                            class="sort-btn px-3 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-green-500 hover:text-white transition duration-200 text-sm"
+                            data-sort-key="name" data-sort-order="asc" onclick="handleSortClick('name', 'asc', this)">
+                            Tên A-Z
+                        </button>
+                        <button
+                            class="sort-btn px-3 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-red-500 hover:text-white transition duration-200 text-sm"
+                            data-sort-key="tuchat" data-sort-order="desc"
+                            onclick="handleSortClick('tuchat', 'desc', this)">
+                            Tư Chất
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="character-list"
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 mb-12">
+            </div>
+
+            <div id="character-detail-container"
+                class="bg-white/95 p-8 rounded-xl shadow-2xl border-t-4 border-orange-600 hidden backdrop-blur-sm mt-12">
+                <h2 class="text-3xl font-bold mb-4" id="detail-name"></h2>
+                <div id="detail-content"></div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="bg-gray-800 text-white p-6 mt-10">
+        <div class="max-w-7xl mx-auto text-center">
+
+            <p class="text-sm mb-4">Code: Em Thăng 36 | © 2025</p>
+
+            <div class="flex flex-col items-center">
+                <p class="text-lg font-semibold mb-3">Chia sẻ:</p>
+
+                <button id="shareFacebookBtn" class="flex items-center space-x-2 px-4 py-2 bg-blue-600 rounded-lg 
+                                 hover:bg-blue-700 transition duration-200 border border-dotted border-white"
+                    onclick="shareOnFacebook()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625H5.804V8.05h-1.55V6.44c0-1.54 1.135-2.617 2.503-2.617h1.652v1.89h-.97c-.71 0-1.004.378-1.004.79v1.178h1.897l-.248 1.956h-1.649v5.625C13.074 15.396 16 12.067 16 8.049z" />
+                    </svg>
+                    <span>Facebook</span>
+                </button>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+
+    <script>
+        // CHỈ GIỮ LẠI HÀM NÀY, CÁC HÀM LỌC ĐÃ CHUYỂN HẾT VÀO app.js
+        function toggleMenu() {
+            const menu = document.getElementById('mobile-menu');
+            if (menu.style.display === "none" || menu.style.display === "") {
+                menu.style.display = "block";
+            } else {
+                menu.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
