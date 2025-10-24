@@ -136,7 +136,7 @@ window.charactersData = [
         type: 'Thủ',
         class: ['Lôi'],
         info: 'Killer Bee trong trạng thái Vĩ Thú Hoá hoàn chỉnh (Bát Vĩ). Anh có khả năng sử dụng Bát Vĩ để phóng Vĩ Thú Ngọc khổng lồ và tấn công bằng Lôi Độn.',
-        imgUrl: 'img/killerbee8vi.png',
+        imgUrl: 'img/killerBee8vi.png',
         tuchat: 'SSS',
         village: ['Làng Mây', 'Thú Hoá', 'Jinchuriki']
     },
@@ -279,7 +279,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Hoả'],
         info: 'Nghệ nhân bom đất sét của Akatsuki. Anh tin rằng "Nghệ thuật là một sự bùng nổ", sử dụng thuật Bộc Phá (Explosion Release) để tạo ra các loại bom đất sét từ C1 đến C4 có sức công phá khủng khiếp.',
-        imgUrl: 'img/DeidaraSS.png',
+        imgUrl: 'img/deidaraSS.png',
         tuchat: 'SS',
         village: ['Làng Đá', 'Akatsuki']
     },
@@ -289,7 +289,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Phong'],
         info: 'Ninja tốc độ của tộc Inuzuka. Luôn sát cánh chiến đấu cùng chó ninja Akamaru, sử dụng các chiêu thức kết hợp độc đáo như Nha Thông Nha (Fang Over Fang) và Ngân Nha La Phong (Passing Fang).',
-        imgUrl: 'img/KibaS.png',
+        imgUrl: 'img/kibaS.png',
         tuchat: 'S',
         village: ['Làng Lá']
     },
@@ -299,7 +299,7 @@ window.charactersData = [
         type: 'Kỹ',
         class: ['Thổ'],
         info: 'Thành viên tộc Aburame, sử dụng các kỹ thuật tấn công và trinh sát bằng côn trùng (Kikaichū). Anh là một chiến binh lạnh lùng, luôn lập kế hoạch chiến đấu cẩn thận.',
-        imgUrl: 'img/ShinoS.png',
+        imgUrl: 'img/shinoS.png',
         tuchat: 'S',
         village: ['Làng Lá']
     },
@@ -309,7 +309,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Thổ'],
         info: 'Một trong Tam Nin Huyền Thoại và Hokage Đệ Ngũ. Cô là bậc thầy về ninja y thuật, có sức mạnh vật lý phi thường (Siêu Sức Mạnh) và kỹ năng hồi phục.',
-        imgUrl: 'img/TsunadeSS.png',
+        imgUrl: 'img/tsunadeSS.png',
         tuchat: 'SS',
         village: ['Làng Lá', 'Kage']
     },
@@ -329,7 +329,7 @@ window.charactersData = [
         type: 'Thủ',
         class: ['Lôi'],
         info: 'Jinchuriki Bát Vĩ. Anh chiến đấu bằng Lôi Độn Chakra Mode kết hợp với kiếm thuật độc đáo (Bảy Kiếm), có thể sử dụng Vĩ Thú Ngọc ở dạng bán Vĩ Thú.',
-        imgUrl: 'img/KillerBee.png',
+        imgUrl: 'img/Killerbee.png',
         tuchat: 'SS',
         village: ['Làng Mây', 'Jinchuriki', 'Đới Đao']
     },
@@ -359,7 +359,7 @@ window.charactersData = [
         type: 'Kỹ',
         class: ['Hoả'],
         info: 'Thành viên Akatsuki bí ẩn với danh tính Obito Uchiha. Anh sở hữu Mangekyou Sharingan và năng lực dịch chuyển không gian Kamui, có khả năng đi xuyên vật thể và hút mọi thứ vào không gian khác.',
-        imgUrl: 'img/TobiSS.png',
+        imgUrl: 'img/tobiSS.png',
         tuchat: 'SS',
         village: ['Akatsuki', 'Uchiha']
     },
@@ -369,7 +369,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Lôi', 'Thuỷ', 'Phong', 'Hoả', 'Thổ'],
         info: 'Thành viên Akatsuki, thợ săn tiền thưởng bất tử. Anh sở hữu năm trái tim, cho phép anh sử dụng tất cả 5 hệ chakra nguyên tố bằng cách triệu hồi các quái vật mặt nạ.',
-        imgUrl: 'img/Kakuzu.png',
+        imgUrl: 'img/kakuzu.png',
         tuchat: 'SS',
         village: ['Akatsuki']
     },
@@ -379,7 +379,7 @@ window.charactersData = [
         type: 'Kỹ',
         class: ['Hoả'],
         info: 'Người điều khiển Lục Đạo Pain và sở hữu Rinnegan. Anh có thể sử dụng tất cả 5 hệ chakra và các kỹ thuật Rinnegan hủy diệt như Lục Đạo Chakra và Thiên Đạo.',
-        imgUrl: 'img/Nagato.png',
+        imgUrl: 'img/nagato.png',
         tuchat: 'SSS',
         village: ['Làng Mưa', 'Akatsuki', 'Uế Thổ', 'Rinnegan', 'Tộc Xoắn Ốc']
     },
@@ -389,7 +389,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Lôi'],
         info: 'Thiên tài của Phân gia Hyuga. Anh sử dụng Byakugan và Bát Quái Lục Thập Tứ Chưởng (64 Palms) để phong ấn dòng chảy chakra của đối thủ. Ngoài ra còn có Hồi Thiên để phòng thủ tuyệt đối 359 độ.',
-        imgUrl: 'img/Neji.png',
+        imgUrl: 'img/neji.png',
         tuchat: 'S',
         village: ['Làng Lá']
     },
@@ -409,7 +409,7 @@ window.charactersData = [
         type: 'Thủ',
         class: ['Hoả'],
         info: 'Một trong Tam Nin Huyền Thoại, người thầy của thế hệ sau. Ông là bậc thầy về Ẩn thuật, triệu hồi Ếch và nhẫn thuật Hỏa độn quy mô lớn, luôn tìm kiếm "Đứa Trẻ Lời Tiên Tri".',
-        imgUrl: 'img/JiraiyaSS.png',
+        imgUrl: 'img/jiraiyaSS.png',
         tuchat: 'SS',
         village: ['Làng Lá']
     },
@@ -449,7 +449,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Phong'],
         info: 'Cựu cố vấn của Làng Cát và là một nghệ nhân rối bậc thầy. Bà đã dùng thuật Bạch Kỹ và hy sinh mạng sống để hồi sinh Gaara bằng Sinh Mạng Thuật (Kishō Tensei).',
-        imgUrl: 'img/ChiyoSS.png',
+        imgUrl: 'img/chiyoSS.png',
         tuchat: 'SS',
         village: ['Làng Cát', 'Thầy Rối']
     },
@@ -469,7 +469,7 @@ window.charactersData = [
         type: 'Kỹ',
         class: ['Lôi'],
         info: 'Sasuke trong trạng thái Ấn Chú cấp 2. Cơ thể bị biến đổi để gia tăng sức mạnh thể chất, tốc độ và chakra Lôi Độn một cách đáng kể.',
-        imgUrl: 'img/SasukeAnChu.png',
+        imgUrl: 'img/sasukeAnChu.png',
         tuchat: 'S',
         village: ['Làng Âm Thanh', 'Ấn Chú', 'Uchiha']
     },
@@ -489,7 +489,7 @@ window.charactersData = [
         type: 'Thủ',
         class: ['Hoả'],
         info: 'Một trong Lục Đạo Pain, được chuyển đổi thành một cỗ máy chiến đấu. Nhân vật này sở hữu các chiêu thức tấn công bằng vũ khí máy móc, tên lửa tầm xa và sức mạnh vật lý đáng kinh ngạc.',
-        imgUrl: 'img/TuLaDaoSS.png',
+        imgUrl: 'img/tuladaoSS.png',
         tuchat: 'SS',
         village: ['Làng Mưa', 'Akatsuki', 'Pain Lục Đạo', 'Rinnegan']
     },
@@ -519,7 +519,7 @@ window.charactersData = [
         type: 'Kỹ',
         class: ['Phong'],
         info: 'Lãnh đạo Root, một chiến binh bóng tối. Hắn sử dụng Huyết Kế Giới Hạn Mộc Độn, sở hữu Mangekyou Sharingan của Shisui (Kotoamatsukami) và kỹ năng Phong độn mạnh mẽ.',
-        imgUrl: 'img/DanzoSSS.png',
+        imgUrl: 'img/danzoSSS.png',
         tuchat: 'SSS',
         village: ['Làng Lá', 'ANBU']
     },
@@ -529,7 +529,7 @@ window.charactersData = [
         type: 'Thủ',
         class: ['Thổ'],
         info: 'Ninja ANBU, người mang DNA của Hokage Đệ Nhất. Anh sử dụng Huyết Kế Giới Hạn Mộc Độn, có khả năng xây dựng công sự và chế ngự Vĩ Thú.',
-        imgUrl: 'img/YamatoS.png',
+        imgUrl: 'img/yamatoS.png',
         tuchat: 'S',
         village: ['Làng Lá']
     },
@@ -539,7 +539,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Hoả'],
         info: 'Phiên bản Hidan thể hiện sức mạnh tối thượng của Tà Thần Jashin. Khả năng bất tử không thể phá hủy và kỹ thuật hiến tế nguy hiểm hơn nhiều lần.',
-        imgUrl: 'img/hidanSangLap.png',
+        imgUrl: 'img/hidansanglap.png',
         tuchat: 'SS+',
         village: ['Akatsuki', 'Đới Đao']
     },
@@ -559,7 +559,7 @@ window.charactersData = [
         type: 'Kỹ',
         class: ['Thổ'],
         info: 'Ninja y thuật tài năng, học trò của Tsunade. Cô có khả năng điều khiển Chakra chính xác tuyệt đối và sức mạnh vật lý đáng kinh ngạc, là thành viên quan trọng của Đội 7 cùng với Uzumaki Naruto và Uchiha Sasuke.',
-        imgUrl: 'img/SakuraA.png',
+        imgUrl: 'img/sakuraA.png',
         tuchat: 'A',
         village: ['Làng Lá']
     },
@@ -609,7 +609,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Lôi'],
         info: 'Ninja Sao Chép với Sharingan. Ông là bậc thầy về Lôi Độn (Chidori/Raikiri), có khả năng sao chép hàng ngàn nhẫn thuật và là đội trưởng Đội 7.',
-        imgUrl: 'img/KakashiS.png',
+        imgUrl: 'img/kakashiS.png',
         tuchat: 'S',
         village: ['Làng Lá']
     },
@@ -619,7 +619,7 @@ window.charactersData = [
         type: 'Thủ',
         class: ['Thổ'],
         info: 'Jinchuriki Nhất Vĩ. Anh sử dụng thuật điều khiển cát tuyệt đỉnh, tạo ra lá chắn cát phòng thủ tự động và tấn công mạnh mẽ bằng cát.',
-        imgUrl: 'img/GaaraS.png',
+        imgUrl: 'img/gaaraS.png',
         tuchat: 'S',
         village: ['Làng Cát', 'Jinchuriki']
     },
@@ -659,7 +659,7 @@ window.charactersData = [
         type: 'Kỹ',
         class: ['Lôi', 'Thuỷ'],
         info: 'Ninja ưu tú của Làng Mây và là cánh tay phải của Raikage Đệ Tứ. Anh sở hữu Huyết Kế Giới Hạn Hắc Lôi (Black Lightning), một kỹ thuật Lôi Độn mạnh mẽ độc quyền.',
-        imgUrl: 'img/Darui.png',
+        imgUrl: 'img/darui.png',
         tuchat: 'SS',
         village: ['Làng Mây', 'Đới Đao']
     },
@@ -689,7 +689,7 @@ window.charactersData = [
         type: 'Kỹ',
         class: ['Hoả'],
         info: 'Thiên tài Ảo thuật của tộc Uchiha. Anh sở hữu Mangekyou Sharingan với kỹ thuật Ảo thuật tối thượng Kotoamatsukami, có thể điều khiển người khác mà họ không hề hay biết.',
-        imgUrl: 'img/Shishui.png',
+        imgUrl: 'img/shishui.png',
         tuchat: 'SS+',
         village: ['Làng Lá', 'Uchiha', 'Đới Đao']
     },
@@ -739,7 +739,7 @@ window.charactersData = [
         type: 'Kỹ',
         class: ['Hoả'],
         info: 'Thành viên bất tử của Akatsuki, kẻ sùng bái Tà Thần Jashin. Anh sử dụng lưỡi hái ba lưỡi và cấm thuật hiến tế, chuyển đổi sát thương cơ thể thành sát thương cho đối thủ.',
-        imgUrl: 'img/HidanSS.png',
+        imgUrl: 'img/hidanSS.png',
         tuchat: 'SS',
         village: ['Akatsuki', 'Đới Đao']
     },
@@ -789,7 +789,7 @@ window.charactersData = [
         type: 'Thủ',
         class: ['Thuỷ'],
         info: 'Phiên bản Kisame đã hợp nhất hoàn toàn với Samehada, đạt được hình dạng nửa người nửa cá mập. Sức mạnh chakra và nhẫn thuật Thuỷ độ của anh tăng lên vượt trội, tạo ra Vòm Nước Khổng Lồ.',
-        imgUrl: 'img/kisamesamehada.png',
+        imgUrl: 'img/kisameSamehada.png',
         tuchat: 'SSS',
         village: ['Làng Sương Mù', 'Akatsuki', 'Thú Hoá']
     },
@@ -1044,7 +1044,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Phong'],
         info: 'Jounin và là thầy của đội 10. Anh là chiến binh mạnh mẽ, chuyên sử dụng chakra hệ Phong và Lưỡi Dao Chakra để tăng cường sát thương trong cận chiến.',
-        imgUrl: 'img/AsumaS.png',
+        imgUrl: 'img/asumaS.png',
         tuchat: 'S',
         village: ['Làng Lá', 'Đới Đao']
     },
@@ -1054,7 +1054,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Phong'],
         info: 'Itachi trong thời kỳ là đội trưởng ANBU, thể hiện khả năng sử dụng Ảo thuật cao cường. Anh là thiên tài của tộc Uchiha, luôn làm nhiệm vụ trong bí mật vì lợi ích của Làng Lá.',
-        imgUrl: 'img/itachiss.png',
+        imgUrl: 'img/itachiSS.png',
         tuchat: 'SS',
         village: ['Làng Lá', 'ANBU', 'Uchiha', 'Đới Đao']
     },
