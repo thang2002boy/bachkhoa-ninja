@@ -329,7 +329,7 @@ window.charactersData = [
         type: 'Thủ',
         class: ['Lôi'],
         info: 'Jinchuriki Bát Vĩ. Anh chiến đấu bằng Lôi Độn Chakra Mode kết hợp với kiếm thuật độc đáo (Bảy Kiếm), có thể sử dụng Vĩ Thú Ngọc ở dạng bán Vĩ Thú.',
-        imgUrl: 'img/Killerbee.png',
+        imgUrl: 'img/killerbee.png',
         tuchat: 'SS',
         village: ['Làng Mây', 'Jinchuriki', 'Đới Đao']
     },
@@ -835,7 +835,7 @@ window.charactersData = [
             { type: 'Huy Chương', name: 'Vô Địch Thể Thuật', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Sức Mạnh</b>', effect: 'HP <b>+15%</b>' },
             { type: 'Sách', name: 'Tốc Độ Cực Cao', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thể Thuật</b>', effect: 'Công <b>+15%</b>' },
             { type: 'Vũ Khí', name: 'Bát Môn Độn Giáp: Tử Môn', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Bát Môn Độn Giáp: Tử Môn</b>', effect: 'Bí Kĩ: <b>Tịch Tượng Ngũ Túc</b> thành <b>MAX.Tịch Tượng Ngũ Túc</b>' },
-            { type: 'Duyên Ngầm', name: '<b>Neji</b> và <b>Tenten</b>' }
+            { type: 'Duyên Ngầm', name: '<b>Guy [Kinh Môn]</b> và <b>Kakashi [Đại Chiến]</b>' }
         ],
         quotes_list: [
             "Thanh xuân là tất cả sức mạnh của ta!",
@@ -866,26 +866,26 @@ window.charactersData = [
             pursuit: [
                 { name: 'Thiên Khu', desc: '[Thể] Tấn công 1 kẻ địch, truy kích [Đẩy Lui], gây [Gục Ngã], HP bản thân càng thấp, ST càng cao, tối đa tăng 50%', iconUrl: 'img/skill_icons/guy_renge.png' }
             ],
-            passive: [ //tiếp tục sửa dữ liệu ở đây
+            passive: [
                 {
-                    name: 'Bát Môn Độn Giáp (Tử Môn)',
-                    desc: 'Khi bắt đầu trận, Guy có thể mở Bát Môn theo HP mất dần. Mỗi khi HP giảm dưới 70/50/30/10%, tự động kích hoạt 1 cổng (tăng ST, Tốc độ và Bạo Kích tương ứng). Khi mở Tử Môn, ST +200%, Tốc độ +100%, nhưng HP giảm 20% mỗi hiệp. Sau khi kết thúc, rơi vào [Hấp Hối] 1 hiệp.<br><b style="color: red">Tỷ lệ ST bản thân tăng 5%, Tỷ lệ Kháng Bạo tăng 5% (ở level 1)</b>',
-                    upgradedDesc1: 'Khi bắt đầu trận, Guy tự động mở 2 cổng đầu tiên. Khi HP giảm, mở dần các cổng sau. Ở Tử Môn, ST +250%, Tốc độ +120%, Miễn Khống chế 1 hiệp, HP giảm 15% mỗi hiệp. Sau khi kết thúc, hồi 20% HP và rơi vào [Mệt Mỏi].',
+                    name: 'Thiêu Đốt',
+                    desc: 'Bản thân tăng ST K.Năng và Kháng K.Năng. Guy mở [Bát Môn] sẽ duy trì Thiêu Đốt Chính Mình, mỗi lần tấn công (Trừ Truy Kích) sẽ tổn thất 5% HP hiện tại; HP tổn thất sẽ tăng dần, tối đa 10%; Khi HP bản thân dưới 50%, bản thân tăng 10% Tỷ Lệ ST và Tỷ Lệ Miễn ST; Vào hiệp lẻ, sẽ bước vào trạng thái [Phản Kích] (Tăng 40% Tỷ Lệ Đỡ và 30% Kháng Bạo, khi chịu ST Bí Kỹ địch, sẽ dùng K.Năng phản kích người tấn công, mỗi hiệp phản kích tối đa 3 lần); Mỗi khi tích phản kích 5 lần sẽ vào [Tiến Công] (Bản thân tăng 20% Tỷ Lệ Bạo, kích hoạt Truy Kích thêm: [Thể] Tấn công 1 kẻ địch, truy kích [Gục Ngã], gây [Đẩy Lùi], mỗi vòng, lượt Truy Kích +1) Nếu bản thân ở hàng trước, tăng thêm 20% Kháng Bí Kỹ; Nếu bản thân ở hàng sau, ST Bí Kỹ tăng 20%, Kháng Bất Thường tăng 20%, lượt chuyển [Phản Kích] chuyển sang [Tiến Công] giảm xuống còn 3. Khi chịu ST Chí Mạng sẽ không bị diệt, xóa bỏ trạng thái debuff, hồi ngay 30% HP Tối Đa, mỗi trận kích hoạt 1 lần; không thể bị [Uế Thổ Chuyển Sinh]',
+                    upgradedDesc1: 'Bản thân tăng ST K.Năng và Kháng K.Năng. Guy mở [Tử Môn] sẽ duy trì Thiêu Đốt bản thân, mỗi lần tấn công sẽ tổn thất 5% HP hiện tại; HP tổn thất sẽ tăng dần theo lượt, tối đa 10%; Khi HP bản thân dưới 50%, bản thân tăng <b>12%</b> Tỷ Lệ ST và Tỷ Lệ Miễn ST; Vào hiệp lẻ, sẽ bước vào trạng thái [Phản Kích] (Tăng <b>50%</b> Tỷ Lệ Đỡ và <b>40%</b> Kháng Bạo, khi chịu ST Bí Kỹ địch, sẽ dùng K.Năng phản kích người tấn công, mỗi hiệp phản kích tối đa 3 lần); Mỗi khi tích phản kích 5 lần sẽ vào [Tiến Công] (Bản thân tăng <b>40%</b> Tỷ Lệ Bạo, kích hoạt Truy Kích thêm: [Thể] Tấn công 1 kẻ địch, truy kích [Gục Ngã], gây [Đẩy Lùi], mỗi vòng, lượt Truy Kích +1) Nếu bản thân ở hàng trước, tăng thêm <b>25%</b> Kháng Bí Kỹ; Nếu bản thân ở hàng sau, ST Bí Kỹ tăng <b>25%</b>, Kháng Bất Thường tăng <b>25%</b>, lượt chuyển [Phản Kích] chuyển sang [Tiến Công] giảm xuống còn 3. Khi chịu ST Chí Mạng sẽ không bị diệt, xóa bỏ trạng thái debuff, hồi ngay 30% HP Tối Đa, mỗi trận kích hoạt 1 lần; không thể bị [Uế Thổ Chuyển Sinh].',
                     iconUrl: 'img/skill_icons/guy_eightgates.png'
                 }
             ],
             warsoul: [
-                { name: 'Hồn Thanh Long-Cao', desc: 'Trong tất cả tính năng, tấn công hồi thêm 192 Chakra. Khi chịu đòn nhận thêm 58 Chakra. Khi ra trận nhận thêm 192 Chakra. (max level)', iconUrl: 'img/skill_icons/guy_warsoul.png' }
+                { name: 'Hồn Bạch Hổ', desc: 'Khi đồng đội bị tiêu diệt sẽ hồi 126 Charka, khi trận phe địch bị tiêu diệt sẽ hồi 3/4 đồng đội bị tiêu diệt phe ta. (max level)', iconUrl: 'img/skill_icons/guy_warsoul.png' }
             ],
             special_ultimate_skill: [{
                 name: 'KN Bí Kĩ',
-                desc: '<b>Thanh Xuân Bùng Nổ:</b> HP và Công bản thân tăng <b>5%</b><br><b>Bát Môn Khai:</b> Khi mở Tử Môn, Miễn Khống Chế trong 1 hiệp<br><b>Dạ Khổng Tước:</b> Khi thi triển, hồi 100 Chakra',
-                upgradedDesc1: '<b>Thanh Xuân Bùng Nổ:</b> HP và Công bản thân tăng <b>8%</b><br><b>Bát Môn Khai:</b> Khi mở Tử Môn, Miễn Khống Chế trong 1 hiệp, ST tăng thêm 10% trong 2 hiệp<br><b>Dạ Khổng Tước:</b> Khi thi triển, hồi 150 Chakra',
-                upgradedDesc2: '<b>Thanh Xuân Bùng Nổ:</b> HP và Công bản thân tăng <b>10%</b><br><b>Bát Môn Khai:</b> Khi mở Tử Môn, Miễn Khống Chế trong 2 hiệp, ST tăng thêm 15% trong 2 hiệp<br><b>Dạ Khổng Tước:</b> Khi thi triển, hồi 200 Chakra',
+                desc: '<b>Hơi Nước Đỏ:</b> HP và Công bản thân tăng <b>5%</b><br><b>Thiêu Đốt Sinh Mệnh:</b> Kháng Debuff bản thân tăng <b>8%</b><br><b>Bát Môn Độn Giáp-Tử Môn:</b> Khi chịu ST Chí Mạng, bản thân hồi thêm <b>200</b> Charka',
+                upgradedDesc1: '<b>Hơi Nước Đỏ:</b> HP và Công bản thân tăng <b>8%</b><br><b>Thiêu Đốt Sinh Mệnh:</b> Kháng Debuff bản thân tăng <b>15%</b><br><b>Bát Môn Độn Giáp-Tử Môn:</b> Khi chịu ST Chí Mạng, <b>tiến hành [Phản Chí Mạng], tấn công đơn thể địch, gây ST [Thể Thuật] bằng Công*330%, hấp thu từ mục tiêu 200 Charka, gây ST thêm cho mục tiêu, HP mục tiêu càng cao, ST càng cao, tối đa tăng đến 30%.</b>',
+                upgradedDesc2: '<b>Hơi Nước Đỏ:</b> HP và Công bản thân tăng <b>10%</b><br><b>Thiêu Đốt Sinh Mệnh:</b> Kháng Debuff bản thân tăng <b>20%</b><br><b>Bát Môn Độn Giáp-Tử Môn:</b> Khi chịu ST Chí Mạng, <b>tiến hành [Phản Chí Mạng], tấn công đơn thể địch, gây ST [Thể Thuật] bằng Công*400%, hấp thu từ mục tiêu 300 Charka, gây ST thêm cho mục tiêu, HP mục tiêu càng cao, ST càng cao, tối đa tăng đến 40%.</b>',
                 iconUrl: 'img/skill_icons/guy_special.png'
             }]
         }
-    },
+    }, ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
         id: 'pain_animal_ss',
         name: 'Súc Sinh Đạo',
@@ -917,9 +917,7 @@ window.charactersData = [
         village: ['Làng Âm Thanh']
     },
     {
-        ///////////////////////////////////////////////////////////////////////////
-        // -SENJU HASHIRAMA-
-        ///////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////// -SENJU HASHIRAMA-//////////////////////////////////////////////////////////////////////////////////////
         id: 'hashirama',
         name: 'Senju Hashirama',
         type: 'Thủ',
@@ -928,7 +926,6 @@ window.charactersData = [
         imgUrl: 'img/Hashirama.png',
         tuchat: 'SSS',
         village: ['Làng Lá', 'Kage'],
-
         // THÔNG TIN CÁ NHÂN
         full_name: 'Senju Hashirama',
         age: 'Khoảng 30 - 40 tuổi (khi còn sống)',
@@ -947,7 +944,7 @@ window.charactersData = [
         bust_waist_hip: '???',
         weapon: 'Không sử dụng vũ khí cố định',
         fighting_style: 'Phòng thủ và khống chế diện rộng bằng Mộc Độn',
-        likes: 'Hòa bình, bạn bè, ramen',
+        likes: 'Hòa bình, bạn bè',
         dislikes: 'Chiến tranh, sự thù hận giữa các tộc',
         dream: 'Mang lại hòa bình vĩnh cửu giữa các ninja',
         catchphrase: '“Ta sẽ bảo vệ làng này, dù có phải hi sinh tất cả.”',
@@ -956,70 +953,65 @@ window.charactersData = [
         weaknesses: 'Hay nhân nhượng, dễ mềm lòng, tin tưởng người khác quá mức',
         story: 'Senju Hashirama là người sáng lập Làng Lá cùng với Uchiha Madara, mong muốn chấm dứt chiến tranh giữa các tộc ninja. Ông được mệnh danh là Thần Mộc vì có thể tạo ra rừng khổng lồ và chế ngự Vĩ Thú. Dù từng đánh bại Madara, ông vẫn luôn mong người bạn cũ trở lại con đường chính nghĩa.',
         personality: 'Vui vẻ, thân thiện, dễ gần nhưng khi chiến đấu thì nghiêm túc và kiên định.',
-
-        // KỸ NĂNG
         "skills": {
             "main": [
                 {
-                    "name": "Mộc Độn: Giới Bích Thuật",
-                    "desc": "[Nhẫn] Dựng tường cây chắn đòn, giảm 25% sát thương nhận vào trong 1 hiệp và phản lại 20% sát thương đã chặn.",
-                    "upgradedDesc1": "[Nhẫn] Dựng tường cây chắn đòn, giảm 35% sát thương nhận vào trong 1 hiệp và phản lại 25% sát thương đã chặn. Tăng 10% phòng ngự trong 2 hiệp.",
+                    "name": "Mộc Độn•Đại Thụ Băng Kích",
+                    "desc": "[Nhẫn] Tấn công 1 hàng dọc địch, gây ST [Mộc], 60% gây [Hất Tung], Bản thân tăng 20% Tỷ Lệ Đỡ, Tỷ Lệ Kháng Bạo, bản thân hồi 16% Mức Khiên ban đầu [Thụ Hộ Thuẫn], nếu không có [Thụ Hộ Thuẫn] sẽ hồi 8% HP, có 30% gây [Thụ Phước] cho mục tiêu (Không thể hành động, duy trì 1 hiệp), gây cho mục tiêu [Thụ Phước] 25% ST Thêm. ST [Mộc], gây khắc chế cho Ninja [Thủy] và [Hỏa]",
+                    "upgradedDesc1": "[Nhẫn] Tấn công 1 hàng dọc địch, gây ST [Mộc], 60% gây [Hất Tung], Bản thân tăng <b>25%</b> Tỷ Lệ Đỡ, Tỷ Lệ Kháng Bạo, bản thân hồi 16% Mức Khiên ban đầu [Thụ Hộ Thuẫn], nếu không có [Thụ Hộ Thuẫn] sẽ hồi 8% HP, có 30% gây [Thụ Phước] cho mục tiêu (Không thể hành động, duy trì 1 hiệp), gây cho mục tiêu [Thụ Phước] <b>30%</b> ST Thêm. <b>Nếu kết thúc [Bá Thể] sẽ nhận [Khiên Cây]. (Cường độ bằng 15% HP Tối Đa, trong thời gian Khiên, ST K.Năng và ST Bí Kỹ chịu giảm 15%), mỗi trận kích hoạt 1 lần.</b> ST [Mộc], gây khắc chế cho Ninja [Thủy] và [Hỏa]",
                     "iconUrl": "img/skill_icons/hashirama_woodwall.png"
                 }
             ],
             "ultimate": [
                 {
-                    "name": "Mộc Nhân Chi Thuật",
-                    "desc": "[Hiền Nhân/Thổ] Triệu hồi Mộc Nhân tấn công toàn thể địch, gây sát thương bằng 240% Công, giảm 20% Công của địch trong 2 hiệp, bản thân hồi 15% HP tối đa.",
-                    "upgradedDesc1": "[Hiền Nhân/Thổ] Triệu hồi Mộc Nhân tấn công toàn thể địch, gây sát thương bằng 280% Công, giảm 25% Công của địch trong 2 hiệp, bản thân hồi 20% HP tối đa. Nhận “Tinh Thần Thụ” tăng 10% miễn sát thương trong 2 hiệp.",
+                    "name": "Bí Thuật Mộc Độn•Thụ Giới Giáng Lâm",
+                    "desc": "[Nhẫn] Bản thân tăng 20% Công Thủ và Kháng Bạo; tấn công toàn thể địch, gây ST [Mộc], số người mục tiêu càng ít, ST càng cao, tối đa tăng 120%; mục tiêu có Chakra cao hơn 500 giảm 20% ST Nhẫn Thuật; gây cho mục tiêu [Thụ Phước] ST thêm bằng 8% HP Tối Đa; sau đó phóng Kết Giới, Hoa Thụ Giới giáng lâm, duy trì 2 hiệp, mỗi trận chỉ phóng 1 lần, khi tồn tại Kết Giới, tốc độ Hồi Chakra của Ninja địch khác hệ [Thổ] giảm 30%, Ninja [Thổ] phe ta phóng Bí Kỹ, 30% gây [Thụ Phược] cho 1 đơn thể địch không ở trạng thái [Thụ Phược]. (ST [Mộc], gây khắc chế cho Ninja [Thuỷ] và [Hoả]).",
+                    "upgradedDesc1": "[Nhẫn] Bản thân tăng <b>30%</b> Công Thủ và Kháng Bạo; tấn công toàn thể địch, gây ST [Mộc], số người mục tiêu càng ít, ST càng cao, tối đa tăng <b>150%</b>; mục tiêu có Chakra cao hơn 500 giảm <b>25%</b> ST Nhẫn Thuật; gây cho mục tiêu [Thụ Phước] ST thêm bằng <b>12%</b> HP Tối Đa và <b>khiến mục tiêu giảm 15% Tỷ Lệ Kháng Bạo và 20% Trị Liệu(1 hiệp)</b> ; sau đó phóng Kết Giới, Hoa Thụ Giới giáng lâm, duy trì 2 hiệp, mỗi trận chỉ phóng 1 lần, khi tồn tại Kết Giới, tốc độ Hồi Chakra của Ninja địch khác hệ [Thổ] giảm 30%, <b>Thủ Ninja [Thổ] tăng 25%</b>, Ninja [Thổ] <b>và [Thuỷ]</b> phe ta phóng Bí Kỹ, 30% gây [Thụ Phược] cho 1 đơn thể địch không ở trạng thái [Thụ Phược]. (ST [Mộc], gây khắc chế cho Ninja [Thuỷ] và [Hoả]).",
+                    "upgradedDesc2": "[Nhẫn] Bản thân tăng <b>35%</b> Công Thủ và Kháng Bạo; tấn công toàn thể địch, gây ST [Mộc], số người mục tiêu càng ít, ST càng cao, tối đa tăng <b>150%</b>; mục tiêu có Chakra cao hơn 500 giảm <b>30%</b> ST Nhẫn Thuật <b>(2 hiệp)</b>; gây cho mục tiêu [Thụ Phước] ST thêm bằng <b>18%</b> HP Tối Đa và <b>khiến mục tiêu giảm 15% Tỷ Lệ Kháng Bạo và 20% Trị Liệu(1 hiệp)</b> ; sau đó phóng Kết Giới, Hoa Thụ Giới giáng lâm, duy trì 2 hiệp, mỗi trận chỉ phóng 1 lần, khi tồn tại Kết Giới, tốc độ Hồi Chakra của Ninja địch khác hệ [Thổ] giảm 30%, <b>Thủ Ninja [Thổ] và [Thuỷ] tăng 25%, sau khi Ninja [Thổ] và [Thuỷ]</b> phe ta phóng Bí Kỹ, 30% gây [Thụ Phược] cho 1 đơn thể địch không ở trạng thái [Thụ Phược]. (ST [Mộc], gây khắc chế cho Ninja [Thuỷ] và [Hoả]); <b>Nếu đã phóng Hoa Thụ Giới và Kết giới không tồn tại, có 50% gây [Thụ Phược] cho mục tiêu chính (không thể hành động, duy trì 1 hiệp), nếu địch có hơn 3 người, có 50% gây [Thụ Phược] cho 1 Ninja</b>.",
                     "iconUrl": "img/skill_icons/hashirama_woodgolem.png"
                 }
             ],
             "pursuit": [
                 {
-                    "name": "Mộc Long Truy Kích",
-                    "desc": "[Nhẫn] Truy kích mục tiêu bị [Gục Ngã] hoặc [Trói Buộc], gây thêm 150% ST, hút 10% Chakra của địch.",
+                    "name": "Mộc Độn•Mộc Long Thuật",
+                    "desc": "[Nhẫn] Triệu hồi Mộc Long, tấn công đơn thể địch, gây ST [Mộc], truy kích [Gục Ngã], gây [Đánh Bay]. (ST [Mộc], gây khắc chế cho Ninja [Thuỷ] và [Hoả]).",
                     "iconUrl": "img/skill_icons/hashirama_wooddragon.png"
                 }
             ],
             "passive": [
                 {
-                    "name": "Sức Mạnh Của Hiền Nhân",
-                    "desc": "Bản thân mỗi đầu hiệp hồi 10% HP tối đa. Khi HP dưới 40%, tự kích hoạt trạng thái [Hiền Nhân], tăng 15% ST, 15% Phòng Ngự trong 2 hiệp. Mỗi trận kích hoạt tối đa 1 lần.",
-                    "upgradedDesc1": "Bản thân mỗi đầu hiệp hồi 12% HP tối đa. Khi HP dưới 50%, tự kích hoạt trạng thái [Hiền Nhân], tăng 20% ST, 20% Phòng Ngự trong 2 hiệp. Miễn khống chế trong thời gian kích hoạt.",
+                    "name": "Mộc Độn•Bảng Bài Thuật",
+                    "desc": "Tăng Công cho Ninja hệ [Thổ]. Khi ra trận, nhận [Khiên Cây](Mức tối đa là 25% HP, trong thời gian duy trì Khiên, ST Bí Kỹ và ST Kỹ Năng chịu giảm 25%); nếu khi ra trận kẻ địch chỉ có 1 người thì bản thân tăng 25% ST Nhẫn Thuật, duy trì cả trận; khi HP dưới 30%, hồi ngay 300 Charka và 35% HP, vào trạng thái [Bá Thể](Miễn Khống Chế, Miễn ST tăng 20%, khi chịu ST Bí Kỹ đơn thể sẽ kích hoạt Đỡ riêng, ST lần này giảm 40%, gây cho địch ST Phản Kích bằng [120% Công bản thân + 20% HP bản thân đã mất], duy trì 2 hiệp); miễn [Thụ Phược], không thể được thêm [Uế Thổ Chuyển Sinh](Hiệu quả này không kích hoạt thì bị động vẫn có hiệu lực).<br><b>Ninja hệ [Thổ] phe ta tăng 10% Công (level 1)</b>",
+                    "upgradedDesc1": "Tăng Công cho Ninja hệ [Thổ]. Khi ra trận, nhận [Khiên Cây](Mức tối đa là <b>30%</b> HP, trong thời gian duy trì Khiên, ST Bí Kỹ và ST Kỹ Năng chịu giảm <b>30%</b>); nếu khi ra trận kẻ địch chỉ có 1 người thì bản thân tăng <b>30%</b> ST Nhẫn Thuật, duy trì cả trận; khi HP dưới 30%, hồi ngay 300 Charka và 35% HP, vào trạng thái [Bá Thể](Miễn Khống Chế, Miễn ST tăng 20%, khi chịu ST Bí Kỹ đơn thể sẽ kích hoạt Đỡ riêng, ST lần này giảm 40%, gây cho địch ST Phản Kích bằng [<b>150%</b> Công bản thân + <b>25%</b> HP bản thân đã mất], duy trì 2 hiệp, <b>kích hoạt 4 lần sẽ mất</b>); miễn [Thụ Phược], không thể được thêm [Uế Thổ Chuyển Sinh](Hiệu quả này không kích hoạt thì bị động vẫn có hiệu lực).<br><b>Ninja hệ [Thổ] phe ta tăng 10% Công (level 1)</b>",
                     "iconUrl": "img/skill_icons/hashirama_sagemode.png"
                 }
             ],
             "warsoul": [
                 {
-                    "name": "Hồn Huyền Thổ-Cao",
-                    "desc": "Khi ra trận tăng 18% Phòng Ngự và hồi 120 Chakra mỗi lượt. Khi bị tấn công, có 20% cơ hội hồi 5% HP.",
+                    "name": "Hồn Huyền Vũ-Cao",
+                    "desc": "Trong tất cả các tính năng, mỗi lần chịu ST sẽ hồi thêm 48 Charka, ban đầu nhận nhiều Charka (max level)",
                     "iconUrl": "img/skill_icons/hashirama_warsoul.png"
                 }
             ],
             "special_ultimate_skill": [
                 {
                     "name": "KN Bí Kĩ",
-                    "desc": "<b>Mộc Long Tăng Phòng:</b> Phòng ngự bản thân +8%<br><b>Mộc Nhân Cường Thân:</b> HP tối đa +10%<br><b>Hiền Giả Chân Thân:</b> Khi kích hoạt Hiền Nhân, hồi thêm 10% HP.",
-                    "upgradedDesc1": "<b>Mộc Long Tăng Phòng:</b> Phòng ngự bản thân +12%<br><b>Mộc Nhân Cường Thân:</b> HP tối đa +15%<br><b>Hiền Giả Chân Thân:</b> Khi kích hoạt Hiền Nhân, hồi thêm 15% HP và tăng 10% Miễn ST trong 2 hiệp.",
+                    "desc": "<b>Trị Thương Vô Ấn:</b> HP và Công bản thân <b>+5%</b><br><b>Thông Thiên Quyền:</b> Kháng Giảm Nộ của bản thân <b>+20%</b><br><b>Mộc Độn•Thuật Phân Thân Gỗ:</b> Khi HP dưới 30% nếu trên trận có vị trí trống, triệu hồi phân thân, kế thừa từ bản thân <b>50%</b> Công, <b>10%</b> HP, 100% Thủ, phân thân chỉ phóng Công Thường, thay Hashirama chịu 100% ST, mỗi trận chỉ kích hoạt 1 lần.",
+                    "upgradedDesc1": "<b>Trị Thương Vô Ấn:</b> HP và Công bản thân <b>+8%</b><br><b>Thông Thiên Quyền:</b> Kháng Giảm Nộ của bản thân <b>+30%</b><br><b>Mộc Độn•Thuật Phân Thân Gỗ:</b> Khi HP dưới 30% nếu trên trận có vị trí trống, triệu hồi phân thân, kế thừa từ bản thân <b>70%</b> Công, <b>20%</b> HP, 100% Thủ, phân thân chỉ phóng Công Thường, thay Hashirama chịu 100% ST, mỗi trận chỉ kích hoạt 1 lần.",
+                    "upgradedDesc2": "<b>Trị Thương Vô Ấn:</b> HP và Công bản thân <b>+10%</b><br><b>Thông Thiên Quyền:</b> Kháng Giảm Nộ của bản thân <b>+40%</b><br><b>Mộc Độn•Thuật Phân Thân Gỗ:</b> Khi HP dưới 30% nếu trên trận có vị trí trống, triệu hồi phân thân, kế thừa từ bản thân <b>100%</b> Công, <b>30%</b> HP, 100% Thủ, phân thân chỉ phóng Công Thường, thay Hashirama chịu 100% ST, mỗi trận chỉ kích hoạt 1 lần.",
                     "iconUrl": "img/skill_icons/hashirama_special_ultimate.png"
                 }
             ]
         },
-
-        // DUYÊN & HUY CHƯƠNG
         "fates": [
-            // ĐÃ CHUYỂN TẤT CẢ VỀ CHUỖI NHÁY KÉP VÀ THÊM TRƯỜNG CHO DUYÊN NGẦM
-            { "type": "Duyên", "name": "Kẻ Địch Định Mệnh", "condition": "Đồng thời có <b>Uchiha Madara</b>", "effect": "HP <b>+25%</b>" },
-            { "type": "Duyên", "name": "Quái Lực", "condition": "Đồng thời có <b>Uchiha Madara</b>", "effect": "HP <b>+25%</b>" },
-            { "type": "Duyên", "name": "Huyết Thống Senju", "condition": "Đồng thời có <b>Senju Tobirama</b>", "effect": "Phòng Ngự <b>+25%</b>" },
-            { "type": "Huy Chương", "name": "Ý Chí Của Lửa", "condition": "Trang bị Huy chương <b>Will of Fire</b>", "effect": "Kháng Bạo <b>+10%</b>" },
-            { "type": "Sách", "name": "Tinh Hoa Mộc Độn", "condition": "Trang bị Sách <b>Mộc Độn Bí Truyền</b>", "effect": "HP <b>+15%</b>" },
-            { "type": "Vũ Khí", "name": "Thánh Thụ Cổ Đại", "condition": "Trang bị Vũ Khí <b>Trượng Mộc Giới</b>", "effect": "Bí Kỹ: <b>Mộc Nhân Chi Thuật</b> thành <b>MAX.Mộc Nhân Chi Thuật</b>" },
-            { "type": "Duyên Ngầm", "name": "<b>Itachi</b> và <b>Shishui</b>", "condition": "Không rõ", "effect": "Không rõ" }
+            { "type": "Duyên", "name": "Kẻ Địch Định Mệnh", "condition": "Đồng thời có <b>Uchiha Madara</b>", "effect": "Công <b>+25%</b>" },
+            { "type": "Duyên", "name": "Quái Lực", "condition": "Đồng thời có <b>Tsunade [Bách Hào]</b>", "effect": "HP <b>+25%</b>" },
+            { "type": "Duyên", "name": "Chế Độ Tiên Nhân", "condition": "Đồng thời có <b>Tiên Nhân Jiraiya</b>", "effect": "HP <b>+25%</b>" },
+            { "type": "Huy Chương", "name": "Trị Thương Vô Ấn", "condition": "Trang Bị Thức Tỉnh: Huy Chương <b>Kage</b>", "effect": "HP <b>+15%</b>" },
+            { "type": "Sách", "name": "Bí Thuật Mộc Độn", "condition": "Trang Bị Thức Tỉnh: Sách <b>Thổ Độn</b>", "effect": "Công <b>+15%</b>" },
+            { "type": "Vũ Khí", "name": "Thần Ninja", "condition": "Trang Bị Thức Tỉnh: Vũ Khí <b>Chiến Giáp Đệ Nhất</b>", "effect": "Bí Kỹ: <b>Mộc Độn•Thụ Giới Giáng Lâm</b> thành <b>MAX.Mộc Độn•Thụ Giới Giáng Lâm</b>" },
+            { "type": "Duyên Ngầm", "name": "<b>Guy [Kinh Môn]</b> và <b>Gaara [Kazekage]</b>", "condition": "Không rõ", "effect": "Không rõ" }
         ],
-
-        // CÂU NÓI
         "quotes_list": [
             "Ta là Senju Hashirama, Hokage Đệ Nhất của Làng Lá!",
             "Ta sẽ bảo vệ hòa bình mà ta và Madara đã cùng nhau tạo dựng.",
@@ -1027,7 +1019,7 @@ window.charactersData = [
             "Sức mạnh thật sự là khi ngươi dùng nó để bảo vệ người khác.",
             "Ta tin rằng, con người có thể thay đổi."
         ]
-    },
+    }, ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
         id: 'konan',
         name: 'Konan',
