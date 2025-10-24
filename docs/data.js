@@ -16,7 +16,7 @@ window.charactersData = [
         type: 'Thủ',
         class: ['Thổ'],
         info: 'Thành viên tộc Akimichi, có trái tim nhân hậu. Anh sử dụng các thuật liên quan đến mở rộng cơ thể hay Bội Hoá Chi Thuật (Baika no Jutsu) để tăng cường sức mạnh và phòng thủ.',
-        imgUrl: 'img/ChojiA.png',
+        imgUrl: 'img/chojiA.png',
         tuchat: 'A',
         village: ['Làng Lá']
     },
@@ -26,7 +26,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Lôi'],
         info: 'Thành viên duy nhất còn sót lại của tộc Kaguya. Anh sở hữu Kekkei Genkai Shikotsumyaku (Điều khiển Xương), có thể tạo ra và thao túng xương như vũ khí và áo giáp.',
-        imgUrl: 'img/Kimimaro.png',
+        imgUrl: 'img/kimimaro.png',
         tuchat: 'S',
         village: ['Làng Âm Thanh', 'Ấn Chú', 'Đới Đao']
     },
@@ -36,7 +36,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Phong'],
         info: 'Hokage Đệ Tứ, nổi tiếng với biệt danh "Tia Chớp Vàng". Ông là bậc thầy về Phi Lôi Thần Thuật (Flying Thunder God), cho phép dịch chuyển tức thời và là người tạo ra Rasengan.',
-        imgUrl: 'img/MinatoSSS.jpg',
+        imgUrl: 'img/minatoSSS.jpg',
         tuchat: 'SSS',
         village: ['Làng Lá', 'Tộc Xoắn Ốc', 'Tiên Thuật', 'Kage']
     },
@@ -46,7 +46,7 @@ window.charactersData = [
         type: 'Thủ',
         class: ['Thổ'],
         info: 'Người mang gen bí ẩn, nguồn gốc của Ấn Chú. Anh có khả năng hấp thụ năng lượng tự nhiên và biến đổi cơ thể thành các dạng chiến đấu khác nhau.',
-        imgUrl: 'img/JugoS.png',
+        imgUrl: 'img/jugoS.png',
         tuchat: 'S',
         village: ['Làng Âm Thanh', 'Ấn Chú']
     },
@@ -66,7 +66,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Lôi'],
         info: 'Ninja thiên tài của tộc Uchiha. Anh sử dụng Sharingan và Lôi Độn (Chidori) làm vũ khí chính. Luôn tìm kiếm sức mạnh để trả thù cho gia tộc.',
-        imgUrl: 'img/Sasuke.png',
+        imgUrl: 'img/sasuke.png',
         tuchat: 'S',
         village: ['Làng Lá', 'Đới Đao', 'Uchiha']
     },
@@ -76,7 +76,7 @@ window.charactersData = [
         type: 'Công',
         class: ['Phong'],
         info: 'Nghệ nhân rối thiên tài của Làng Cát và thành viên Akatsuki. Hắn đã biến cơ thể mình thành rối để đạt được sự bất tử. Sasori sử dụng Bách Kỹ thao túng hàng trăm con rối tẩm độc.',
-        imgUrl: 'img/SasoriSS.png',
+        imgUrl: 'img/sasoriSS.png',
         tuchat: 'SS',
         village: ['Làng Cát', 'Akatsuki', 'Thầy Rối']
     },
@@ -106,7 +106,7 @@ window.charactersData = [
         type: 'Kỹ',
         class: ['Phong'],
         info: 'Phiên bản Konan với khả năng hóa giấy và tấn công trên diện rộng được tăng cường. Cô có thể tạo ra cánh giấy khổng lồ và sử dụng Thức Chỉ Thuật (Paper Person of God\'s Punishment) hủy diệt.',
-        imgUrl: 'img/KonanSSS.jpg',
+        imgUrl: 'img/konanSSS.jpg',
         tuchat: 'SSS+',
         village: ['Làng Mưa', 'Akatsuki', 'Đới Đao']
     },
@@ -116,7 +116,7 @@ window.charactersData = [
         type: 'Kỹ',
         class: ['Lôi'],
         info: 'Kakashi trong thời kỳ Đại chiến. Anh thể hiện khả năng lãnh đạo và chiến thuật đỉnh cao, sử dụng Lôi Độn cường hóa và kỹ thuật Kamui với Mangekyou Sharingan.',
-        imgUrl: 'img/KakashiDC.png',
+        imgUrl: 'img/kakashiDC.png',
         tuchat: 'SS+',
         village: ['Làng Lá', 'Đại Chiến Ninja']
     },
