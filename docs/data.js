@@ -145,7 +145,7 @@ window.charactersData = [
         name: 'Uchiha Madara',
         type: 'Công',
         class: ['Hoả'],
-        info: 'Thủ lĩnh huyền thoại của tộc Uchiha. Ông sở hữu sức mạnh Mangekyou Sharingan, Susanoo hoàn hảo và Hỏa thuật hủy diệt, là đối thủ ngang tài của Senju Hashirama.',
+        info: 'Thủ lĩnh huyền thoại của tộc Uchiha. Ông sở hữu sức mạnh Mangekyou Sharingan Vĩnh Cửu, Susanoo Toàn Chân Thể và Đồng thuật hủy diệt, là đối thủ ngang tài của Senju Hashirama.',
         imgUrl: 'img/madara.png',
         tuchat: 'SSS+',
         village: ['Làng Lá', 'Đới Đao', 'Uchiha'],
@@ -160,9 +160,9 @@ window.charactersData = [
         rank: 'Thủ lĩnh Uchiha / Người sáng lập Làng Lá',
         ninja_id: 'Không rõ',
         team: 'Không có (từng hợp tác với Hashirama)',
-        summon: 'Cửu Vĩ Kurama, Susanoo',
+        summon: 'Cửu Vĩ Kurama',
         relationships: 'Senju Hashirama (bạn/đối thủ),Uchiha Izuna (em trai), Uchiha Obito (người kế thừa ý chí)',
-        unique_skill: 'Mangekyou Sharingan, Rinnegan, Susanoo Hoàn Hảo, Hỏa Độn: Hào Hỏa Diệt Khước',
+        unique_skill: 'Mangekyou Sharingan Vĩnh Cửu, Rinnegan, Susanoo Hoàn Hảo, Hỏa Độn',
         bust_waist_hip: '???',
         weapon: 'Quạt Gunbai, Liềm Kama',
         fighting_style: 'Tầm xa kết hợp cận chiến, sử dụng Ảo thuật và Hỏa Độn mạnh',
@@ -173,7 +173,12 @@ window.charactersData = [
         status: 'Đã chết (bị Hắc Zetsu đoạt xá nhằm hồi sinh Kaguya)',
         strengths: 'Sharingan cấp cao, Susanoo, Hỏa Độn cực mạnh, kỹ năng chiến đấu thượng thừa',
         weaknesses: 'Ngạo mạn, dễ chủ quan; phụ thuộc vào kế hoạch dài hạn',
-        story: 'Uchiha Madara là huyền thoại sáng lập Làng Lá cùng Hashirama Senju. Tuy nhiên, do mâu thuẫn lý tưởng, ông rời làng, đánh nhau với Hashirama và bị cho là đã chết. Sau này, ông thao túng Obito, hồi sinh và mở đầu Đại Chiến Ninja lần thứ tư.',
+        story: `<b>Uchiha Madara</b> sinh ra trong thời đại hỗn loạn được gọi là Chiến Quốc Ninja - nơi các gia tộc lớn không ngừng giao chiến để tranh giành quyền lực. Ngay từ khi còn nhỏ, Madara đã cho thấy năng lực đặc biệt vượt trội: thể lực mạnh, nhạy bén chiến trường và khả năng chiến đấu bằng trực giác thiên phú. Càng trưởng thành, Sharingan của ông ngày càng sắc bén, trở thành biểu tượng khiếp sợ đối với kẻ địch. <br>
+        Trong thời thơ ấu, Madara gặp <b>Senju Hashirama</b>, một cậu bé cùng chí hướng khao khát chấm dứt chiến tranh, đem lại hòa bình cho thế hệ sau. Họ chơi đùa với nhau, trao đổi ước mơ về một thế giới không còn trẻ em phải chết vô nghĩa bởi thù hằn truyền đời. Tuy nhiên, số phận trớ trêu: gia tộc Uchiha và Senju là kẻ thù truyền kiếp. Khi bí mật bị lộ, cả hai buộc phải đối đầu. Hận thù gia tộc làm rạn nứt tình bạn non trẻ ấy. <br><br>
+        Khi trưởng thành, Madara trở thành thủ lĩnh Uchiha, gánh vác trách nhiệm bảo vệ gia tộc khỏi vô số kẻ địch. Ông liên tục trải qua mất mát, chứng kiến tôi tớ, bạn bè, anh em ruột thịt ngã xuống. Chính ký ức đau thương ấy khiến ông dần đánh mất niềm tin vào hòa bình chân chính. Tuy nhiên, Hashirama lại đưa ra một đề xuất táo bạo: liên minh hai tộc để chấm dứt chiến tranh. Sau vô số trận chiến khốc liệt, Madara cuối cùng đồng ý, hy vọng rằng giấc mơ thời thơ bé có thể thành hiện thực. Và thế là <b>Làng Lá (Konohagakure)</b> được thành lập - biểu tượng hòa bình đầu tiên của giới ninja. Hai người trở thành những Hokage đầu tiên trên tinh thần, dù thực tế ngôi vị chính thức thuộc về Hashirama. <br> Dù là đồng sáng lập, Madara cảm thấy ngày càng bị cô lập. Lòng dân tín nhiệm Hashirama nhiều hơn, quyền lực Uchiha bị giám sát chặt chẽ. Ông cảm thấy gia tộc mình đang dần bị đẩy ra bên lề. Uchiha bị ép đặt niềm tin với người Senju,
+        trong khi bóng ma hận thù cũ vẫn tồn tại. Sự thất vọng tích tụ biến thành nghi ngờ. Madara tin rằng hòa bình này chỉ là tạm bợ. Đứng trước vực thẳm tư tưởng, Madara rời bỏ ngôi làng mà mình từng góp phần xây dựng. Không ai dễ dàng chấp nhận điều đó, và cuối cùng, ông và Hashirama tái đấu trên Thung Lũng Tận Cùng. Trận chiến ấy chấn động lịch sử ninja. Người ta tin rằng Madara đã bỏ mạng. Thực chất, ông bí mật sống sót nhờ Sharingan vĩnh cửu và bắt đầu âm thầm chuẩn bị cho kế hoạch <b>Vô Hạn Nguyệt Độc (無限月読 - Infinite Tsukuyomi)</b> - giấc mộng biến toàn bộ nhân loại chìm vào genjutsu vĩnh cửu để xóa bỏ đau khổ. <br><br>
+        Trong bóng tối, Madara tìm ra tàn dư của <b>Thập Vĩ (Ngoại Đạo Ma Tượng hay Gedo Mazo/外道魔像)</b>, nghiên cứu truyền thuyết <b>Lục Đạo Tiên Nhân</b> và hoàn thiện kế hoạch điên rồ. Càng lúc ông càng tin rằng hòa bình thật sự không thể đạt được bằng ý chí tự do, mà phải bằng sự cưỡng ép tuyệt đối. Trước khi chết thật sự do tuổi già, Madara trao ý chí và kế hoạch lại cho <b>Uchiha Obito</b>, một đứa trẻ từng giống như ông: đau khổ vì mất mát. Dưới vỏ bọc “Madara”, Obito khởi xướng chuỗi sự kiện kéo cả thế giới ninja vào xung đột. <br> <b>Trong Đại Chiến Ninja lần thứ tư</b>, Madara được Yakushi Kabuto hồi sinh bằng <b>Uế Thổ Chuyển Sinh (Edo Tensei)</b>. Khi xuất hiện, ông gần như độc chiếm chiến trường: từng bước nghiền nát liên minh ninja, kích hoạt Susanoo Toàn Chân Thể và đánh bại Ngũ Đại Kage của các làng gần như không tốn sức. Khi trở lại hình dạng sống thật sự cùng sức mạnh Lục Đạo, ông trở thành thực thể gần như bất khả chiến bại.
+        Tuy nhiên, giấc mơ vĩnh cửu của Madara cuối cùng bị <b>Hắc Zetsu</b> phản bội - kẻ bí mật thao túng lịch sử để phục sinh <b>Otsutsuki Kaguya</b>. Madara cay đắng nhận ra rằng bản thân chỉ là một quân cờ trong lược đồ rộng lớn hơn. Dù bất bại trong vô số trận chiến, ông lại bị đánh bại bởi niềm tin sai lầm của chính mình. Ở khoảnh khắc cuối, khi nhìn Hashirama một lần nữa, Madara thừa nhận lẽ phải: thật ra họ đã luôn cùng chung mục tiêu, chỉ khác con đường. Cả hai cùng nhìn về thời thơ bé, nơi ước mơ hòa bình bắt đầu. Ánh mắt Madara cuối cùng dịu lại, buông bỏ hận thù và tan biến trong tiếc nuối....`,
         personality: 'Lạnh lùng, ngạo nghễ, thông minh và đầy tham vọng. Tin rằng hòa bình chỉ đạt được khi con người bị kiểm soát.',
         fates: [
             { type: 'Duyên', name: 'Đối Đầu Định Mệnh', condition: 'Đồng thời có <b>Senju Hashirama</b>', effect: 'Công <b>+25%</b>' },
@@ -186,10 +191,10 @@ window.charactersData = [
         ],
         quotes_list: [
             "Thế giới này chỉ toàn là dối trá.",
-            "Ngươi nghĩ mình có thể đánh bại ta, Hashirama?",
+            "5 đánh 1 thì có gì đáng tự hào? Nếu các ngươi đã cho rằng 5 đánh 1 là tỉ lệ công bằng, vậy các ngươi có muốn phân thân của ta dùng Susanoo hay không?",
             "Một khi con người biết đến hòa bình, họ sẽ lại khao khát chiến tranh.",
-            "Ta là Uchiha Madara!",
-            "Hòa bình vĩnh cửu chỉ đến khi thế giới chìm vào ảo mộng."
+            "俺がうちはマダラ / Ore ga Uchiha Madara / Ta là Uchiha Madara!",
+            "光があれば闇がある / Hikari ga areba yami ga aru / Nơi có ánh sáng ắt sẽ có bóng tối song hành."
         ],
         skills: {
             main: [
