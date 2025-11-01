@@ -1,5 +1,3 @@
-// characterDetail.js (PHIÊN BẢN CUỐI CÙNG ĐÃ CẬP NHẬT)
-
 // ------------------------------------------------------------------------
 // --- HÀM HỖ TRỢ ĐỊNH DẠNG ---
 // ------------------------------------------------------------------------
@@ -238,6 +236,138 @@ function createFatesSection(fatesData) {
     html += '</div>';
     return html;
 }
+// ------------------------------------------------------------------------
+// --- HÀM TẠO PHẦN ĐỀ CỬ VÀ HẢO CẢM  ---
+// ------------------------------------------------------------------------
+
+function createAnotherSection(characterData) { // Đổi tên tham số thành characterData
+    // 1. Lấy dữ liệu từ các trường riêng biệt
+    const trangsucData = characterData.trangsuc;
+    const thechienyData = characterData.thechieny;
+    const doihinhData = characterData.doihinh;
+    const haocamData = characterData.haocam;
+
+    // 2. Hàm phụ trợ để tạo danh sách (<ul>) cho các mảng
+    const createListContent = (data) => {
+        if (!data || data.length === 0) return '<p class="text-gray-500 italic">Không có dữ liệu chi tiết.</p>';
+
+        let list = '<ul class="list-disc ml-5 space-y-1 text-gray-700">';
+        data.forEach(item => {
+            // Kiểm tra xem item có phải là một string hay không
+            const displayItem = typeof item === 'string' ? item : JSON.stringify(item);
+            list += `<li>${displayItem}</li>`;
+        });
+        list += '</ul>';
+        return list;
+    };
+
+    // 3. Kiểm tra dữ liệu rỗng (Không có bất kỳ trường nào)
+    if (
+        (!trangsucData || trangsucData.length === 0) &&
+        (!thechienyData || thechienyData.length === 0) &&
+        (!doihinhData || doihinhData.length === 0) &&
+        (!haocamData || haocamData.length === 0)
+    ) {
+        return `<p class="text-gray-600">Thông tin Đề Cử và Hảo Cảm đang được cập nhật...</p>`;
+    }
+
+    let html = '<div class="space-y-4">';
+
+    // 4. Xử lý ĐỀ CỬ (Đặt tất cả vào một tiêu đề lớn)
+    if (trangsucData || thechienyData || doihinhData) {
+        // Giữ nguyên tiêu đề lớn ĐỀ CỬ (Đã bỏ gạch dưới)
+        html += `<h3 class="text-2xl font-bold text-dark-700 pb-1 mt-6 mb-3">ĐỀ CỬ</h3>`;
+    }
+
+    // Hàm phụ trợ mới để tạo chuỗi dữ liệu (giữ nguyên)
+    const createSpanContent = (data) => {
+        if (!data || data.length === 0) return 'Không có dữ liệu.';
+        return data.join(', ');
+    };
+
+    // Trang Sức
+    if (trangsucData && trangsucData.length > 0) {
+        const content = createSpanContent(trangsucData);
+        html += `
+        <div class="p-3 bg-white rounded-lg shadow-md border-l-4 border-indigo-500">
+            <p class="text-gray-700">
+                <span class="font-extrabold text-lg text-indigo-600">Trang Sức:</span> 
+                <span class="font-normal text-gray-700">${content}</span>
+            </p>
+        </div>
+    `;
+    }
+
+    // Thẻ Chiến Ý
+    if (thechienyData && thechienyData.length > 0) {
+        const content = createSpanContent(thechienyData);
+        html += `
+        <div class="p-3 bg-white rounded-lg shadow-md border-l-4 border-indigo-500">
+            <p class="text-gray-700">
+                <span class="font-extrabold text-lg text-indigo-600">Thẻ Chiến Ý:</span> 
+                <span class="font-normal text-gray-700">${content}</span>
+            </p>
+        </div>
+    `;
+    }
+
+    // Đội Hình
+    if (doihinhData && doihinhData.length > 0) {
+        const content = createSpanContent(doihinhData);
+        html += `
+        <div class="p-3 bg-white rounded-lg shadow-md border-l-4 border-indigo-500">
+            <p class="text-gray-700">
+                <span class="font-extrabold text-lg text-indigo-600">Đội Hình:</span> 
+                <span class="font-normal text-gray-700">${content}</span>
+            </p>
+        </div>
+    `;
+    }
+
+    // 5. Xử lý HẢO CẢM (Đã sửa đổi)
+    if (haocamData && haocamData.length > 0) {
+        // Nâng cấp CSS cho tiêu đề lớn: màu Indigo đậm
+        html += `<h3 class="text-2xl font-bold text-dark-700 ">HẢO CẢM</h3>`;
+
+        // 1. Định nghĩa các tiêu đề và màu sắc
+        const haocamTitles = [
+            { title: "Xanh:", cssColor: "text-blue-600" },
+            { title: "Tím:", cssColor: "text-purple-600" },
+            { title: "Vàng:", cssColor: "text-amber-600" } // Dùng amber thay vì yellow để màu rõ hơn
+        ];
+
+        // 2. Tạo phần nội dung chi tiết
+        let contentHtml = '';
+
+        // Đảm bảo chỉ lặp tối đa 3 lần (cho 3 tiêu đề)
+        haocamData.slice(0, 3).forEach((item, index) => {
+            const titleData = haocamTitles[index];
+
+            // Chỉ hiển thị nếu có dữ liệu cho mục này
+            if (item) {
+                // Nâng cấp CSS: font-extrabold cho tiêu đề, space-y-2 đã được thêm vào container
+                contentHtml += `
+                <p class="text-gray-700">
+                    <span class="font-extrabold ${titleData.cssColor} text-lg">${titleData.title}</span> 
+                    <span class="font-normal text-gray-700">${item}</span>
+                </p>
+            `;
+            }
+        });
+
+        // 3. Đưa nội dung vào container chính
+        if (contentHtml) {
+            html += `
+        <div class="p-3 bg-white rounded-lg shadow-md border-l-4 border-orange-500 space-y-2">
+            ${contentHtml}
+        </div>
+    `;
+        }
+    }
+
+    html += '</div>';
+    return html;
+}
 
 // ------------------------------------------------------------------------
 // --- HÀM TẠO PHẦN QUOTES ---
@@ -300,22 +430,25 @@ function renderFullCharacterDetail() {
             </button>
         </div>
 
-        <h3 class="text-3xl font-bold text-indigo-700 border-b-2 border-indigo-300 pb-2 mb-4">GIỚI THIỆU NHÂN VẬT</h3>
+        <h3 class="text-3xl font-bold text-indigo-500 border-b-2 border-indigo-300 pb-2 mb-4">GIỚI THIỆU NHÂN VẬT</h3>
         <p class="text-gray-700 mb-8 leading-relaxed italic">${character.info}</p>
         
-        <h3 class="text-3xl font-bold text-indigo-700 border-b-2 border-indigo-300 pb-2 mb-4">CỐT TRUYỆN</h3>
+        <h3 class="text-3xl font-bold text-indigo-500 border-b-2 border-indigo-300 pb-2 mb-4">CỐT TRUYỆN</h3>
         <p class="text-gray-700 mb-8 leading-relaxed">${character.story || "Thông tin cốt truyện đang được cập nhật..."}</p>
         
-        <h3 class="text-3xl font-bold text-indigo-700 border-b-2 border-indigo-300 pb-2 mb-4">THÔNG TIN NHÂN VẬT</h3>
+        <h3 class="text-3xl font-bold text-indigo-500 border-b-2 border-indigo-300 pb-2 mb-4">THÔNG TIN NHÂN VẬT</h3>
         ${createDetailTable(character)}
 
-        <h3 class="text-3xl font-bold text-indigo-700 border-b-2 border-indigo-300 pt-6 pb-2 mt-8 mb-4">DUYÊN PHẬN</h3>
+        <h3 class="text-3xl font-bold text-indigo-500 border-b-2 border-indigo-300 pt-6 pb-2 mt-8 mb-4">DUYÊN PHẬN</h3>
         ${createFatesSection(character.fates)}
 
-        <h2 id="skills-anchor" class="text-4xl font-extrabold text-blue-800 border-b-4 border-blue-300 pt-10 pb-2 mt-10 mb-6">BỘ KỸ NĂNG</h2>
+        <h2 id="skills-anchor" class="text-4xl font-extrabold text-indigo-500 border-b-4 border-blue-300 pt-10 pb-2 mt-10 mb-6">BỘ KỸ NĂNG</h2>
         ${createSkillsSection(character.skills)}
 
-        <h3 class="text-3xl font-bold text-purple-700 border-b-2 border-purple-300 pt-10 pb-2 mt-10 mb-4">QUOTES (Câu nói đặc trưng)</h3>
+        <h3 class="text-3xl font-bold text-indigo-500 border-b-2 border-blue-300 pt-10 pb-2 mt-10 mb-4">ĐỀ CỬ & HẢO CẢM</h3>
+		${createAnotherSection(character)}
+
+        <h3 class="text-3xl font-bold text-indigo-500 border-b-2 border-purple-300 pt-10 pb-2 mt-10 mb-4">QUOTES (Câu nói đặc trưng)</h3>
         ${createQuotesSection(character.quotes_list)}
     `;
 
@@ -450,6 +583,38 @@ window.toggleSkillDescription = function (element) {
         } else {
             element.classList.add(borderColor);
         }
+    }
+}
+/**
+ * HÀM BUTTON TOP UP ////////////////////
+ */
+// Lấy button
+const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+// Hàm cuộn trang lên đầu
+function scrollToTop() {
+    // Sử dụng 'smooth' để cuộn mượt mà hơn
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
+// Hàm hiển thị/ẩn button khi cuộn
+window.onscroll = function () {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    // Nếu vị trí cuộn lớn hơn 300px (thay đổi nếu cần)
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        // Hiển thị nút (đặt opacity = 1)
+        scrollTopBtn.style.opacity = "1";
+        scrollTopBtn.style.pointerEvents = "auto"; // Cho phép click
+    } else {
+        // Ẩn nút (đặt opacity = 0)
+        scrollTopBtn.style.opacity = "0";
+        scrollTopBtn.style.pointerEvents = "none"; // Ngăn chặn click khi ẩn
     }
 }
 

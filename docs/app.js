@@ -462,3 +462,36 @@ window.handleSortClick = function (key, order, buttonElement) {
     // 3. Gọi hàm sắp xếp chính
     sortCharacters(key, order);
 };
+
+/**
+ * HÀM BUTTON TOP UP ////////////////////
+ */
+// Lấy button
+const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+// Hàm cuộn trang lên đầu
+function scrollToTop() {
+    // Sử dụng 'smooth' để cuộn mượt mà hơn
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
+// Hàm hiển thị/ẩn button khi cuộn
+window.onscroll = function () {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    // Nếu vị trí cuộn lớn hơn 300px (thay đổi nếu cần)
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        // Hiển thị nút (đặt opacity = 1)
+        scrollTopBtn.style.opacity = "1";
+        scrollTopBtn.style.pointerEvents = "auto"; // Cho phép click
+    } else {
+        // Ẩn nút (đặt opacity = 0)
+        scrollTopBtn.style.opacity = "0";
+        scrollTopBtn.style.pointerEvents = "none"; // Ngăn chặn click khi ẩn
+    }
+}

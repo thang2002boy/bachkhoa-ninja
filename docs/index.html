@@ -2,6 +2,11 @@
 <html lang="vi">
 
 <head>
+    <!--
+Website: NINJA HTLL WIKI
+Author: Nguyễn Vĩnh Thăng 
+Signature: HTLL-NV2025-ORIGIN
+-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huyền Thoại Làng Lá</title>
@@ -16,7 +21,8 @@
     4. git push origin main         (wait 1-3 min)   -->
 
     <!-- LATEST CHANGE (Write here if your fixes haven’t been pushed to Git)
-    + update story and quotes for Uchiha Madara 
+        Dự Định: update full data 3 characters
+        Đã Xong: button top up,  add link bio and update footer my name
     -->
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap" rel="stylesheet">
@@ -115,9 +121,10 @@
                         <li><a href="tinh-nang.html"
                                 class="text-white hover:bg-amber-600 px-3 py-2 rounded-lg text-sm font-medium transition duration-300">TÍNH
                                 NĂNG</a></li>
-                        <!-- <li><a href="lien-he.html"
-                                class="text-white hover:bg-amber-600 px-3 py-2 rounded-lg text-sm font-medium transition duration-300">LIÊN
-                                HỆ</a></li> -->
+                        <li><a href="https://beacons.ai/emthang36"
+                                class="text-white hover:bg-amber-600 px-3 py-2 rounded-lg text-sm font-medium transition duration-300">EM
+                                THĂNG 36
+                            </a></li>
                     </ul>
                 </div>
                 <button id="mobile-menu-button" type="button"
@@ -151,9 +158,10 @@
                 <li><a href="tinh-nang.html"
                         class="block text-white hover:bg-amber-600 px-3 py-2 rounded-md text-base font-medium">TÍNH
                         NĂNG</a></li>
-                <!-- <li><a href="lien-he.html"
-                        class="block text-white hover:bg-amber-600 px-3 py-2 rounded-md text-base font-medium">LIÊN
-                        HỆ</a></li> -->
+                <li><a href="https://beacons.ai/emthang36"
+                        class="block text-white hover:bg-amber-600 px-3 py-2 rounded-md text-base font-medium">EM THĂNG
+                        36
+                    </a></li>
             </ul>
         </div>
     </header>
@@ -274,29 +282,44 @@
 
         </div>
     </div>
-    <footer class="bg-gray-800 text-white p-6 mt-10">
-        <div class="max-w-7xl mx-auto text-center">
+    <footer class="bg-gray-900 text-gray-300 py-10 mt-16 shadow-inner-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-sm mb-2">Coded by: Em Thăng 36 | <span class="text-amber-500">© 2025</span></p>
 
-            <p class="text-sm mb-4">Code: Em Thăng 36 | © 2025</p>
+            <p class="text-sm mb-6">
+                Link Bio Của Tôi:
+                <a href="https://beacons.ai/emthang36"
+                    class="text-amber-400 font-semibold underline hover:text-amber-200 transition duration-300"
+                    target="_blank" rel="noopener noreferrer">
+                    Xem Thêm
+                </a>
+            </p>
 
-            <div class="flex flex-col items-center">
-                <p class="text-lg font-semibold mb-3">Chia sẻ:</p>
+            <div class="flex flex-col items-center border-t border-gray-700 pt-6">
+                <p class="text-2xl font-black mb-4 text-amber-400">CHIA SẺ CỘNG ĐỒNG</p>
 
-                <button id="shareFacebookBtn" class="flex items-center space-x-2 px-4 py-2 bg-blue-600 rounded-lg 
-                                 hover:bg-blue-700 transition duration-200 border border-dotted border-white"
-                    onclick="shareOnFacebook()">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                <button id="shareFacebookBtn" class="flex items-center space-x-2 px-6 py-3 bg-blue-600 rounded-xl 
+                   hover:bg-blue-700 transition duration-300 
+                   shadow-lg hover:shadow-xl border-2 border-white/50 text-white" onclick="shareOnFacebook()">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
                         viewBox="0 0 16 16">
                         <path
                             d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625H5.804V8.05h-1.55V6.44c0-1.54 1.135-2.617 2.503-2.617h1.652v1.89h-.97c-.71 0-1.004.378-1.004.79v1.178h1.897l-.248 1.956h-1.649v5.625C13.074 15.396 16 12.067 16 8.049z" />
                     </svg>
-                    <span>Facebook</span>
+                    <span class="font-bold text-lg">Chia sẻ qua Facebook</span>
                 </button>
-
             </div>
 
         </div>
     </footer>
+
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Lên đầu trang"
+        class="fixed bottom-4 right-4 bg-red-600 text-white p-3 rounded-full shadow-lg opacity-0 transition-opacity duration-300 z-50 hover:bg-red-700">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
+    </button>
 
     <script src="data.js"></script>
     <script src="app.js"></script>
@@ -312,6 +335,7 @@
             }
         }
     </script>
+
 </body>
 
 </html>
