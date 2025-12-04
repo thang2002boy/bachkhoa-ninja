@@ -1,4 +1,142 @@
 // data.js
+//form json cơ bản
+/*
+{
+  "id": "",
+  "name": "",
+  "type": "",
+  "class": [],
+  "info": "",
+  "imgUrl": "",
+  "tuchat": "",
+  "village": [],
+  "full_name": "",
+  "age": "",
+  "birthday": "",
+  "birthplace": "",
+  "gender": "",
+  "height": "",
+  "weight": "",
+  "blood_type": "",
+  "rank": "",
+  "ninja_id": "",
+  "team": "",
+  "summon": "",
+  "relationships": "",
+  "unique_skill": "",
+  "bust_waist_hip": "",
+  "weapon": "",
+  "fighting_style": "",
+  "likes": "",
+  "dislikes": "",
+  "dream": "",
+  "catchphrase": "",
+  "status": "",
+  "strengths": "",
+  "weaknesses": "",
+  "story": "",
+  "personality": "",
+  "fates": [
+    {
+      "type": "",
+      "name": "",
+      "condition": "",
+      "effect": ""
+    },
+    {
+      "type": "",
+      "name": "",
+      "condition": "",
+      "effect": ""
+    },
+    {
+      "type": "",
+      "name": "",
+      "condition": "",
+      "effect": ""
+    },
+    {
+      "type": "",
+      "name": "",
+      "condition": "",
+      "effect": ""
+    },
+    {
+      "type": "",
+      "name": "",
+      "condition": "",
+      "effect": ""
+    },
+    {
+      "type": "",
+      "name": "",
+      "condition": "",
+      "effect": ""
+    },
+    {
+      "type": "",
+      "name": ""
+    }
+  ],
+  "quotes_list": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "skills": {
+    "main": [
+      {
+        "name": "",
+        "desc": "",
+        "upgradedDesc1": "",
+        "iconUrl": ""
+      }
+    ],
+    "ultimate": [
+      {
+        "name": "",
+        "desc": "",
+        "upgradedDesc1": "",
+        "upgradedDesc2": "",
+        "iconUrl": ""
+      }
+    ],
+    "pursuit": [
+      {
+        "name": "",
+        "desc": "",
+        "iconUrl": ""
+      }
+    ],
+    "passive": [
+      {
+        "name": "",
+        "desc": "",
+        "upgradedDesc1": "",
+        "iconUrl": ""
+      }
+    ],
+    "warsoul": [
+      {
+        "name": "",
+        "desc": "",
+        "iconUrl": ""
+      }
+    ],
+    "special_ultimate_skill": [
+      {
+        "name": "",
+        "desc": "",
+        "upgradedDesc1": "",
+        "upgradedDesc2": "",
+        "iconUrl": ""
+      }
+    ]
+  }
+}
+*/
 window.charactersData = [
     {
         id: 'sasuke_taka',
@@ -8,7 +146,9 @@ window.charactersData = [
         info: 'Sasuke sau khi rời Akatsuki và dẫn dắt đội Taka. Anh sở hữu Mangekyou Sharingan, sử dụng Lôi Độn Chidori Katana và Hỏa thuật mạnh mẽ.',
         imgUrl: 'img/sasuketaka.png',
         tuchat: 'SS+',
-        village: ['Akatsuki', 'Uchiha']
+        village: ['Akatsuki', 'Uchiha'],
+        full_name: 'Uchiha Sasuke [Taka]',
+        age: '16',
     },
     {
         id: 'choji',
@@ -18,7 +158,9 @@ window.charactersData = [
         info: 'Thành viên tộc Akimichi, có trái tim nhân hậu. Anh sử dụng các thuật liên quan đến mở rộng cơ thể hay Bội Hoá Chi Thuật (Baika no Jutsu) để tăng cường sức mạnh và phòng thủ.',
         imgUrl: 'img/chojiA.png',
         tuchat: 'A',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Akimichi Choji',
+        age: '16',
     },
     {
         id: 'kimimaro',
@@ -28,7 +170,9 @@ window.charactersData = [
         info: 'Thành viên duy nhất còn sót lại của tộc Kaguya. Anh sở hữu Kekkei Genkai Shikotsumyaku (Điều khiển Xương), có thể tạo ra và thao túng xương như vũ khí và áo giáp.',
         imgUrl: 'img/kimimaro.png',
         tuchat: 'S',
-        village: ['Làng Âm Thanh', 'Ấn Chú', 'Đới Đao']
+        village: ['Làng Âm Thanh', 'Ấn Chú', 'Đới Đao'],
+        full_name: 'Kimimaro',
+        age: '15',
     },
     {
         id: 'minato',
@@ -38,7 +182,9 @@ window.charactersData = [
         info: 'Hokage Đệ Tứ, nổi tiếng với biệt danh "Tia Chớp Vàng". Ông là bậc thầy về Phi Lôi Thần Thuật (Flying Thunder God), cho phép dịch chuyển tức thời và là người tạo ra Rasengan.',
         imgUrl: 'img/minatoSSS.jpg',
         tuchat: 'SSS',
-        village: ['Làng Lá', 'Tộc Xoắn Ốc', 'Tiên Thuật', 'Kage']
+        village: ['Làng Lá', 'Tộc Xoắn Ốc', 'Tiên Thuật', 'Kage'],
+        full_name: 'Namikaze Minato',
+        age: '23',
     },
     {
         id: 'jugo',
@@ -48,7 +194,9 @@ window.charactersData = [
         info: 'Người mang gen bí ẩn, nguồn gốc của Ấn Chú. Anh có khả năng hấp thụ năng lượng tự nhiên và biến đổi cơ thể thành các dạng chiến đấu khác nhau.',
         imgUrl: 'img/jugoS.png',
         tuchat: 'S',
-        village: ['Làng Âm Thanh', 'Ấn Chú']
+        village: ['Làng Âm Thanh', 'Ấn Chú'],
+        full_name: 'Jugo',
+        age: '16',
     },
     {
         id: 'jiraiya2',
@@ -58,7 +206,9 @@ window.charactersData = [
         info: 'Jiraiya trong trạng thái Tiên Nhân hoàn hảo. Ông kết hợp nhuần nhuyễn Tiên thuật với Hỏa độn và Thủy độn cực mạnh, chiến đấu cùng hai Tiên Ếch (Fukasaku và Shima).',
         imgUrl: 'img/jiraiyatiennhan.png',
         tuchat: 'SS+',
-        village: ['Làng Lá', 'Tiên Thuật']
+        village: ['Làng Lá', 'Tiên Thuật'],
+        full_name: 'Tiên Nhân Jiraiya',
+        age: '54',
     },
     {
         id: 'sasuke_uchiha',
@@ -68,7 +218,9 @@ window.charactersData = [
         info: 'Ninja thiên tài của tộc Uchiha. Anh sử dụng Sharingan và Lôi Độn (Chidori) làm vũ khí chính. Luôn tìm kiếm sức mạnh để trả thù cho gia tộc.',
         imgUrl: 'img/sasuke.png',
         tuchat: 'S',
-        village: ['Làng Lá', 'Đới Đao', 'Uchiha']
+        village: ['Làng Lá', 'Đới Đao', 'Uchiha'],
+        full_name: 'Uchiha Sasuke',
+        age: '15',
     },
     {
         id: 'sasori',
@@ -78,7 +230,9 @@ window.charactersData = [
         info: 'Nghệ nhân rối thiên tài của Làng Cát và thành viên Akatsuki. Hắn đã biến cơ thể mình thành rối để đạt được sự bất tử. Sasori sử dụng Bách Kỹ thao túng hàng trăm con rối tẩm độc.',
         imgUrl: 'img/sasoriSS.png',
         tuchat: 'SS',
-        village: ['Làng Cát', 'Akatsuki', 'Thầy Rối']
+        village: ['Làng Cát', 'Akatsuki', 'Thầy Rối'],
+        full_name: 'Xích Sa Sasori',
+        age: '35',
     },
     {
         id: 'kakashi_ha',
@@ -88,7 +242,9 @@ window.charactersData = [
         info: 'Kakashi trở thành Hokage Đệ Lục. Anh thể hiện khả năng lãnh đạo sáng suốt và sức mạnh ninja vượt trội, là một trong những ninja toàn diện nhất lịch sử Làng Lá.',
         imgUrl: 'img/kakashiHiepAnh.png',
         tuchat: 'SSS',
-        village: ['Làng Lá', 'Đới Đao']
+        village: ['Làng Lá', 'Đới Đao'],
+        full_name: 'Hatake Kakashi [Hiệp Ảnh]',
+        age: '31',
     },
     {
         id: 'naruto4',
@@ -98,7 +254,9 @@ window.charactersData = [
         info: 'Naruto mất kiểm soát hoàn toàn khi bị chakra Cửu Vĩ lấn át. Anh ta bọc trong chakra đỏ rực, tấn công điên cuồng bằng móng vuốt và có thể phóng Vĩ Thú Ngọc phá hủy diện rộng.',
         imgUrl: 'img/na4vi.png',
         tuchat: 'SS+',
-        village: ['Làng Lá', 'Thú Hoá', 'Jinchuriki']
+        village: ['Làng Lá', 'Thú Hoá', 'Jinchuriki'],
+        full_name: 'Uzumaki Naruto [Tứ Vĩ]',
+        age: '16',
     },
     {
         id: 'konan2',
@@ -108,7 +266,9 @@ window.charactersData = [
         info: 'Phiên bản Konan với khả năng hóa giấy và tấn công trên diện rộng được tăng cường. Cô có thể tạo ra cánh giấy khổng lồ và sử dụng Thức Chỉ Thuật (Paper Person of God\'s Punishment) hủy diệt.',
         imgUrl: 'img/konanSSS.jpg',
         tuchat: 'SSS+',
-        village: ['Làng Mưa', 'Akatsuki', 'Đới Đao']
+        village: ['Làng Mưa', 'Akatsuki', 'Đới Đao'],
+        full_name: 'Konan [Ronin Phiêu Bạt]',
+        age: '35',
     },
     {
         id: 'kakashi_w_war',
@@ -118,7 +278,9 @@ window.charactersData = [
         info: 'Kakashi trong thời kỳ Đại chiến. Anh thể hiện khả năng lãnh đạo và chiến thuật đỉnh cao, sử dụng Lôi Độn cường hóa và kỹ thuật Kamui với Mangekyou Sharingan.',
         imgUrl: 'img/kakashiDC.png',
         tuchat: 'SS+',
-        village: ['Làng Lá', 'Đại Chiến Ninja']
+        village: ['Làng Lá', 'Đại Chiến Ninja'],
+        full_name: 'Hatake Kakashi [Đại Chiến]',
+        age: '30',
     },
     {
         id: 'kushina',
@@ -128,7 +290,9 @@ window.charactersData = [
         info: 'Cựu Jinchuriki của Cửu Vĩ và là vợ Minato. Cô sở hữu nguồn chakra dồi dào và sử dụng Phong Ấn Thuật cực mạnh của tộc Uzumaki, nổi tiếng với mái tóc đỏ và tính cách nóng nảy.',
         imgUrl: 'img/KushinaSSS.jpg',
         tuchat: 'SSS',
-        village: ['Làng Lá', 'Jinchuriki', 'Tộc Xoắn Ốc']
+        village: ['Làng Lá', 'Jinchuriki', 'Tộc Xoắn Ốc'],
+        full_name: 'Uzumaki Kushina',
+        age: '20',
     },
     {
         id: 'killer_bee_v2',
@@ -138,9 +302,11 @@ window.charactersData = [
         info: 'Killer Bee trong trạng thái Vĩ Thú Hoá hoàn chỉnh (Bát Vĩ). Anh có khả năng sử dụng Bát Vĩ để phóng Vĩ Thú Ngọc khổng lồ và tấn công bằng Lôi Độn.',
         imgUrl: 'img/killerBee8vi.png',
         tuchat: 'SSS',
-        village: ['Làng Mây', 'Thú Hoá', 'Jinchuriki']
+        village: ['Làng Mây', 'Thú Hoá', 'Jinchuriki'],
+        full_name: 'Killer Bee [Vĩ Thú Hoá]',
+        age: '35',
     },
-    {///////////////////////////////////////////////////////////////////////////-MADARA-//////////////////////////////////////////////////////////////////////////////////////////////
+    {///////////////////////////////////////////////////////////////////////////-UCHIHA MADARA-//////////////////////////////////////////////////////////////////////////////////////////////
         id: 'madara',
         name: 'Uchiha Madara',
         type: 'Công',
@@ -246,7 +412,9 @@ window.charactersData = [
         info: 'Sai là một cựu thành viên của Tổ chức Gốc (Root) của Danzo. Anh là một ninja họa sĩ, sử dụng thuật Siêu Thú Ngụy Hoạ để tạo ra các sinh vật mực sống động cho cả tấn công và trinh sát.',
         imgUrl: 'img/saiA.png',
         tuchat: 'A',
-        village: ['Làng Lá', 'ANBU', 'Đới Đao']
+        village: ['Làng Lá', 'ANBU', 'Đới Đao'],
+        full_name: 'Sai',
+        age: '15',
     },
     {
         id: 'tenten',
@@ -256,7 +424,9 @@ window.charactersData = [
         info: 'Ninja chuyên về vũ khí của Làng Lá và là thành viên của Đội Guy. Cô có khả năng triệu hồi và phóng ra một lượng lớn vũ khí với độ chính xác tuyệt đối, sử dụng Sổ Thuật (Scroll Jutsu) để tấn công và hỗ trợ đồng đội.',
         imgUrl: 'img/tentenA.png',
         tuchat: 'A',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Tenten',
+        age: '16',
     },
     {
         id: 'sasuke_susanoo',
@@ -266,7 +436,9 @@ window.charactersData = [
         info: 'Sasuke thức tỉnh Mangekyou Sharingan Vĩnh Cửu và triệu hồi Susanoo phòng thủ. Anh tấn công bằng cung tên Indra và Amaterasu/Lôi Độn, thể hiện sức mạnh tột đỉnh của tộc Uchiha.',
         imgUrl: 'img/sasukeSSN.png',
         tuchat: 'SSS',
-        village: ['Làng Lá', 'Đới Đao', 'Uchiha']
+        village: ['Làng Lá', 'Đới Đao', 'Uchiha'],
+        full_name: 'Uchiha Sasuke [Susanoo]',
+        age: '16',
     },
     {
         id: 'lee',
@@ -276,7 +448,9 @@ window.charactersData = [
         info: 'Ninja chỉ dùng Thể thuật (Taijutsu), là đệ tử trung thành của Guy. Anh có thể mở một số cổng trong Bát Môn Độn Giáp để tăng sức mạnh và tốc độ chiến đấu.',
         imgUrl: 'img/RockLeeS.png',
         tuchat: 'S',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Rock Lee',
+        age: '16',
     },
     {
         id: 'deidara',
@@ -286,7 +460,9 @@ window.charactersData = [
         info: 'Nghệ nhân bom đất sét của Akatsuki. Anh tin rằng "Nghệ thuật là một sự bùng nổ", sử dụng thuật Bộc Phá (Explosion Release) để tạo ra các loại bom đất sét từ C1 đến C4 có sức công phá khủng khiếp.',
         imgUrl: 'img/deidaraSS.png',
         tuchat: 'SS',
-        village: ['Làng Đá', 'Akatsuki']
+        village: ['Làng Đá', 'Akatsuki'],
+        full_name: 'Deidara',
+        age: '19',
     },
     {
         id: 'kiba',
@@ -296,7 +472,9 @@ window.charactersData = [
         info: 'Ninja tốc độ của tộc Inuzuka. Luôn sát cánh chiến đấu cùng chó ninja Akamaru, sử dụng các chiêu thức kết hợp độc đáo như Nha Thông Nha (Fang Over Fang) và Ngân Nha La Phong (Passing Fang).',
         imgUrl: 'img/kibaS.png',
         tuchat: 'S',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Inuzuka Kiba',
+        age: '16',
     },
     {
         id: 'shino',
@@ -306,7 +484,9 @@ window.charactersData = [
         info: 'Thành viên tộc Aburame, sử dụng các kỹ thuật tấn công và trinh sát bằng côn trùng (Kikaichū). Anh là một chiến binh lạnh lùng, luôn lập kế hoạch chiến đấu cẩn thận.',
         imgUrl: 'img/shinoS.png',
         tuchat: 'S',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Aburame Shino',
+        age: '16',
     },
     {
         id: 'tsunade',
@@ -316,7 +496,9 @@ window.charactersData = [
         info: 'Một trong Tam Nin Huyền Thoại và Hokage Đệ Ngũ. Cô là bậc thầy về ninja y thuật, có sức mạnh vật lý phi thường (Siêu Sức Mạnh) và kỹ năng hồi phục.',
         imgUrl: 'img/tsunadeSS.png',
         tuchat: 'SS',
-        village: ['Làng Lá', 'Kage']
+        village: ['Làng Lá', 'Kage'],
+        full_name: 'Senju Tsunade',
+        age: '50',
     },
     {
         id: 'pain_td_super',
@@ -326,7 +508,9 @@ window.charactersData = [
         info: 'Thiên Đạo Pain ở sức mạnh tối thượng, sử dụng Chibaku Tensei (Địa Bạo Thiên Tinh) để tạo ra quả cầu trọng lực khổng lồ, giam giữ và hủy diệt đối thủ.',
         imgUrl: 'img/painSuper.png',
         tuchat: 'SSS+',
-        village: ['Làng Mưa', 'Akatsuki', 'Rinnegan', 'Pain Lục Đạo']
+        village: ['Làng Mưa', 'Akatsuki', 'Rinnegan', 'Pain Lục Đạo'],
+        full_name: 'Thiên Đạo Pain [Siêu]',
+        age: '35',
     },
     {
         id: 'killer_bee',
@@ -336,7 +520,9 @@ window.charactersData = [
         info: 'Jinchuriki Bát Vĩ. Anh chiến đấu bằng Lôi Độn Chakra Mode kết hợp với kiếm thuật độc đáo (Bảy Kiếm), có thể sử dụng Vĩ Thú Ngọc ở dạng bán Vĩ Thú.',
         imgUrl: 'img/killerbee.png',
         tuchat: 'SS',
-        village: ['Làng Mây', 'Jinchuriki', 'Đới Đao']
+        village: ['Làng Mây', 'Jinchuriki', 'Đới Đao'],
+        full_name: 'Killer Bee',
+        age: '35',
     },
     {
         id: 'sakura_w_war',
@@ -346,7 +532,9 @@ window.charactersData = [
         info: 'Sakura trong Đại chiến Ninja. Cô thể hiện đỉnh cao của ninja y thuật và sức mạnh Bách Hào sơ khai, đóng vai trò quan trọng trong việc hỗ trợ và chiến đấu bên cạnh Naruto và Sasuke.',
         imgUrl: 'img/SakuraSSS.png',
         tuchat: 'SSS',
-        village: ['Làng Lá', 'Đại Chiến Ninja']
+        village: ['Làng Lá', 'Đại Chiến Ninja'],
+        full_name: 'Haruno Sakura [Đại Chiến]',
+        age: '16',
     },
     {
         id: 'naruto',
@@ -356,7 +544,9 @@ window.charactersData = [
         info: 'Anh hùng Làng Lá, chuyên tấn công bằng phân thân và nhẫn thuật Phong độn Rasengan. Anh mang trong mình ý chí không bao giờ bỏ cuộc.',
         imgUrl: 'img/narutoS.png',
         tuchat: 'S',
-        village: ['Làng Lá', 'Tộc Xoắn Ốc', 'Jinchuriki']
+        village: ['Làng Lá', 'Tộc Xoắn Ốc', 'Jinchuriki'],
+        full_name: 'Uzumaki Naruto',
+        age: '16',
     },
     {
         id: 'tobi',
@@ -366,7 +556,9 @@ window.charactersData = [
         info: 'Thành viên Akatsuki bí ẩn với danh tính Obito Uchiha. Anh sở hữu Mangekyou Sharingan và năng lực dịch chuyển không gian Kamui, có khả năng đi xuyên vật thể và hút mọi thứ vào không gian khác.',
         imgUrl: 'img/tobiSS.png',
         tuchat: 'SS',
-        village: ['Akatsuki', 'Uchiha']
+        village: ['Akatsuki', 'Uchiha'],
+        full_name: 'Uchiha Obito (Tobi)',
+        age: '29',
     },
     {
         id: 'kakuzu',
@@ -376,7 +568,9 @@ window.charactersData = [
         info: 'Thành viên Akatsuki, thợ săn tiền thưởng bất tử. Anh sở hữu năm trái tim, cho phép anh sử dụng tất cả 5 hệ chakra nguyên tố bằng cách triệu hồi các quái vật mặt nạ.',
         imgUrl: 'img/kakuzu.png',
         tuchat: 'SS',
-        village: ['Akatsuki']
+        village: ['Akatsuki'],
+        full_name: 'Kakuzu',
+        age: '91',
     },
     {
         id: 'nagato',
@@ -386,7 +580,9 @@ window.charactersData = [
         info: 'Người điều khiển Lục Đạo Pain và sở hữu Rinnegan. Anh có thể sử dụng tất cả 5 hệ chakra và các kỹ thuật Rinnegan hủy diệt như Lục Đạo Chakra và Thiên Đạo.',
         imgUrl: 'img/nagato.png',
         tuchat: 'SSS',
-        village: ['Làng Mưa', 'Akatsuki', 'Uế Thổ', 'Rinnegan', 'Tộc Xoắn Ốc']
+        village: ['Làng Mưa', 'Akatsuki', 'Uế Thổ', 'Rinnegan', 'Tộc Xoắn Ốc'],
+        full_name: 'Uzumaki Nagato',
+        age: '35',
     },
     {
         id: 'neji',
@@ -396,7 +592,9 @@ window.charactersData = [
         info: 'Thiên tài của Phân gia Hyuga. Anh sử dụng Byakugan và Bát Quái Lục Thập Tứ Chưởng (64 Palms) để phong ấn dòng chảy chakra của đối thủ. Ngoài ra còn có Hồi Thiên để phòng thủ tuyệt đối 359 độ.',
         imgUrl: 'img/neji.png',
         tuchat: 'S',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Hyuga Neji',
+        age: '16',
     },
     {
         id: 'shikamaru',
@@ -406,7 +604,9 @@ window.charactersData = [
         info: 'Ninja thiên tài chiến thuật của Làng Lá. Anh sử dụng Kỹ thuật Bóng (Kage Mane) để khống chế đối thủ và lập kế hoạch chiến đấu nhanh chóng, với chỉ số IQ hơn 200.',
         imgUrl: 'img/shikamaruA.jpg',
         tuchat: 'A',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Nara Shikamaru',
+        age: '16',
     },
     {
         id: 'jiraiya',
@@ -416,7 +616,9 @@ window.charactersData = [
         info: 'Một trong Tam Nin Huyền Thoại, người thầy của thế hệ sau. Ông là bậc thầy về Ẩn thuật, triệu hồi Ếch và nhẫn thuật Hỏa độn quy mô lớn, luôn tìm kiếm "Đứa Trẻ Lời Tiên Tri".',
         imgUrl: 'img/jiraiyaSS.png',
         tuchat: 'SS',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Jiraiya',
+        age: '50',
     },
     {
         id: 'pain_td',
@@ -426,7 +628,9 @@ window.charactersData = [
         info: 'Thiên Đạo Pain, cơ thể chính được điều khiển bởi Nagato. Kẻ hủy diệt Làng Lá, sử dụng Lục Đạo Chakra và Chiêu Hút Chân Không (Bansho Ten\'in) để thao túng lực hấp dẫn.',
         imgUrl: 'img/pain.png',
         tuchat: 'SS+',
-        village: ['Làng Mưa', 'Akatsuki', 'Rinnegan', 'Pain Lục Đạo']
+        village: ['Làng Mưa', 'Akatsuki', 'Rinnegan', 'Pain Lục Đạo'],
+        full_name: 'Pain (Thiên Đạo)',
+        age: '35',
     },
     {
         id: 'hinata',
@@ -436,7 +640,9 @@ window.charactersData = [
         info: 'Thành viên tộc Hyuga, sử dụng Byakugan để nhìn thấy điểm huyệt và Nhu Quyền (Jūken). Cô nổi tiếng với sự dũng cảm thầm lặng và luôn cố gắng vươn lên.',
         imgUrl: 'img/hinataS.jpg',
         tuchat: 'S',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Hyuga Hinata',
+        age: '16',
     },
     {
         id: 'naruto3',
@@ -446,7 +652,9 @@ window.charactersData = [
         info: 'Naruto trong trạng thái Tiên Nhân hoàn hảo. Anh sở hữu sức mạnh và tốc độ vượt trội, kết hợp nhuần nhuyễn Senjutsu với Rasengan và nhẫn thuật hệ Phong.',
         imgUrl: 'img/narutoSS.png',
         tuchat: 'SS',
-        village: ['Làng Lá', 'Tộc Xoắn Ốc', 'Tiên Thuật']
+        village: ['Làng Lá', 'Tộc Xoắn Ốc', 'Tiên Thuật'],
+        full_name: 'Tiên Nhân Naruto',
+        age: '16',
     },
     {
         id: 'chiyo',
@@ -456,7 +664,9 @@ window.charactersData = [
         info: 'Cựu cố vấn của Làng Cát và là một nghệ nhân rối bậc thầy. Bà đã dùng thuật Bạch Kỹ và hy sinh mạng sống để hồi sinh Gaara bằng Sinh Mạng Thuật (Kishō Tensei).',
         imgUrl: 'img/chiyoSS.png',
         tuchat: 'SS',
-        village: ['Làng Cát', 'Thầy Rối']
+        village: ['Làng Cát', 'Thầy Rối'],
+        full_name: 'Bà Chiyo',
+        age: '73',
     },
     {
         id: 'guy_kmon',
@@ -466,7 +676,9 @@ window.charactersData = [
         info: 'Guy mở Kinh Môn - cổng thứ 7 trong Bát Môn Độn Giáp, thể hiện tốc độ và sức mạnh Thể thuật vượt xa giới hạn thông thường, sử dụng chiêu thức Trú Hổ (Asakujaku) tạo ra Hổ Quyền Khí Công.',
         imgUrl: 'img/GuyKinhMon.png',
         tuchat: 'SS+',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Might Guy [Kinh Môn]',
+        age: '',
     },
     {
         id: 'sasuke_cursemark',
@@ -476,7 +688,8 @@ window.charactersData = [
         info: 'Sasuke trong trạng thái Ấn Chú cấp 2. Cơ thể bị biến đổi để gia tăng sức mạnh thể chất, tốc độ và chakra Lôi Độn một cách đáng kể.',
         imgUrl: 'img/sasukeAnChu.png',
         tuchat: 'S',
-        village: ['Làng Âm Thanh', 'Ấn Chú', 'Uchiha']
+        village: ['Làng Âm Thanh', 'Ấn Chú', 'Uchiha'],
+        full_name: 'Uchiha Sasuke [Ấn Chú]',
     },
     {
         id: 'madara_mask',
@@ -486,7 +699,8 @@ window.charactersData = [
         info: 'Obito dưới danh nghĩa Madara. Hắn sử dụng Mangekyou Sharingan (Kamui) để dịch chuyển và xuyên thấu, đồng thời thao túng các Vĩ Thú với Rinnegan giả.',
         imgUrl: 'img/madaraObito.png',
         tuchat: 'SSS',
-        village: ['Akatsuki', 'Rinnegan', 'Uchiha']
+        village: ['Akatsuki', 'Rinnegan', 'Uchiha'],
+        full_name: 'Uchiha Obito [Mặt Nạ Trắng]',
     },
     {
         id: 'tuladao',
@@ -496,7 +710,8 @@ window.charactersData = [
         info: 'Một trong Lục Đạo Pain, được chuyển đổi thành một cỗ máy chiến đấu. Nhân vật này sở hữu các chiêu thức tấn công bằng vũ khí máy móc, tên lửa tầm xa và sức mạnh vật lý đáng kinh ngạc.',
         imgUrl: 'img/tuladaoSS.png',
         tuchat: 'SS',
-        village: ['Làng Mưa', 'Akatsuki', 'Pain Lục Đạo', 'Rinnegan']
+        village: ['Làng Mưa', 'Akatsuki', 'Pain Lục Đạo', 'Rinnegan'],
+        full_name: 'Pain (Tu La Đạo)',
     },
     {
         id: 'kabuto_a',
@@ -506,7 +721,8 @@ window.charactersData = [
         info: 'Kabuto, đệ tử và trợ thủ của Orochimaru. Anh là một ninja y thuật xuất sắc và là gián điệp tinh ranh. Ở cấp độ A, anh thể hiện khả năng y thuật cơ bản và sử dụng vũ khí chakra.',
         imgUrl: 'img/kabutoA.png',
         tuchat: 'A',
-        village: ['Làng Âm Thanh']
+        village: ['Làng Âm Thanh'],
+        full_name: 'Yakushi Kabuto',
     },
     {
         id: 'hiruzen_edo',
@@ -516,7 +732,8 @@ window.charactersData = [
         info: 'Hokage Đệ Tam được triệu hồi bằng Uế Thổ Chuyển Sinh. Ông là "Giáo Sư", có thể sử dụng tất cả 5 hệ chakra nguyên tố và Triệu hồi Vua Khỉ Enma.',
         imgUrl: 'img/ceo3.png',
         tuchat: 'SSS',
-        village: ['Làng Lá', 'Kage', 'Uế Thổ', 'Đại Chiến Ninja']
+        village: ['Làng Lá', 'Kage', 'Uế Thổ', 'Đại Chiến Ninja'],
+        full_name: 'Sarutobi Hiruzen',
     },
     {
         id: 'danzo',
@@ -526,7 +743,8 @@ window.charactersData = [
         info: 'Lãnh đạo Root, một chiến binh bóng tối. Hắn sử dụng Huyết Kế Giới Hạn Mộc Độn, sở hữu Mangekyou Sharingan của Shisui (Kotoamatsukami) và kỹ năng Phong độn mạnh mẽ.',
         imgUrl: 'img/danzoSSS.png',
         tuchat: 'SSS',
-        village: ['Làng Lá', 'ANBU']
+        village: ['Làng Lá', 'ANBU'],
+        full_name: 'Danzo Shimura',
     },
     {
         id: 'yamato',
@@ -536,7 +754,8 @@ window.charactersData = [
         info: 'Ninja ANBU, người mang DNA của Hokage Đệ Nhất. Anh sử dụng Huyết Kế Giới Hạn Mộc Độn, có khả năng xây dựng công sự và chế ngự Vĩ Thú.',
         imgUrl: 'img/yamatoS.png',
         tuchat: 'S',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Yamato',
     },
     {
         id: 'hidan2',
@@ -546,7 +765,8 @@ window.charactersData = [
         info: 'Phiên bản Hidan thể hiện sức mạnh tối thượng của Tà Thần Jashin. Khả năng bất tử không thể phá hủy và kỹ thuật hiến tế nguy hiểm hơn nhiều lần.',
         imgUrl: 'img/hidansanglap.png',
         tuchat: 'SS+',
-        village: ['Akatsuki', 'Đới Đao']
+        village: ['Akatsuki', 'Đới Đao'],
+        full_name: 'Hidan [Sáng Lập]',
     },
     {
         id: 'tsunade_bha',
@@ -556,7 +776,8 @@ window.charactersData = [
         info: 'Tsunade kích hoạt Bách Hào Chi Thuật (Byakugou no Jutsu). Cô có khả năng hồi phục gần như ngay lập tức (trị thương không cần kết ấn) và tăng sức mạnh vật lý lên mức tối đa.',
         imgUrl: 'img/TsunadeBachHao.png',
         tuchat: 'SSS',
-        village: ['Làng Lá', 'Kage']
+        village: ['Làng Lá', 'Kage'],
+        full_name: 'Senju Tsunade [Bách Hào]',
     },
     {
         id: 'sakura',
@@ -566,7 +787,8 @@ window.charactersData = [
         info: 'Ninja y thuật tài năng, học trò của Tsunade. Cô có khả năng điều khiển Chakra chính xác tuyệt đối và sức mạnh vật lý đáng kinh ngạc, là thành viên quan trọng của Đội 7 cùng với Uzumaki Naruto và Uchiha Sasuke.',
         imgUrl: 'img/sakuraA.png',
         tuchat: 'A',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Haruno Sakura',
     },
     {
         id: 'raikage_3_edo',
@@ -576,7 +798,8 @@ window.charactersData = [
         info: 'Raikage Đệ Tam được Uế Thổ Chuyển Sinh. Ông sở hữu lớp giáp Lôi Độn phòng thủ tối thượng và kỹ thuật Địa Ngục Đột Thích (Hell Stab) với sức xuyên phá khủng khiếp.',
         imgUrl: 'img/rai3.png',
         tuchat: 'SSS',
-        village: ['Làng Mây', 'Kage', 'Uế Thổ']
+        village: ['Làng Mây', 'Kage', 'Uế Thổ'],
+        full_name: 'Raikage Đệ Tam',
     },
     {
         id: 'karin_a',
@@ -586,7 +809,8 @@ window.charactersData = [
         info: 'Karin là một thành viên của đội Taka (trước đây là Hebi), có khả năng cảm nhận chakra cực kỳ mạnh mẽ và khả năng hồi phục đáng kinh ngạc. Cô chủ yếu đóng vai trò trinh sát và hồi phục cho đồng đội thông qua vết cắn.',
         imgUrl: 'img/karinA.png',
         tuchat: 'A',
-        village: ['Làng Âm Thanh', 'Tộc Xoắn Ốc']
+        village: ['Làng Âm Thanh', 'Tộc Xoắn Ốc'],
+        full_name: 'Uzumaki Karin',
     },
     {
         id: 'hanzo_ss',
@@ -596,7 +820,8 @@ window.charactersData = [
         info: 'Hanzo của Làng Mưa, người đã chiến đấu với Sannin huyền thoại và ban cho họ danh hiệu đó. Anh là một chiến binh phi thường, sử dụng vũ khí được tẩm độc và nhẫn thuật Thuỷ độ mạnh mẽ.',
         imgUrl: 'img/hanzoSS.png',
         tuchat: 'SS',
-        village: ['Làng Mưa', 'Uế Thổ', 'Đới Đao']
+        village: ['Làng Mưa', 'Uế Thổ', 'Đới Đao'],
+        full_name: 'Hanzo',
     },
     {
         id: 'mei_ss_plus',
@@ -606,7 +831,8 @@ window.charactersData = [
         info: 'Ngũ Đại Mizukage, có khả năng sử dụng hai Huyết Kế Giới Hạn: Dung Độn (Thổ + Thuỷ) và Phí Độn (Hoả + Thuỷ), giúp cô tạo ra axit ăn mòn hoặc sương mù chết chóc.',
         imgUrl: 'img/terumimei.png',
         tuchat: 'SS+',
-        village: ['Làng Sương Mù', 'Kage']
+        village: ['Làng Sương Mù', 'Kage'],
+        full_name: 'Terumi Mei',
     },
     {
         id: 'kakashi',
@@ -616,7 +842,8 @@ window.charactersData = [
         info: 'Ninja Sao Chép với Sharingan. Ông là bậc thầy về Lôi Độn (Chidori/Raikiri), có khả năng sao chép hàng ngàn nhẫn thuật và là đội trưởng Đội 7.',
         imgUrl: 'img/kakashiS.png',
         tuchat: 'S',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Hatake Kakashi',
     },
     {
         id: 'gaara',
@@ -626,7 +853,8 @@ window.charactersData = [
         info: 'Jinchuriki Nhất Vĩ. Anh sử dụng thuật điều khiển cát tuyệt đỉnh, tạo ra lá chắn cát phòng thủ tự động và tấn công mạnh mẽ bằng cát.',
         imgUrl: 'img/gaaraS.png',
         tuchat: 'S',
-        village: ['Làng Cát', 'Jinchuriki']
+        village: ['Làng Cát', 'Jinchuriki'],
+        full_name: 'Gaara',
     },
     {
         id: 'nii_yugito_edo',
@@ -636,7 +864,8 @@ window.charactersData = [
         info: 'Jinchuriki Nhị Vĩ (Matatabi) được Uế Thổ Chuyển Sinh. Cô sử dụng Lôi Độn và Hỏa thuật Bàn Chải Lửa (Nezumi Kedama), có khả năng hóa Vĩ Thú hoàn chỉnh.',
         imgUrl: 'img/Yugito.png',
         tuchat: 'SS+',
-        village: ['Làng Mây', 'Thú Hoá', 'Uế Thổ', 'Jinchuriki']
+        village: ['Làng Mây', 'Thú Hoá', 'Uế Thổ', 'Jinchuriki'],
+        full_name: 'Nii Yugito',
     },
     {
         id: 'naruto2',
@@ -646,7 +875,8 @@ window.charactersData = [
         info: 'Naruto sử dụng chakra của Vĩ Thú Shukaku (Nhất Vĩ) trong trạng thái hóa hình bán thú, tấn công bằng đòn vật lý cường hóa và Lòng Bàn Tay Cát.',
         imgUrl: 'img/naruto1vi.png',
         tuchat: 'S',
-        village: ['Làng Lá', 'Thú Hoá', 'Jinchuriki']
+        village: ['Làng Lá', 'Thú Hoá', 'Jinchuriki'],
+        full_name: 'Uzumaki Naruto [Nhất Vĩ]',
     },
     {
         id: 'zabuza_s',
@@ -656,7 +886,8 @@ window.charactersData = [
         info: 'Zabuza, một trong Thất Kiếm Ninja Làng Sương Mù, được biết đến với biệt danh "Ác Ma Làng Sương Mù". Anh là một chuyên gia về thuật Ẩn Sương và sử dụng thanh Đại Đao Kubikiribocho.',
         imgUrl: 'img/zabuzaS.png',
         tuchat: 'S',
-        village: ['Làng Sương Mù', 'Đới Đao']
+        village: ['Làng Sương Mù', 'Đới Đao'],
+        full_name: 'Momochi Zabuza',
     },
     {
         id: 'darui',
@@ -666,7 +897,8 @@ window.charactersData = [
         info: 'Ninja ưu tú của Làng Mây và là cánh tay phải của Raikage Đệ Tứ. Anh sở hữu Huyết Kế Giới Hạn Hắc Lôi (Black Lightning), một kỹ thuật Lôi Độn mạnh mẽ độc quyền.',
         imgUrl: 'img/darui.png',
         tuchat: 'SS',
-        village: ['Làng Mây', 'Đới Đao']
+        village: ['Làng Mây', 'Đới Đao'],
+        full_name: 'Darui',
     },
     {
         id: 'kisame_ss_plus',
@@ -676,7 +908,8 @@ window.charactersData = [
         info: 'Thành viên Akatsuki, được mệnh danh là "Quái Vật Chakra". Anh có lượng chakra khổng lồ, chiến đấu với thanh Đại Đao Samehada, và là bậc thầy về các nhẫn thuật Thuỷ độ quy mô lớn.',
         imgUrl: 'img/kisameSS+.png',
         tuchat: 'SS+',
-        village: ['Làng Sương Mù', 'Akatsuki', 'Đới Đao']
+        village: ['Làng Sương Mù', 'Akatsuki', 'Đới Đao'],
+        full_name: 'Hoshigaki Kisame',
     },
     {
         id: 'oro2',
@@ -686,7 +919,8 @@ window.charactersData = [
         info: 'Trở lại chiến trường với sức mạnh cấm thuật được cải tiến và thể chất bền bỉ. Hắn giúp đỡ Sasuke và các Kage trong cuộc Đại chiến, thể hiện khả năng tái sinh gần như tuyệt đối.',
         imgUrl: 'img/orochimaruSSS.jpg',
         tuchat: 'SSS',
-        village: ['Làng Lá', 'Làng Âm Thanh', 'Đại Chiến Ninja', 'Ấn Chú']
+        village: ['Làng Lá', 'Làng Âm Thanh', 'Đại Chiến Ninja', 'Ấn Chú'],
+        full_name: 'Orochimaru [Đại Chiến]',
     },
     {
         id: 'shisui',
@@ -696,7 +930,8 @@ window.charactersData = [
         info: 'Thiên tài Ảo thuật của tộc Uchiha. Anh sở hữu Mangekyou Sharingan với kỹ thuật Ảo thuật tối thượng Kotoamatsukami, có thể điều khiển người khác mà họ không hề hay biết.',
         imgUrl: 'img/shishui.png',
         tuchat: 'SS+',
-        village: ['Làng Lá', 'Uchiha', 'Đới Đao']
+        village: ['Làng Lá', 'Uchiha', 'Đới Đao'],
+        full_name: 'Uchiha Shishui',
     },
     {
         id: 'tobirama_sss',
@@ -706,7 +941,8 @@ window.charactersData = [
         info: 'Hokage Đệ Nhị, người tạo ra nhiều nhẫn thuật cấm như Uế Thổ Chuyển Sinh và Phi Lôi Thần Thuật. Ông là bậc thầy về Thuỷ độ nhẫn thuật, có thể tạo ra nước ở bất kỳ đâu.',
         imgUrl: 'img/tobiramaSSS.png',
         tuchat: 'SSS',
-        village: ['Làng Lá', 'Kage']
+        village: ['Làng Lá', 'Kage'],
+        full_name: 'Senju Tobirama',
     },
     {
         id: 'naruto_kcm',
@@ -716,7 +952,8 @@ window.charactersData = [
         info: 'Naruto trong trạng thái Chakra Cửu Vĩ (Kyuubi Chakra Mode) sau khi làm chủ chakra của Kurama. Anh đạt tốc độ và sức mạnh vật lý vượt trội, sử dụng Vĩ Thú Ngọc (Bijuu Dama) và Chakra Vĩ Thú như một lớp giáp cường hóa.',
         imgUrl: 'img/narutoSSS.png',
         tuchat: 'SSS',
-        village: ['Làng Lá', 'Tộc Xoắn Ốc', 'Jinchuriki', 'Thú Hoá', 'Tiên Thuật']
+        village: ['Làng Lá', 'Tộc Xoắn Ốc', 'Jinchuriki', 'Thú Hoá', 'Tiên Thuật'],
+        full_name: 'Uzumaki Naruto [Cửu Vĩ]',
     },
     {
         id: 'kabuto_white_snake_sss',
@@ -726,7 +963,8 @@ window.charactersData = [
         info: 'Phiên bản Kabuto đã hoàn thiện Tiên Nhân Thuật, đạt đến sức mạnh tối thượng. Anh có khả năng sử dụng Tiên Nhân Thuật và các kỹ thuật liên quan đến Xà, bao gồm cả Mangekyo Sharingan giả lập.',
         imgUrl: 'img/kabutobachxa.png',
         tuchat: 'SSS',
-        village: ['Làng Âm Thanh', 'Tiên Thuật']
+        village: ['Làng Âm Thanh', 'Tiên Thuật'],
+        full_name: 'Yakushi Kabuto [Bạch Xà]',
     },
     {
         id: 'ohnoki',
@@ -736,7 +974,8 @@ window.charactersData = [
         info: 'Tsuchikage Đệ Tam, có biệt danh "Lão Tôn". Là đệ tử chân truyền của Muu Đại Nhân (Tsuchikage Đệ Nhị) Ông sử dụng Huyết Kế Chọn Lựa Trần Độn (Jinton), có khả năng bay và tạo ra các khối chakra hủy diệt mọi thứ thành bụi.',
         imgUrl: 'img/Ohnoki.png',
         tuchat: 'SS+',
-        village: ['Làng Đá', 'Kage']
+        village: ['Làng Đá', 'Kage'],
+        full_name: 'Ohnoki',
     },
     {
         id: 'hidan',
@@ -746,7 +985,8 @@ window.charactersData = [
         info: 'Thành viên bất tử của Akatsuki, kẻ sùng bái Tà Thần Jashin. Anh sử dụng lưỡi hái ba lưỡi và cấm thuật hiến tế, chuyển đổi sát thương cơ thể thành sát thương cho đối thủ.',
         imgUrl: 'img/hidanSS.png',
         tuchat: 'SS',
-        village: ['Akatsuki', 'Đới Đao']
+        village: ['Akatsuki', 'Đới Đao'],
+        full_name: 'Hidan',
     },
     {
         id: 'guy',
@@ -756,7 +996,8 @@ window.charactersData = [
         info: 'Bậc thầy về Thể thuật (Taijutsu), đối thủ vĩ đại của Kakashi. Anh sử dụng sức mạnh thể chất thuần túy và Mở Bát Môn để đạt tốc độ và sức mạnh phi thường.',
         imgUrl: 'img/GuyS.png',
         tuchat: 'S',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Might Guy',
     },
     {
         id: 'raikage_4',
@@ -766,7 +1007,8 @@ window.charactersData = [
         info: 'A, người đứng đầu Làng Mây. Ông sở hữu tốc độ và sức mạnh vật lý đáng kinh ngạc nhờ Lôi Độn Chakra Mode (Raiton no Yoroi). Là ninja nhanh nhất thế giới sau Minato.',
         imgUrl: 'img/rai4.png',
         tuchat: 'SS+',
-        village: ['Làng Mây', 'Kage']
+        village: ['Làng Mây', 'Kage'],
+        full_name: 'Raikage Đệ Tứ',
     },
     {
         id: 'ino_a',
@@ -776,7 +1018,8 @@ window.charactersData = [
         info: 'Ino là một thành viên của tộc Yamanaka, chuyên về các nhẫn thuật điều khiển tâm trí và giao tiếp bằng thần giao cách cảm. Cô đóng vai trò hỗ trợ, làm tê liệt đối thủ hoặc truyền thông tin nhanh chóng cho đồng đội.',
         imgUrl: 'img/inoA.png',
         tuchat: 'A',
-        village: ['Làng Lá']
+        village: ['Làng Lá'],
+        full_name: 'Yamanaka Ino',
     },
     {
         id: 'hinata_w_war',
@@ -786,7 +1029,8 @@ window.charactersData = [
         info: 'Hinata tham gia Đại chiến Ninja lần 4 với sự tự tin mới. Cô bảo vệ Naruto và đồng đội bằng Bát Quái Không Chưởng cường hóa và Nhu Quyền mạnh mẽ.',
         imgUrl: 'img/HinataDC.png',
         tuchat: 'SS+',
-        village: ['Làng Lá', 'Đại Chiến Ninja']
+        village: ['Làng Lá', 'Đại Chiến Ninja'],
+        full_name: 'Hyuga Hinata [Đại Chiến]',
     },
     {
         id: 'kisame_fusion_sss',
@@ -796,7 +1040,8 @@ window.charactersData = [
         info: 'Phiên bản Kisame đã hợp nhất hoàn toàn với Samehada, đạt được hình dạng nửa người nửa cá mập. Sức mạnh chakra và nhẫn thuật Thuỷ độ của anh tăng lên vượt trội, tạo ra Vòm Nước Khổng Lồ.',
         imgUrl: 'img/kisameSamehada.png',
         tuchat: 'SSS',
-        village: ['Làng Sương Mù', 'Akatsuki', 'Thú Hoá']
+        village: ['Làng Sương Mù', 'Akatsuki', 'Thú Hoá'],
+        full_name: 'Hoshigaki Kisame [Samehada]',
     },
     ///////////////////////////////////////////////////////////////////////////-MIGHT GUY [TỬ MÔN]-//////////////////////////////////////////////////////////////////////////////////////////////
     {
@@ -832,7 +1077,7 @@ window.charactersData = [
         status: 'Còn sống (mất khả năng chiến đấu sau Tử Môn)',
         strengths: 'Sức mạnh thể chất vô song, tốc độ cực đại, tinh thần chiến đấu bất khuất',
         weaknesses: 'Tử Môn khiến cơ thể tổn thương nghiêm trọng, gần như hy sinh sau khi dùng',
-        story: 'Might Guy là bậc thầy Thể thuật, người kế thừa tinh thần “Thanh xuân rực cháy”. Trong Đại Chiến Ninja lần thứ tư, anh mở Tử Môn, tung ra Dạ Khải, áp đảo Madara Lục Đạo. Hành động này khiến anh được cả thế giới kính nể, dù cơ thể gần như tàn phế sau trận chiến.',
+        story: 'Trong thời khắc tuyệt vọng của Đại chiến Ninja 4, khi <b>Uchiha Madara</b> - kẻ đã trở thành Thần của Chiến tranh với sức mạnh của <b>Lục Đạo Tiên Nhân</b> đứng trước mặt, Might Guy không còn lựa chọn nào khác. Anh biết rõ - chỉ có sức mạnh vượt qua giới hạn con người mới đủ để lay chuyển số phận. Không do dự, Guy mở <b>Tử Môn</b> - cánh cửa thứ tám , cánh cửa cuối cùng của <b>Bát Môn Độn Giáp</b>. Máu sôi lên như dung nham, da thịt rách toạc, mái tóc chuyển đỏ rực như ngọn lửa sinh mệnh đang bùng cháy dữ dội.<br> Trong khoảnh khắc ấy, anh không còn là con người nữa - mà là biểu tượng của ý chí sắt đá. Với chiêu <b>Dạ Khải - Tịch Tượng (Sekizō)</b>, từng cú đấm của Guy không chỉ tạo ra áp lực không khí khủng khiếp mà còn làm vỡ tan không gian trước mặt. Cả bầu trời rung chuyển, mặt đất nứt toác. Madara - kẻ bất tử - cũng phải thừa nhận: “Nhóc con, ta đã suýt chết rồi đấy! Ngươi là người dùng <b>Thể Thuật</b> mạnh nhất mà ta từng đối đầu”. Dù cơ thể Guy dần tan chảy bởi sức nóng của chính mình, ánh mắt anh vẫn rực cháy, không hối tiếc. Anh chiến đấu không vì vinh quang, mà vì bảo vệ những đồng đội tin tưởng mình, bảo vệ thế giới của niềm tin và hy vọng. Khi ngọn lửa sinh mệnh tắt dần, Guy mỉm cười. Dù cơ thể sụp đổ, tinh thần anh trở thành ngọn đuốc bất diệt - minh chứng cho Ngọn Lửa Nhiệt Huyết Tuổi Trẻ.',
         personality: 'Nhiệt huyết, chính trực, đầy cảm xúc và luôn khích lệ đồng đội. Tin vào ý chí con người hơn sức mạnh huyết kế.',
         fates: [
             { type: 'Duyên', name: 'Công Nhận Toàn Bộ', condition: 'Đồng thời có <b>Uchiha Madara</b>', effect: 'Công <b>+25%</b>' },
@@ -844,11 +1089,11 @@ window.charactersData = [
             { type: 'Duyên Ngầm', name: '<b>Guy [Kinh Môn]</b> và <b>Kakashi [Đại Chiến]</b>' }
         ],
         quotes_list: [
-            "Thanh xuân là tất cả sức mạnh của ta!",
-            "Dù ta có chết, ý chí thanh xuân vẫn sống mãi!",
-            "Ta là Might Guy – người đàn ông rực cháy nhất Làng Lá!",
+            "Một bài học không có đau đớn thì vô nghĩa! Vì thế, hãy rèn luyện trái tim và cơ thể cho đến khi cả hai cùng gào thét! Đó mới là tinh túy của tuổi trẻ!",
+            "Đừng để tuổi trẻ phai nhạt! Hãy giữ ngọn lửa đam mê luôn rực cháy!",
+            "Ta là Might Guy - Mãnh Hổ Ngọc Bích của Làng Lá!",
             "Đừng bao giờ từ bỏ, kể cả khi cơ thể không còn nghe lời!",
-            "Cổng thứ tám – Tử Môn, khai mở!"
+            "Dù ta có chết đi, chỉ cần ngọn lửa tuổi trẻ vẫn cháy sáng, ta vẫn sẽ sống mãi trong trái tim họ!"
         ],
         skills: {
             main: [
@@ -891,11 +1136,10 @@ window.charactersData = [
                 iconUrl: 'img/skill_icons/guy_special.png'
             }]
         },
-        trangsuc: ['Hồng Liên', 'Chiến Hồn'],
-        thechieny: ['Bảng Bài Thuật', 'Song Cực Lạc Thiên'],
+        trangsuc: ['6 Hồng Liên'],
+        thechieny: ['Lôi Lê Nhiệt Đao', 'Song Cực Lạc Thiên', 'Sức Mạnh Ấn Chú/Kiệt Ngao Nhận', '...'],
         doihinh: ['Thổ Thuần', 'Thuỷ Thổ'],
         haocam: ['a', 'b', 'c'],
-
     }, ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
         id: 'pain_animal_ss',
@@ -905,7 +1149,8 @@ window.charactersData = [
         info: 'Một trong Lục Đạo Pain, chuyên về Triệu Hồi Thuật. Nhân vật này có thể triệu hồi nhiều loại động vật khổng lồ và có cánh để phục vụ cho cả tấn công lẫn di chuyển.',
         imgUrl: 'img/sucsinhdao.png',
         tuchat: 'SS',
-        village: ['Làng Mưa', 'Akatsuki', 'Rinnegan', 'Pain Lục Đạo']
+        village: ['Làng Mưa', 'Akatsuki', 'Rinnegan', 'Pain Lục Đạo'],
+        full_name: 'Pain (Súc Sinh Đạo)',
     },
     {
         id: 'itachi2',
@@ -915,7 +1160,8 @@ window.charactersData = [
         info: 'Thiên tài của tộc Uchiha và thành viên Akatsuki. Anh sở hữu Mangekyou Sharingan, sử dụng Ảo thuật mạnh mẽ (Tsukuyomi) và Hỏa thuật tối thượng (Amaterasu) thiêu đốt mọi thứ.',
         imgUrl: 'img/itachi.png',
         tuchat: 'SS+',
-        village: ['Làng Lá', 'Akatsuki', 'Uchiha']
+        village: ['Làng Lá', 'Akatsuki', 'Uchiha'],
+        full_name: 'Uchiha Itachi',
     },
     {
         id: 'sage_kabuto_ss_plus',
@@ -925,7 +1171,8 @@ window.charactersData = [
         info: 'Kabuto đạt được Tiên Nhân Thuật sau khi cấy ghép DNA của Orochimaru. Anh có khả năng sử dụng Senjutsu, khả năng hấp thụ tự nhiên và nhẫn thuật mạnh mẽ, cùng với Uế Thổ Chuyển Sinh được cải tiến.',
         imgUrl: 'img/tiennhankabuto.png',
         tuchat: 'SS+',
-        village: ['Làng Âm Thanh']
+        village: ['Làng Âm Thanh'],
+        full_name: 'Tiên Nhân Kabuto',
     },
     {
         ///////////////////////////////////////////////////////////////////////////// -SENJU HASHIRAMA-//////////////////////////////////////////////////////////////////////////////////////
@@ -1039,7 +1286,8 @@ window.charactersData = [
         info: 'Thành viên nữ duy nhất của Akatsuki, người bạn thời thơ ấu của Nagato và Yahiko. Cô là bậc thầy về thuật hóa giấy, có thể biến cơ thể thành hàng triệu mảnh giấy sắc bén.',
         imgUrl: 'img/konanSS.jpg',
         tuchat: 'SS+',
-        village: ['Làng Mưa', 'Akatsuki']
+        village: ['Làng Mưa', 'Akatsuki'],
+        full_name: 'Konan',
     },
     {
         id: 'asuma',
@@ -1049,7 +1297,8 @@ window.charactersData = [
         info: 'Jounin và là thầy của đội 10. Anh là chiến binh mạnh mẽ, chuyên sử dụng chakra hệ Phong và Lưỡi Dao Chakra để tăng cường sát thương trong cận chiến.',
         imgUrl: 'img/asumaS.png',
         tuchat: 'S',
-        village: ['Làng Lá', 'Đới Đao']
+        village: ['Làng Lá', 'Đới Đao'],
+        full_name: 'Sarutobi Asuma',
     },
     {
         id: 'itachi',
@@ -1059,7 +1308,8 @@ window.charactersData = [
         info: 'Itachi trong thời kỳ là đội trưởng ANBU, thể hiện khả năng sử dụng Ảo thuật cao cường. Anh là thiên tài của tộc Uchiha, luôn làm nhiệm vụ trong bí mật vì lợi ích của Làng Lá.',
         imgUrl: 'img/itachiSS.png',
         tuchat: 'SS',
-        village: ['Làng Lá', 'ANBU', 'Uchiha', 'Đới Đao']
+        village: ['Làng Lá', 'ANBU', 'Uchiha', 'Đới Đao'],
+        full_name: 'Uchiha Itachi [ANBU]',
     },
     {
         id: 'oro',
@@ -1069,7 +1319,8 @@ window.charactersData = [
         info: 'Một trong Tam Nin Huyền Thoại. Hắn ta ám ảnh với cấm thuật và sự bất tử, sử dụng các nhẫn thuật liên quan đến Xà và khả năng thay đổi cơ thể, đóng vai trò là thiên tài nghiên cứu và gián điệp.',
         imgUrl: 'img/orochimaruSS.png',
         tuchat: 'SS',
-        village: ['Làng Lá', 'Làng Âm Thanh', 'Ấn Chú']
+        village: ['Làng Lá', 'Làng Âm Thanh', 'Ấn Chú'],
+        full_name: 'Orichimaru',
     },
     {
         id: 'mifune_ss_plus',
@@ -1079,7 +1330,8 @@ window.charactersData = [
         info: 'Tướng lĩnh của Vùng Đất Sắt (Thiết Quốc), một kiếm khách Samurai phi thường. Khả năng kiếm thuật của ông đạt đến trình độ tinh hoa, có thể chém xuyên qua nhẫn thuật và sử dụng kỹ thuật Iaidō siêu nhanh.',
         imgUrl: 'img/mifune.png',
         tuchat: 'SS+',
-        village: ['Đới Đao']
+        village: ['Đới Đao'],
+        full_name: 'Mifune',
     },
     {
         id: 'gaara2',
@@ -1089,7 +1341,8 @@ window.charactersData = [
         info: 'Kazekage Đệ Ngũ. Anh đã làm chủ hoàn toàn khả năng điều khiển cát, tạo ra khả năng phòng thủ vô song và sử dụng cát như vũ khí chiến lược trên phạm vi rộng.',
         imgUrl: 'img/gaara2.png',
         tuchat: 'SS+',
-        village: ['Làng Cát', 'Kage']
+        village: ['Làng Cát', 'Kage'],
+        full_name: 'Gaara [Kazekage]',
     },
     {
         id: 'suigetsu_s',
@@ -1099,7 +1352,8 @@ window.charactersData = [
         info: 'Suigetsu là thành viên của đội Taka, được mệnh danh là "Ác Ma Tái Sinh". Anh có khả năng biến cơ thể thành nước (Thủy Hóa), giúp miễn nhiễm với nhiều đòn tấn công vật lý và sử dụng thanh Đại Đao Kubikiribocho.',
         imgUrl: 'img/suigetsuS.png',
         tuchat: 'S',
-        village: ['Làng Sương Mù', 'Đới Đao']
+        village: ['Làng Sương Mù', 'Đới Đao'],
+        full_name: 'Hozuki Suigetsu',
     },
     {
         id: 'neji2',
@@ -1109,7 +1363,8 @@ window.charactersData = [
         info: 'Thiên tài Hyuga sử dụng Bát Quái Chưởng và Hồi Thiên mạnh mẽ trong Đại chiến Ninja lần 4. Anh chiến đấu vì đồng đội, bảo vệ Naruto bằng mọi giá.',
         imgUrl: 'img/nejiSSS.jpg',
         tuchat: 'SSS',
-        village: ['Làng Lá', 'Đại Chiến Ninja']
+        village: ['Làng Lá', 'Đại Chiến Ninja'],
+        full_name: 'Neji [Đại Chiến]',
     },
     {
         id: 'gengetsu_edo_sss',
@@ -1119,7 +1374,8 @@ window.charactersData = [
         info: 'Mizukage Đệ Nhị được Uế Thổ Chuyển Sinh. Ông có khả năng sử dụng Ảo Thuật và các kỹ thuật Thuỷ độ độc đáo như Hơi Nước Bùng Nổ và Triệu Hồi Thần Đăng.',
         imgUrl: 'img/gengetsuSSS.png',
         tuchat: 'SSS',
-        village: ['Làng Sương Mù', 'Kage', 'Uế Thổ']
+        village: ['Làng Sương Mù', 'Kage', 'Uế Thổ'],
+        full_name: 'Hozuki Gengetsu',
     },
     {
         id: 'tobirama_wandering_sss_plus',
@@ -1129,7 +1385,8 @@ window.charactersData = [
         info: 'Phiên bản Hokage Đệ Nhị có sức mạnh và tốc độ Phi Lôi Thần Thuật được tối ưu hóa. Ông là một chiến lược gia lỗi lạc và là ninja Thuỷ độ mạnh nhất mọi thời đại.',
         imgUrl: 'img/tobiramaPhieuBat.png',
         tuchat: 'SSS+',
-        village: ['Làng Lá', 'Kage', 'Đới Đao']
+        village: ['Làng Lá', 'Kage', 'Đới Đao'],
+        full_name: 'Senju Tobirama',
     },
     {///////////////////////////////////////////////////////////////////////////-ZETSU-//////////////////////////////////////////////////////////////////////////////////////////////
         id: 'zetsu',
@@ -1140,7 +1397,7 @@ window.charactersData = [
         imgUrl: 'img/zetsu.png',
         tuchat: '???',
         village: ['Akatsuki'],
-        full_name: 'Zetsu',
+        full_name: 'Hắc Bạch Zetsu',
         age: '???',
         birthday: '???',
         birthplace: 'Ý Chí Của Kagugya (Hắc Zetsu), Tế Bào Hashirama (Bạch Zetsu)',
