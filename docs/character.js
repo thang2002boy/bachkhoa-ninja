@@ -28,7 +28,7 @@ function createDetailTable(char) {
         { title: '<b>Thông linh thú</b>', value: char.summon || 'N/A' },
         { title: '<b>Mối Quan Hệ</b>', value: char.relationships || 'N/A' },
         { title: '<b>Kỹ năng Đặc Trưng</b>', value: char.unique_skill || 'N/A' },
-        // { title: '<b>Số Đo 3 Vòng (Nữ)</b>', value: char.bust_waist_hip || 'N/A' },  nếu là nhân vật nữ (Giới Tính: char.gender = nữ) thì mở comment code ra
+        { title: '<b>Số Đo 3 Vòng (Nhân Vật Nữ)</b>', value: char.bust_waist_hip || 'N/A' },  
         { title: '<b>Vũ Khí</b>', value: char.weapon || 'N/A' },
         { title: '<b>Phong Cách Chiến Đấu</b>', value: char.fighting_style || 'N/A' },
     ];
