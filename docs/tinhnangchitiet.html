@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Năng - Bách Khoa Toàn Thư Ninja</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Inter:wght@400;600;800&display=swap">
+    
+    <style>
+        .title-font {
+            font-family: 'Oswald', sans-serif;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-image: url('img/full__big.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            /* Điều chỉnh padding-top để tránh bị header che mất nội dung */
+            padding-top: 64px; 
+        }
+
+        .main-content-area {
+            /* Nền trắng mờ 85% */
+            background-color: rgba(255, 255, 255, 0.85); 
+            min-height: calc(100vh - 64px);
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+
+        /* Quy tắc cho Thẻ Tính Năng */
+        .feature-card {
+            overflow: hidden;
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            cursor: pointer;
+            position: relative; 
+            padding: 0; 
+        }
+
+        /* Hiệu ứng Hover (Lấy từ character-card:hover) */
+        .feature-card:hover {
+            box-shadow: 0 15px 30px rgba(249, 115, 22, 0.4),
+                0 4px 10px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px) scale(1.03);
+        }
+
+        /* Kỹ thuật Padding Hack để tạo tỉ lệ 4:3 */
+        .aspect-ratio-box {
+            width: 100%;
+            padding-top: 75%; /* Tỉ lệ 3/4 = 75% */
+            position: relative;
+        }
+
+        /* Nội dung chiếm toàn bộ diện tích của aspect-ratio-box */
+        .aspect-ratio-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Bổ sung quy tắc làm nổi bật trang hiện tại */
+        .current-page {
+            /* Vẫn giữ màu amber cho trang hiện tại */
+            background-color: #f97316 !important; /* Dùng !important để ưu tiên hơn hover */
+            color: white !important;
+            /* Tăng nhẹ hiệu ứng bóng hoặc scale để phân biệt */
+            box-shadow: 0 0 10px rgba(249, 115, 22, 0.5);
+        }
+
+        /* Các quy tắc khác */
+        .rank-font {
+            font-family: 'Oswald', sans-serif;
+            text-shadow:
+                1px 1px 0 #000,
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000;
+            color: #f97316 !important;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="fixed top-0 left-0 w-full z-20 bg-black/20 backdrop-blur-sm shadow-xl">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-end md:justify-center h-16">
+                <div class="hidden md:block">
+                    <ul class="flex space-x-4">
+                        <li><a href="index.html"
+                                class="text-white hover:current-page px-3 py-2 rounded-lg text-sm font-medium transition duration-300">TRANG
+                                CHỦ</a></li>
+                        <li><a href="huong-dan.html"
+                                class="text-white hover:current-page px-3 py-2 rounded-lg text-sm font-medium transition duration-300">HƯỚNG
+                                DẪN</a></li>
+                        <li><a href="tinhnang.html"
+                                class="text-white current-page px-3 py-2 rounded-lg text-sm font-medium transition duration-300">TÍNH
+                                NĂNG</a></li>
+                        <li><a href="https://beacons.ai/emthang36"
+                                class="text-white hover:current-page px-3 py-2 rounded-lg text-sm font-medium transition duration-300">EM
+                                THĂNG 36
+                            </a></li>
+                    </ul>
+                </div>
+                <button id="mobile-menu-button" type="button"
+                    class="md:hidden p-2 text-white hover:text-gray-100 focus:outline-none" aria-expanded="false"
+                    onclick="toggleMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="w-6 h-6">
+                        <line x1="4" x2="20" y1="12" y2="12" />
+                        <line x1="4" x2="20" y1="6" y2="6" />
+                        <line x1="4" x2="20" y1="18" y2="18" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <div class="md:hidden" id="mobile-menu" style="display: none;">
+            <ul class="pt-2 pb-3 space-y-1 px-2 bg-gray-900/95">
+                <li><a href="index.html"
+                        class="block text-white hover:current-page px-3 py-2 rounded-md text-base font-medium">TRANG
+                        CHỦ</a></li>
+                <li><a href="huong-dan.html"
+                        class="block text-white hover:current-page px-3 py-2 rounded-md text-base font-medium">HƯỚNG
+                        DẪN</a></li>
+                <li><a href="tinhnang.html"
+                        class="block current-page text-white px-3 py-2 rounded-md text-base font-medium">TÍNH
+                        NĂNG</a></li>
+                <li><a href="https://beacons.ai/emthang36"
+                        class="block text-white hover:current-page px-3 py-2 rounded-md text-base font-medium">EM THĂNG
+                        36
+                    </a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main-content-area">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <h1 class="text-5xl font-extrabold text-gray-900 mb-10 text-center border-b-4 pb-4 border-amber-500 title-font">
+            ❤️ TOÀN BỘ VẬT PHẨM HẢO CẢM 
+        </h1>
+        <p class="text-xl text-center text-gray-600 mb-8">
+            Tìm kiếm vật phẩm Hảo Cảm theo tên hoặc lọc theo phẩm chất (Lam, Tím, Vàng).
+        </p>
+        
+        <div class="bg-white p-6 rounded-xl shadow-lg mb-12">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+                <div class="lg:col-span-2">
+                    <input type="text" id="search-input" placeholder="Tìm kiếm vật phẩm theo tên..."
+                           class="w-full p-3 border border-gray-300 rounded-lg focus:ring-amber-500 focus:border-amber-500">
+                </div>
+                
+                <div class="flex space-x-4 justify-end">
+                    <button data-quality="All" class="filter-btn bg-gray-200 text-gray-800 font-semibold py-2 px-4 rounded-lg hover:bg-gray-300 transition duration-150">Tất Cả</button>
+                    <button data-quality="Lam" class="filter-btn bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-150">Lam</button>
+                    <button data-quality="Tím" class="filter-btn bg-purple-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-purple-600 transition duration-150">Tím</button>
+                    <button data-quality="Vàng" class="filter-btn bg-yellow-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-yellow-600 transition duration-150">Vàng</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="item-grid" class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4">
+            </div>
+
+    </div>
+</div>
+
+<script src="tinhnangchitiet.js"></script>

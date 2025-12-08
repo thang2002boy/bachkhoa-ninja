@@ -170,6 +170,15 @@ window.charactersData = [
         thechieny: ['Bảng Bài Thuật','Sức Mạnh Ấn Chú', 'Song Cực Lạc Thiên', '...'],
         doihinh: ['Lôi Hoả Uchiha', 'Thuần Lôi', 'Lôi Hoả Akatsuki', '...'],
         haocam: ['Mặt Nạ Hô Hấp', 'Bùa Nổ', 'Giáp Dã Man'],
+        fates: [
+            { type: 'Duyên', name: 'Truy Tìm Chân Tướng', condition: 'Đồng thời có <b>Itachi</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Chém Đứt Duyên', condition: 'Đồng thời có <b>Tiên Nhân Naruto</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Báo Thù Rửa Hận', condition: 'Đồng thời có <b>Danzo Shimura</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Gánh Vác Nỗi Hận', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Huyết Tục Giới Hạn</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Ý Chí Hắc Ám', condition: 'Trang Bị Thức Tỉnh: Sách <b>Lôi Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Sharingan Kính Vạn Hoa', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Kusanagi [Đội Taka]</b>', effect: 'Bí Kĩ: <b>Thiên Chiếu</b> thành <b>MAX.Thiên Chiếu</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Orochimaru</b> và <b>Sasuke</b>' }
+        ],
     },
     {
         id: 'choji',
@@ -257,6 +266,15 @@ window.charactersData = [
         thechieny: ['Lôi Lê Nhiệt Đao','Mộc Nhân Thuật','<Thẻ 7 sao>', '...'],
         doihinh: ['Thuần Phong', 'Làng Lá', 'Gia Đình (Naruto & Kushina)', '...'],
         haocam: ['?', '?', '?'],
+        fates: [
+            { type: 'Duyên', name: 'Cặp Đôi', condition: 'Đồng thời có <b>Kushina</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Kế Thừa Ý Chí', condition: 'Đồng thời có <b>Tiên Nhân Naruto</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Cùng Là Hokage', condition: 'Đồng thời có <b>Senju Tobirama</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Ánh Sáng Vàng', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Kage</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Hokage Đệ Tứ', condition: 'Trang Bị Thức Tỉnh: Sách <b>Phong Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Thuật Thần Phi Lôi', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Kunai Phi Lôi Thần</b>', effect: 'Bí Kĩ: <b>Thời Không.Loa Toàn Liên Hoàn</b> thành <b>MAX.Thời Không.Loa Toàn Liên Hoàn</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Tiên Nhân Jiraiya</b> và <b>Itachi</b>' }
+        ],
     },
     {
         id: 'jugo',
@@ -401,7 +419,16 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên'],
         thechieny: ['Lôi Lê Nhiệt Đao','Mộc Nhân Thuật','<Thẻ 7 sao>','Sức Mạnh Ấn Chú/Kiệt Ngao Nhận','...'],
         doihinh: ['Thuần Lôi', 'ST Khắc Chế', '...'],
-        haocam: ['?', '?', '?'],
+        haocam: ['Thuốc Giải Độc', 'Độc Châm Ám Khí', 'Mặt Nạ Hổ Vằn'],
+        fates: [
+            { type: 'Duyên', name: 'Đao Quang Kiếm Ảnh', condition: 'Đồng thời có <b>Mifune</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Đối Thủ Vĩnh Viễn', condition: 'Đồng thời có <b>Guy [Kinh Môn]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Ân Thù Dứt Khoát', condition: 'Đồng thời có <b>Tobirama [Phiêu Bạc]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Ninja Sao Chép', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Nhẫn Thuật</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Trí Tuệ Chiến Đấu', condition: 'Trang Bị Thức Tỉnh: Sách <b>Lôi Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Hiệp Ảnh Giang Hồ', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Ngục Nha Song Nhận</b>', effect: 'Bí Kĩ: <b>Tâm Kỹ Hợp Nhất.Ảo Ảnh Sát</b> thành <b>MAX.Tâm Kỹ Hợp Nhất.Ảo Ảnh Sát</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Sasuke [Taka]</b> và <b>Kakashi [Đại Chiến]</b>' }
+        ],
     },
     {
         id: 'naruto4',
@@ -431,6 +458,15 @@ window.charactersData = [
         thechieny: ['Song Cực Lạc Thiên','Bảng Bài Thuật','Sức Mạnh Ấn Chú/Kiệt Ngao Nhận','...'],
         doihinh: ['Thú Hóa Jinchuriki', 'Thuần Hỏa', 'Hỏa Lôi', 'Phong Hỏa Jinchuriki', 'Gia Đình (Minato & Kushina)', '...'],
         haocam: ['Viên Ớt','Cú Mèo Thông Linh','Shuriken Xiềng Xích'],
+        fates: [
+            { type: 'Duyên', name: 'Quyết Đấu Tàn Khốc', condition: 'Đồng thời có <b>Orochimaru</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Đều Là Jinchuriki', condition: 'Đồng thời có <b>Killer Bee</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Đánh Mất Lý Trí', condition: 'Đồng thời có <b>Naruto [Nhất Vĩ]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Charka Bùng Nổ', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Jinchuriki</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Áo Ngoài Vĩ Thú', condition: 'Trang Bị Thức Tỉnh: Sách <b>Hỏa Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Sức Mạnh Yêu Hồ', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Sức Mạnh Vĩ Thú</b>', effect: 'Bí Kĩ: <b>Vĩ Thú Ngọc</b> thành <b>MAX.Vĩ Thú Ngọc</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Naruto [Nhất Vĩ]</b> và <b>Killer Bee</b>' }
+        ],
     },
     {
         id: 'konan2',
@@ -459,7 +495,16 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên'],
         thechieny: ['Hồn Võ Sĩ', 'Sức Mạnh Ấn Chú', 'Kiệt Ngao Nhận', '<Thẻ 7 sao>...'],
         doihinh: ['Siêu Nữ', 'Thuần Phong', '...'],
-        haocam: ['?', '?', '?'],
+        haocam: ['Găng Ninja', 'Mũ Trùm Ninja', 'Mặt Nạ Thần Bí'],
+        fates: [
+            { type: 'Duyên', name: 'Ký Thác Hy Vọng', condition: 'Đồng thời có <b>Naruto [Charka Cửu Vĩ]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Nguồn Sức Mạnh', condition: 'Đồng thời có <b>Uchiha Madara</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Bạn Bè Trọn Đời', condition: 'Đồng thời có <b>Pain</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Sức Mạnh Lục Đạo', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Nhẫn Thuật</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Hồi Sinh Luân Hồi', condition: 'Trang Bị Thức Tỉnh: Sách <b>Hỏa Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Hắc Mặc Charka', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Hắc Mặc Charka</b>', effect: 'Bí Kĩ: <b>Địa Bạo Thiên Tinh.Bắn Hủy Diệt</b> thành <b>MAX.Địa Bạo Thiên Tinh.Bắn Hủy Diệt</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Konan</b> và <b>Naruto Tiên Nhân</b>' }
+        ],
     },
     {
         id: 'kakashi_w_war',
@@ -489,6 +534,15 @@ window.charactersData = [
         thechieny: ['Sức Mạnh Ấn Chú','Kiệt Ngao Nhận','<Thẻ 7 Sao>','...'],
         doihinh: ['Thuần Lôi','ST Khắc Chế', '...'],
         haocam: ['Giày Đế Bằng', 'Khung Tình Bạn', 'Kusarigama'],
+        fates: [
+            { type: 'Duyên', name: 'Đối Thủ Vĩnh Viễn', condition: 'Đồng thời có <b>Guy [Kinh Môn]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Kề Vai Chiến Đấu', condition: 'Đồng thời có <b>Naruto [Charka Cửu Vĩ]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Trận Chiến Định Mệnh', condition: 'Đồng thời có <b>?</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Ninja Sao Chép', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Nhẫn Thuật</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Trí Tuệ Chiến Đấu', condition: 'Trang Bị Thức Tỉnh: Sách <b>Lôi Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Thần Uy', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Áo Chiến Tổn</b>', effect: 'Bí Kĩ: <b>Thần Uy.Tài Quyết</b> thành <b>MAX.Thần Uy.Tài Quyết</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Deidara</b> và <b>Darui</b>' }
+        ],
     },
     {
         id: 'kushina',
@@ -518,6 +572,15 @@ window.charactersData = [
         thechieny: ['Sa Kim Hộ Thể','Thổ Cố Thủ','Kế Thừa Ý Chí','...'],
         doihinh: ['Gia Đình (Minato & Naruto)','Jinchuriki Thú Hóa', '...'],
         haocam: ['?', '?', '?'],
+        fates: [
+            { type: 'Duyên', name: 'Cặp Đôi', condition: 'Đồng thời có <b>Namikaze Minato</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Ký Gửi Giấc Mơ', condition: 'Đồng thời có <b>Naruto [Charka Cửu Vĩ]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Tộc Xoắn Ốc', condition: 'Đồng thời có <b>Nagato</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Không Chịu Thua', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Jinchuriki</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Hoạt Bát', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thể Thuật</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Jinchuriki Cửu Vĩ', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Xích Kim Cang</b>', effect: 'Bí Kĩ: <b>Bạo Quân.Ớt Đỏ</b> thành <b>MAX.Bạo Quân.Ớt Đỏ</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Tiên Nhân Naruto</b> và <b>Tsunade</b>' }
+        ],
     },
     {
         id: 'killer_bee_v2',
@@ -595,7 +658,7 @@ window.charactersData = [
             { type: 'Huy Chương', name: 'Tôn Thờ Sức Mạnh', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Huyết Tục Giới Hạn</b>', effect: 'HP <b>+15%</b>' },
             { type: 'Sách', name: 'Kẻ Dã Tâm', condition: 'Trang Bị Thức Tỉnh: Sách <b>Hoả Độn</b>', effect: 'Công <b>+15%</b>' },
             { type: 'Vũ Khí', name: 'Susanoo Hoàn Chỉnh', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Diệm Đoàn Phiến</b>', effect: 'Bí Kĩ: <b>Uy Trang Susanoo</b> thành <b>MAX.Uy Trang Susanoo</b>' },
-            { type: 'Duyên Ngầm', name: '<b>Itachi</b> và <b>Shishui</b>' }
+            { type: 'Duyên Ngầm', name: '<b>Itachi</b> và <b>Uchiha Shishui</b>' }
         ],
         quotes_list: [
             "Thế giới này chỉ toàn là dối trá.",
@@ -736,6 +799,15 @@ window.charactersData = [
         thechieny: ['Song Cực Lạc Thiên','<Thẻ 7 Sao>','...'],
         doihinh: ['Lôi Hỏa Uchiha','Thuần Lôi','Đới Đao','...'],
         haocam: ['Mặt Nạ Hô Hấp','Bùa Nổ','Mặt Nạ Thần Bí'],
+        fates: [
+            { type: 'Duyên', name: 'Đối Đầu Định Mệnh', condition: 'Đồng thời có <b>Naruto [Charka Cửu Vĩ]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Sharingan Kính Vạn Hoa', condition: 'Đồng thời có <b>Uchiha Itachi [Susanoo]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Tộc Uchiha', condition: 'Đồng thời có <b>Uchiha Madara</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Báo Thù Ám Ảnh', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Huyết Tục Giới Hạn</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Thức Tỉnh Đồng Thuật', condition: 'Trang Bị Thức Tỉnh: Sách <b>Lôi Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Susanoo', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Khung Xương Susanoo</b>', effect: 'Bí Kĩ: <b>Susanoo.Quán</b> thành <b>MAX.Susanoo.Quán</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Sasuke [Taka]</b> và <b>Itachi</b>' }
+        ],
     },
     {
         id: 'lee',
@@ -794,6 +866,15 @@ window.charactersData = [
         thechieny: ['Song Cực Lạc Thiên','Sức Mạnh Ấn Chú','Kiệt Ngao Nhận','...'],
         doihinh: ['Thuần Hỏa','Lôi Hỏa Akatsuki','Thủy Hỏa','Team Cơ Bản','...'],
         haocam: ['Thuốc Giải Độc','Áo Ấm','Phóng Châm'],
+        fates: [
+            { type: 'Duyên', name: 'Cùng Là Nhà Nghệ Thuật', condition: 'Đồng thời có <b>Sasori</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Phối Hợp Gây Cười', condition: 'Đồng thời có <b>Tobi</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Tổ Chức Akatsuki', condition: 'Đồng thời có <b>Konan</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Si Mê Nghệ Thuật', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Nhẫn Thuật</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Bạo Độn Của Ta', condition: 'Trang Bị Thức Tỉnh: Sách <b>Hỏa Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Đất Sét Phát Nổ', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Đất Sét Phát Nổ</b>', effect: 'Bí Kĩ: <b>C3</b> thành <b>MAX.C3</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Sasuke</b> và <b>Sasuke [Ấn Chú]</b>' }
+        ],
     },
     {
         id: 'kiba',
@@ -910,6 +991,15 @@ window.charactersData = [
         thechieny: ['Song Cực Lạc Thiên','<Thẻ 7 Sao>','...'],
         doihinh: ['Siêu Truy Kích','Thuần Lôi','EXODIA','...'],
         haocam: ['Găng Ninja','Mũ Trùm Ninja','Mặt Nạ Thần Bí'],
+        fates: [
+            { type: 'Duyên', name: 'Thao Túng Sinh Tử', condition: 'Đồng thời có <b>Nagato</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Rinnegan', condition: 'Đồng thời có <b>?</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Tâm Nguyện Hòa Bình', condition: 'Đồng thời có <b>Madara [Mặt Nạ Trắng]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: '6 Người Như 1', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Bí Thuật</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Lục Đạo Luân Hồi', condition: 'Trang Bị Thức Tỉnh: Sách <b>Lôi Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Thiên Đạo Luân Hồi', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Gậy Charka</b>', effect: 'Bí Kĩ: <b>Lục Đạo Luân Hồi</b> thành <b>MAX.Lục Đạo Luân Hồi</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Kakashi [Đại Chiến]</b> và <b>Pain</b>' }
+        ],
     },
     {
         id: 'killer_bee',
@@ -1055,6 +1145,15 @@ window.charactersData = [
         thechieny: ['Song Cực Lạc Thiên','Sức Mạnh Ấn Chú','Kiệt Ngao Nhận','...'],
         doihinh: ['Thuần Lôi/Phong/Thổ,Hỏa,Thủy','Lôi Hỏa Akatsuki','ST Khắc Chế','Team Cơ Bản','...'],
         haocam: ['Mặt Nạ Phòng Độc','Rối Luyện Tập','Sợi Charka'],
+        fates: [
+            { type: 'Duyên', name: 'Nhóm 2 Người Bất Tử', condition: 'Đồng thời có <b>Hidan</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Giàu Có Một Phương', condition: 'Đồng thời có <b>Konan</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Akatsuki Sinh Ra', condition: 'Đồng thời có <b>Pain</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: '5 Quả Tim', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Bí Thuật</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Chế Độ Địa Oán Ngu', condition: 'Trang Bị Thức Tỉnh: Sách <b>Lôi Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Địa Oán Ngu Bí Thuật', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Mặt Nạ Quái Vật</b>', effect: 'Bí Kĩ: <b>Địa Oán Ngu.Bắn Cuối</b> thành <b>MAX.Địa Oán Ngu.Bắn Cuối</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Kakashi</b> và <b>Naruto</b>' }
+        ],
     },
     {
         id: 'nagato',
@@ -1083,7 +1182,7 @@ window.charactersData = [
         trangsuc: ['6 Kiên Thạch'],
         thechieny: ['Tăng Ý Chí','Ý Trừng Phạt','<Thẻ 7 Sao>','...'],
         doihinh: ['Siêu Truy Kích','Hỏa Akatsuki','EXODIA','...'],
-        haocam: ['?','?','?'],
+        haocam: ['Mặt Nạ Phòng Độc','Rối Luyện Tập','Dao Tập Kích'],
     },
     {
         id: 'neji',
@@ -1200,6 +1299,15 @@ window.charactersData = [
         thechieny: ['Truy Mệnh Khô Huyết','<Thẻ 7 Sao>','...'],
         doihinh: ['Siêu Truy Kích','Lôi Hỏa Akatsuki','...'],
         haocam: ['Thảm Nhện','Túi Nhẫn Cụ','Vòng Tay Charka'],
+        fates: [
+            { type: 'Duyên', name: 'Sức Mạnh Lục Đạo I', condition: 'Đồng thời có <b>Súc Sinh Đạo</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Sức Mạnh Lục Đạo II', condition: 'Đồng thời có <b>Tu La Đạo</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Luân Hồi Đau Khổ', condition: 'Đồng thời có <b>Nagato</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: '6 Người Như 1', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Kage</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Lục Đạo Luân Hồi', condition: 'Trang Bị Thức Tỉnh: Sách <b>Lôi Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Thiên Đạo Luân Hồi', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Nhẫn Quy Linh</b>', effect: 'Bí Kĩ: <b>Địa Bạo Thiên Tinh</b> thành <b>MAX.Địa Bạo Thiên Tinh</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Súc Sinh Đạo</b> và <b>Tu La Đạo</b>' }
+        ],
     },
     {
         id: 'hinata',
@@ -1316,6 +1424,15 @@ window.charactersData = [
         thechieny: ['Truy Mệnh Khô Huyết','Sa Kim Hộ Thể','Lốc Xoáy Kim Cang','...'],
         doihinh: ['Thuần Thổ','Thủy Thổ','Thể Thuật','...'],
         haocam: ['Viên Charka','Khung Tình Bạn','Đạn Sương Mù'],
+        fates: [
+            { type: 'Duyên', name: 'Đối Thủ Vĩnh Viễn', condition: 'Đồng thời có <b>Kakashi [Đại Chiến]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Tinh Tinh Tương Thích', condition: 'Đồng thời có <b>Hoshigaki Kisame</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Thể Thuật và Đao Pháp', condition: 'Đồng thời có <b>Mifune</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Quyền Quyền Đáo Nhục', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Sức Mạnh</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Thuấn Bộ Thân Pháp', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thể Thuật</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Dã Thú Trời Xanh', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Bát Môn Độn Giáp</b>', effect: 'Bí Kĩ: <b>Trú Hổ</b> thành <b>MAX.Trú Hổ</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Guy</b> và <b>Hoshigaki Kisame</b>' }
+        ],
     },
     {
         id: 'sasuke_cursemark',
@@ -1489,7 +1606,16 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên','4 Kiên Thạch 2 Chiến Hồn'],
         thechieny: ['Song Cực Lạc Thiên','Hồn Võ Sĩ','Sa Kim Hộ Thể','...'],
         doihinh: ['Thuần Phong','Làng Lá','EXODIA','...'],
-        haocam: ['?','?','?'],
+        haocam: ['Thuốc Giải Độc','Độc Châm Ám Khí','Mặt Nạ Hổ Vằn'],
+        fates: [
+            { type: 'Duyên', name: 'Ảo Thuật Mạnh Nhất', condition: 'Đồng thời có <b>Uchiha Shishui</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Đồng Thuật Cùng Cực', condition: 'Đồng thời có <b>Sasuke [Susanoo]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Tranh Giành Quyền Lực', condition: 'Đồng thời có <b>Sarutobi Hiruzen [Uế Thổ]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Thủ Đoạn Thống Trị', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Huyết Tục Giới Hạn</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Kẻ Dã Tâm', condition: 'Trang Bị Thức Tỉnh: Sách <b>Phong Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Tế Bào Trụ', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Cài Đặt Phong Ấn</b>', effect: 'Bí Kĩ: <b>Tứ Tưởng Phong Ấn Thuật</b> thành <b>MAX.Tứ Tưởng Phong Ấn Thuật</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Itachi ANBU</b> và <b>Itachi</b>' }
+        ],
     },
     {
         id: 'yamato',
@@ -1548,6 +1674,15 @@ window.charactersData = [
         thechieny: ['Song Cực Lạc Thiên','Sinh Mệnh Phong Tồn','<Thẻ 7 Sao>','Lốc Xoáy Kim Cang','...'],
         doihinh: ['Thuần Hỏa','Lôi Hỏa Akatsuki','...'],
         haocam: ['Băng Huấn Luyện','Sáo Ma','Cung Nhện'],
+        fates: [
+            { type: 'Duyên', name: 'Nhóm Bất Tử', condition: 'Đồng thời có <b>Kakuzu</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Tổ Chức Akatsuki', condition: 'Đồng thời có <b>Sasori [Bách Cơ]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Truy Bắt Vĩ Thú', condition: 'Đồng thời có <b>Nii Yugito [Uế Thổ Chuyển Sinh]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Tà Thần Giáo', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Bí Thuật</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Sức Mạnh Lời Nguyền', condition: 'Trang Bị Thức Tỉnh: Sách <b>Hỏa Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Chấp Nhận Tử Vong', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Liềm [Sáng Lập Akatsuki]</b>', effect: 'Bí Kĩ: <b>Nghi Thức Nguyền Rủa</b> thành <b>MAX.Nghi Thức Nguyền Rủa</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Hidan</b> và <b>Sasori</b>' }
+        ],
     },
     {
         id: 'tsunade_bha',
@@ -1577,6 +1712,15 @@ window.charactersData = [
         thechieny: ['Hồn Võ Sĩ','Thổ Cố Thủ','Sức Mạnh Ấn Chú/Kiệt Ngao Nhận','<Thẻ 7 Sao>','...'],
         doihinh: ['Thuần Thổ','Kage','Thủy Thổ Kage','...'],
         haocam: ['Bình Rượu','Giày Cao Gót','Viên Tăng HP'],
+        fates: [
+            { type: 'Duyên', name: 'Tộc Senju', condition: 'Đồng thời có <b>Senju Hashirama</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Thầy Trò Kế Thừa', condition: 'Đồng thời có <b>Sakura [Đại Chiến]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Sannin Năm Xưa', condition: 'Đồng thời có <b>Orochimaru [Đại Chiến]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Quái Lực', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Kage</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Tinh Thông Y Thuật', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thổ Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Bách Hào Thuật', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Âm Phong Ấn Lực</b>', effect: 'Bí Kĩ: <b>Thống Thiên Cước.Cực Lạc Tịnh Thổ</b> thành <b>MAX.Thống Thiên Cước.Cực Lạc Tịnh Thổ</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Terumi Mei</b> và <b>Tsunade</b>' }
+        ],
     },
     {
         id: 'sakura',
@@ -1635,6 +1779,15 @@ window.charactersData = [
         thechieny: ['Sa Kim Hộ Thể','Lôi Lê Nhiệt Đao','Sinh Mệnh Phong Tồn','<Thẻ 7 Sao>','...'],
         doihinh: ['Uế Thổ Chuyển Sinh','Thuần Lôi','Kage','...'],
         haocam: ['Guốc Gỗ','Túi Nhẫn Cụ','Bùa Kết Giới'],
+        fates: [
+            { type: 'Duyên', name: 'Cha Con Raikage', condition: 'Đồng thời có <b>Raikage Đệ Tứ</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Thực Lực Kage', condition: 'Đồng thời có <b>Ohnoki</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Uế Thổ Chuyển Sinh', condition: 'Đồng thời có <b>Hozuki Gengetsu [Uế Thổ]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Sức Bền Đáng Sợ', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Kage</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Vóc Dáng Cường Tráng', condition: 'Trang Bị Thức Tỉnh: Sách <b>Lôi Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Hình Thức Charka Lôi Độn', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Áo Raikage Đệ Tam</b>', effect: 'Bí Kĩ: <b>Địa Ngục Đột Thích.Nhất Bản Quán Thủ</b> thành <b>MAX.Địa Ngục Đột Thích.Nhất Bản Quán Thủ</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Darui</b> và <b>Raikage Đệ Tứ</b>' }
+        ],
     },
     {
         id: 'karin_a',
@@ -1722,6 +1875,15 @@ window.charactersData = [
         thechieny: ['Song Cực Lạc Thiên','Hồn Võ Sĩ','Sức Mạnh Ấn Chú/Kiệt Ngao Nhận','...'],
         doihinh: ['Thuần Thủy','Thủy Thổ/Hỏa/Lôi/Độc','ST Khắc Chế','Kage','...'],
         haocam: ['Túi Trị Thương','Giày Cao Gót','Phụ Kiện Shiba'],
+        fates: [
+            { type: 'Duyên', name: 'Thân Tín Đắc Lực', condition: 'Đồng thời có <b>Chojuro</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Thực Lực Kage', condition: 'Đồng thời có <b>Ohnoki</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Nữ Trung Hào Kiệt', condition: 'Đồng thời có <b>Tsunade</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Phục Hưng Làng Sương Mù', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Kage</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Mizukage Đệ Ngũ', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thủy Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Dung Phí Đột Thuật', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Nón Mizukage</b>', effect: 'Bí Kĩ: <b>Dung Độn.Dung Giải Bạo Toan</b> thành <b>MAX.Dung Độn.Dung Giải Bạo Toan</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Hoshigaki Kisame</b> và <b>Hanzo</b>' }
+        ],
     },
     {
         id: 'kakashi',
@@ -1809,6 +1971,15 @@ window.charactersData = [
         thechieny: ['Song Cực Lạc Thiên','Sinh Mệnh Phong Tồn','Lôi Lê Nhiệt Đao','Mộc Nhân Thuật','Sức Mạnh Ấn Chú/Kiệt Ngao Nhận','...'],
         doihinh: ['Uế Thổ Chuyển Sinh','Jinchuriki Thú Hóa','Siêu Nữ','...'],
         haocam: ['Mặt Nạ Phòng Độc','Rối Luyện Tập','Sợi Charka'],
+        fates: [
+            { type: 'Duyên', name: 'Truy Bắt Vĩ Thú', condition: 'Đồng thời có <b>Hidan [Sáng Lập]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Đều Là Jinchuriki', condition: 'Đồng thời có <b>Deidara [Uế Thổ Chuyển Sinh]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Cảm Nhận Tình Yêu', condition: 'Đồng thời có <b>Kisame [Samehada Kết Hợp]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Hành Động Nhanh Nhẹn', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Jinchuriki</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Móng Vuốt Sắc Nhọn', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thể Thuật</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Bán Vĩ Thú Hóa', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Vuốt Hình Người</b>', effect: 'Bí Kĩ: <b>Matatabi.Vĩ Thú Ngọc</b> thành <b>MAX.Matatabi.Vĩ Thú Ngọc</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Kakuzu</b> và <b>Hidan</b>' }
+        ],
     },
     {
         id: 'naruto2',
@@ -1953,7 +2124,7 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên'],
         thechieny: ['Mộc Nhân Thuật','Hồn Võ Sĩ','<Thẻ 7 Sao>','...'],
         doihinh: ['Thuần Phong','Làng Lá','...'],
-        haocam: ['?','?','?'],
+        haocam: ['Viên Charka','Sáo Ma','Mặt Nạ Hổ Vằn'],
     },
     {
         id: 'shisui',
@@ -1982,7 +2153,16 @@ window.charactersData = [
         trangsuc: ['4 Kiên Thạch 2 Chiến Hồn','6 Kiên Thạch'],
         thechieny: ['Vụ Ảnh Tập Sát','<Thẻ 7 Sao>','Tu La Công','Chữa Trị Thể Năng','...'],
         doihinh: ['Hỏa Lôi Uchiha','Thuần Hỏa','...'],
-        haocam: ['?','?','?'],
+        haocam: ['Mặt Nạ Hô Hấp','Bùa Nổ','Giáp Dã Man'],
+        fates: [
+            { type: 'Duyên', name: 'Bạn Bè', condition: 'Đồng thời có <b>Itachi</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Tộc Uchiha', condition: 'Đồng thời có <b>Sasuke [Taka]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Đối Đầu', condition: 'Đồng thời có <b>Danzo Shimura</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Lòng Tin Chính Nghĩa', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Huyết Tục Giới Hạn</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Ảo Ảnh Chớp Nhoáng', condition: 'Trang Bị Thức Tỉnh: Sách <b>Hỏa Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Thiên Phú Đồng Thuật', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Chi Thủy Bội Đao</b>', effect: 'Bí Kĩ: <b>Biệt Thiên Thần.Ánh Sáng</b> thành <b>MAX.Biệt Thiên Thần.Ánh Sángc</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Jiraiya</b> và <b>Itachi ANBU</b>' }
+        ],
     },
     {
         id: 'tobirama_sss',
@@ -2011,7 +2191,16 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên','4 Kiên Thạch 2 Chiến Hồn'],
         thechieny: ['Hồn Võ Sĩ','Song Cực Lạc Thiên','<Thẻ 7 Sao>','...'],
         doihinh: ['Thuần Thủy','Thủy Thổ','Kage','...'],
-        haocam: ['?','?','?'],
+        haocam: ['Guốc Gỗ','Túi Nhẫn Cụ','Bùa Kết Giới'],
+        fates: [
+            { type: 'Duyên', name: 'Người Sáng Lập Làng Lá', condition: 'Đồng thời có <b>Senju Hashirama</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Thuật Thần Phi Lôi', condition: 'Đồng thời có <b>Namikaze Minato</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Tông Sư Nhẫn Giới', condition: 'Đồng thời có <b>Sarutobi Hiruzen [Uế Thổ]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Vua Tốc Độ', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Kage</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Cảm Tri Mạnh Nhất', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thủy Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Nhà Phát Minh Nhẫn Thuật', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Chiến Y Đệ Nhị</b>', effect: 'Bí Kĩ: <b>Thủy Độn.Thủy Long Giảo Bạo</b> thành <b>MAX.Thủy Độn.Thủy Long Giảo Bạo</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Tiên Nhân Kabuto</b> và <b>Uchiha Shishui</b>' }
+        ],
     },
     {
         id: 'naruto_kcm',
@@ -2040,7 +2229,16 @@ window.charactersData = [
         trangsuc: ['4 Chiến Hồn 2 Kiên Thạch/Hồng Liên','6 Hồng Liên'],
         thechieny: ['Song Cực Lạc Thiên','Mộc Nhân Thuật','Bảng Bài Thuật','<Thẻ 7 Sao>','...'],
         doihinh: ['Jinchuriki Thú Hóa','Thuần Phong','Phong Hỏa Jinchuriki','Gia Đình (Minato & Kushina)','...'],
-        haocam: ['?','?','?'],
+        haocam: ['Giày Đế Bằng','Khung Tình Bạn','Viên Tăng HP'],
+        fates: [
+            { type: 'Duyên', name: 'Đối Đầu Định Mệnh', condition: 'Đồng thời có <b>Sasuke [Susanoo]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Phụ Tử Tình Thâm', condition: 'Đồng thời có <b>Namikaze Minato</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Thầy Trò Kế Thừa', condition: 'Đồng thời có <b>Tiên Nhân Jiraiya</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Khống Chế Sức Mạnh', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Jinchuriki</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Vai Mang Trọng Trách', condition: 'Trang Bị Thức Tỉnh: Sách <b>Phong Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Hy Vọng Vàng', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Áo Choàng Cửu Vĩ</b>', effect: 'Bí Kĩ: <b>Loa Toàn Liên Hoàn</b> thành <b>MAX.Loa Toàn Liên Hoàn</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Killer Bee</b> và <b>Naruto [Tứ Vĩ]</b>' }
+        ],
     },
     {
         id: 'kabuto_white_snake_sss',
@@ -2070,6 +2268,15 @@ window.charactersData = [
         thechieny: ['Hồn Võ Sĩ','Song Cực Lạc Thiên','<Thẻ 7 Sao>','...'],
         doihinh: ['Phù Hợp Mọi Team (All)','Thuần Thổ/Thủy/Hỏa/Lôi/Phong','...'],
         haocam: ['Guốc Gỗ','Trang Sức Ếch Xanh','Phi Đao Đặc Chế'],
+        fates: [
+            { type: 'Duyên', name: 'Bí Kỹ Tiên Pháp', condition: 'Đồng thời có <b>Tiên Nhân Jiraiya</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Bất Tử Chuyển Sinh', condition: 'Đồng thời có <b>Orochimaru [Đại Chiến]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Giải Trừ Thuật Thức', condition: 'Đồng thời có <b>Uchiha Itachi [Susanoo]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Đại Xà Thúc Phược', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Tiên Thuật</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Thông Linh.Xà', condition: 'Trang Bị Thức Tỉnh: Sách <b>Bí Truyền</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Cấy Ghép Tế Bào', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Quyển Tiên Thuật.Long Địa Động</b>', effect: 'Bí Kĩ: <b>Tiên Pháp.Bạch Kích Thuật</b> thành <b>MAX.Tiên Pháp.Bạch Kích Thuật</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Tiên Nhân Jiraiya</b> và <b>Tiên Nhân Kabuto</b>' }
+        ],
     },
     {
         id: 'ohnoki',
@@ -2099,6 +2306,15 @@ window.charactersData = [
         thechieny: ['Tu La Công','Tăng Ý Chí/Ý Trừng Phạt','<Thẻ 7 Sao>','...'],
         doihinh: ['Thuần Thổ','Thủy Thổ','ST Khắc Chế','Kage','...'],
         haocam: ['Túi Ninja','Kính Thông Khí','Viên Tinh Tâm'],
+        fates: [
+            { type: 'Duyên', name: 'Kế Thừa Kage', condition: 'Đồng thời có <b>Killer Bee [Vĩ Thú Hóa]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Thầy Trò Cũ', condition: 'Đồng thời có <b>Deidara</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Thực Lực Kage', condition: 'Đồng thời có <b>Terumi Mei</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Ý Chí Đá', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Kage</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Tsuchikage Đệ Tam', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thổ Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Đào Thải Huyết Tục', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Áo Choàng Tsuchikage</b>', effect: 'Bí Kĩ: <b>Trần Độn.Nguyên Giới Bác Li Thuật</b> thành <b>MAX.Trần Độn.Nguyên Giới Bác Li Thuật</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Deidara</b> và <b>Tsunade</b>' }
+        ],
     },
     {
         id: 'hidan',
@@ -2233,7 +2449,7 @@ window.charactersData = [
         height: '162 cm',
         weight: '50 kg',
         blood_type: 'A',
-        rank: 'Chunin',
+        rank: 'Jonin',
         ninja_id: '010254',
         team: 'Đội 8 (cùng với Kiba và Shino)',
         summon: 'Không có',
@@ -2244,6 +2460,15 @@ window.charactersData = [
         thechieny: ['Hồn Võ Sĩ','<Thẻ 7 Sao>','...'],
         doihinh: ['Siêu Nữ','Đại Chiến Ninja','Lôi Thể Thuật','...'],
         haocam: ['Túi Trị Thương','Giày Cao Gót','Phụ Kiện Shiba'],
+        fates: [
+            { type: 'Duyên', name: 'Jonin Tinh Anh', condition: 'Đồng thời có <b>Sakura [Đại Chiến]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Bạch Nhãn', condition: 'Đồng thời có <b>Neji [Đại Chiến]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Yêu Sâu Sắc', condition: 'Đồng thời có <b>Tsunade [Bách Hào]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Sức Ăn Lớn', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Huyết Tục Giới Hạn</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Bách Hợp Tinh Khiết', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thể Thuật</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Ý Chí Bất Khuất', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Áo Nhẫn Giới</b>', effect: 'Bí Kĩ: <b>Nhu Quyền.Liên Sátc</b> thành <b>MAX.Nhu Quyền.Liên Sát</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Hinata</b> và <b>Tsunade</b>' }
+        ],
     },
     {
         id: 'kisame_fusion_sss',
@@ -2429,6 +2654,15 @@ window.charactersData = [
         thechieny: ['Sức Mạnh Thủ Hộ','Thổ Cố Thủ','<Thẻ 7 Sao>', '...'],
         doihinh: ['Thuần Hỏa','Lôi Hỏa Uchiha','Lôi Hỏa Akatsuki','...'],
         haocam: ['Băng Huấn Luyện', 'Sáo Ma', 'Áo Choàng Anbu'],
+        fates: [
+            { type: 'Duyên', name: 'Tộc Uchiha', condition: 'Đồng thời có <b>Sasuke</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Kết Hợp Ưu Tú', condition: 'Đồng thời có <b>Hoshigaki Kisame</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Bí Mật Diệt Tộc', condition: 'Đồng thời có <b>Tobi</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Lưng Mang Bóng Tối', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Huyết Tục Giới Hạn</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Ninja Quỷ Tài', condition: 'Trang Bị Thức Tỉnh: Sách <b>Hỏa Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Sức Mạnh Kính Vạn Hoa', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Nhẫn Chu Tước</b>', effect: 'Bí Kĩ: <b>Nguyệt Độc</b> thành <b>MAX.Nguyệt Độc</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Itachi ANBU</b> và <b>Hoshigaki Kisame</b>' }
+        ],
     },
     {
         id: 'sage_kabuto_ss_plus',
@@ -2458,6 +2692,15 @@ window.charactersData = [
         thechieny: ['Chữa Trị Thể Năng','Vụ Ảnh Tập Sát','<Thẻ 7 Sao>','Cảm Giác Ác Ý','Bảng Bài Thuật', '...'],
         doihinh: ['Uế Thổ Chuyển Sinh','Thủy Thổ/Độc','Thuần Thủy','...'],
         haocam: ['Găng Ninja', 'Mũ Trùm Ninja', 'Đồ Dạ Hành'],
+        fates: [
+            { type: 'Duyên', name: 'Kế Thừa Kỹ Thuật', condition: 'Đồng thời có <b>Orochimaru</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Kẻ Đứng Sau', condition: 'Đồng thời có <b>Orochimaru [Đại Chiến]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Lạnh Lùng Tính Toán', condition: 'Đồng thời có <b>Sasuke [Taka]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Đại Xà Thúc Phược', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Tiên Thuật</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Thông Linh.Xà', condition: 'Trang Bị Thức Tỉnh: Sách <b>Bí Truyền</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Uế Thổ Chuyển Sinh', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Áo Choàng Bán Xà</b>', effect: 'Bí Kĩ: <b>Uế Thổ Chuyển Sinh Thuật</b> thành <b>MAX.Uế Thổ Chuyển Sinh Thuật</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Itachi ANBU</b> và <b>Hoshigaki Kisame</b>' }
+        ],
     },
     {
         ///////////////////////////////////////////////////////////////////////////// -SENJU HASHIRAMA-//////////////////////////////////////////////////////////////////////////////////////
@@ -2496,6 +2739,10 @@ window.charactersData = [
         weaknesses: 'Hay nhân nhượng, dễ mềm lòng, tin tưởng người khác quá mức',
         story: 'Senju Hashirama là người sáng lập Làng Lá cùng với Uchiha Madara, mong muốn chấm dứt chiến tranh giữa các tộc ninja. Ông được mệnh danh là Thần Mộc vì có thể tạo ra rừng khổng lồ và chế ngự Vĩ Thú. Dù từng đánh bại Madara, ông vẫn luôn mong người bạn cũ trở lại con đường chính nghĩa.',
         personality: 'Vui vẻ, thân thiện, dễ gần nhưng khi chiến đấu thì nghiêm túc và kiên định.',
+        trangsuc: ['4 Chiến Hồn 2 Kiên Thạch','6 Kiên Thạch'],
+        thechieny: ['Kế Thừa Ý Chí','Thổ Cố Thủ','Bảng Bài Thuật','<Thẻ 7 Sao>', '...'],
+        doihinh: ['Thuần Thổ','Thủy Thổ','Kage','EXODIA','...'],
+        haocam: ['Mặt Nạ Phòng Độc', 'Rối Luyện Tập', 'Kim Châm Phong Huyệt'],
         "skills": {
             "main": [
                 {
@@ -2591,6 +2838,15 @@ window.charactersData = [
         thechieny: ['<Thẻ Trợ>','...'],
         doihinh: ['Siêu Nữ','...'],
         haocam: ['Thuốc Giải Độc', 'Áo Ấm', 'Phóng Châm'],
+        fates: [
+            { type: 'Duyên', name: 'Tâm Nguyện Hòa Bình', condition: 'Đồng thời có <b>Pain</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Quyết Đấu Tàn Khốc', condition: 'Đồng thời có <b>Jiraiya</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Tổ Chức Akatsuki', condition: 'Đồng thời có <b>Hidan</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Thiên Sứ Thần', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Nhẫn Thuật</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Phân Thân Giấy', condition: 'Trang Bị Thức Tỉnh: Sách <b>Phong Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Vũ Điệu Origami', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Hoa Giấy</b>', effect: 'Bí Kĩ: <b>Vũ Điệu Origami.Thẩm Phán Thiên Sứ</b> thành <b>MAX.Vũ Điệu Origami.Thẩm Phán Thiên Sứ</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Súc Sinh Đạo</b> và <b>Tsunade</b>' }
+        ],
     },
     {
         id: 'asuma',
@@ -2706,7 +2962,16 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên','6 Kiên Thạch'],
         thechieny: ['<Thẻ 7 Sao>','<Thẻ Trợ>','...'],
         doihinh: ['Đới Đao','...'],
-        haocam: ['?', '?', '?'],
+        haocam: ['Băng Huấn Luyện', 'Sáo Ma', 'Cung Nhện'],
+        fates: [
+            { type: 'Duyên', name: 'Anh Hùng Đối Đầu', condition: 'Đồng thời có <b>Hanzo</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Hội Thảo Ngũ Kage', condition: 'Đồng thời có <b>Raikage Đệ Tứ</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Kẻ Tấn Công', condition: 'Đồng thời có <b>Sasuke [Susanoo]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Chủ Nghĩa Hòa Bình', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Sức Mạnh</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Thuấn Bộ Thân Pháp', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thể Thuật</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Nhân Đao Hợp Nhất', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Bội Đao Võ Sĩ</b>', effect: 'Bí Kĩ: <b>Cự Hợp Trảm</b> thành <b>MAX.Cự Hợp Trảm</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Itachi ANBU</b> và <b>Hidan</b>' }
+        ],
     },
     {
         id: 'gaara2',
@@ -2736,6 +3001,15 @@ window.charactersData = [
         thechieny: ['Kế Thừa Ý Chí','Thổ Cố Thủ','<Thẻ 7 Sao>', '...'],
         doihinh: ['Thuần Phong','All Team (Đa Dụng)','...'],
         haocam: ['Viên Ớt', 'Cú Mèo Thông Linh', 'Shuriken Xiềng Xích'],
+        fates: [
+            { type: 'Duyên', name: 'Mâu Thuẫn', condition: 'Đồng thời có <b>Raikage Đệ Tứ</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Thực Lực Kage I', condition: 'Đồng thời có <b>Terumi Mei</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Thực Lực Kage II', condition: 'Đồng thời có <b>Tsunade [Bách Hào]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Jinchuriki', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Kage</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Kazekage Đệ Ngũ', condition: 'Trang Bị Thức Tỉnh: Sách <b>Bí Truyền</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Sa Thủ Hộ', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Nón Kazekage</b>', effect: 'Bí Kĩ: <b>Sa Mạc Đại Táng</b> thành <b>MAX.Sa Mạc Đại Táng</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Tiên Nhân Naruto</b> và <b>Deidara</b>' }
+        ],
     },
     {
         id: 'suigetsu_s',
@@ -2792,7 +3066,7 @@ window.charactersData = [
         trangsuc: ['6 Kiên Thạch'],
         thechieny: ['Vụ Ảnh Tập Sát','Kế Thừa Ý Chí','<Thẻ 7 Sao>', '...'],
         doihinh: ['Đại Chiến Ninja','...'],
-        haocam: ['?', '?', '?'],
+        haocam: ['Viên Ớt', 'Cú Mèo Thông Linh', 'Bùa Kết Giới'],
     },
     {
         id: 'gengetsu_edo_sss',
@@ -2822,6 +3096,15 @@ window.charactersData = [
         thechieny: ['Hồn Võ Sĩ','Song Cực Lạc Thiên','<Thẻ 7 Sao>', '...'],
         doihinh: ['Uế Thổ Chuyển Sinh','Thuần Thủy','Thủy Hỏa','Kage','...'],
         haocam: ['Chuông Huấn Luyện', 'Thổi Tên', 'Shuriken Ba Góc'],
+        fates: [
+            { type: 'Duyên', name: 'Đối Thủ Được Thừa Nhận', condition: 'Đồng thời có <b>Muu [Uế Thổ Chuyển Sinh]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Uế Thổ Chuyển Sinh', condition: 'Đồng thời có <b>Raikage Đệ Tam [Uế Thổ]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Hào Phóng Và Điềm Tĩnh', condition: 'Đồng thời có <b>Gaara [Kazekage]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Cuồng Chiến Đấu', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Kage</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Hài Hước', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thủy Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Vô Hạn Bùng Nổ', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Áo Choàng Cao Cổ</b>', effect: 'Bí Kĩ: <b>Ma Ảo.Khí Chưng Lâu Các</b> thành <b>MAX.Ma Ảo.Khí Chưng Lâu Các</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Terumi Mei</b> và <b>Hozuki Suigetsu</b>' }
+        ],
     },
     {
         id: 'tobirama_wandering_sss_plus',
@@ -2850,7 +3133,16 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên'],
         thechieny: ['Song Cực Lạc Thiên','Sức Mạnh Ấn Chú','<Thẻ 7 Sao>', '...'],
         doihinh: ['Thuần Thủy','Kage','Đới Đao','EXODIA','...'],
-        haocam: ['?', '?', '?'],
+        haocam: ['Băng Huấn Luyện', 'Kính Thông Khí', 'Nhẫn Trượng'],
+        fates: [
+            { type: 'Duyên', name: 'Người Sáng Lập Làng Lá', condition: 'Đồng thời có <b>Senju Hashirama</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Đao Quang Kiếm Ảnh', condition: 'Đồng thời có <b>Uchiha Madara</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Thuật Thần Phi Lôi', condition: 'Đồng thời có <b>Namikaze Minato</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Huy Chương', name: 'Vua Tốc Độ', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Kage</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Sách', name: 'Cảm Tri Mạnh Nhất', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thủy Độn</b>', effect: 'Công <b>+15%</b>' },
+            { type: 'Vũ Khí', name: 'Nhà Phát Minh Nhẫn Thuật', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Bản Vẽ Đao Lang Bạt</b>', effect: 'Bí Kĩ: <b>Thủy Độn.Liên Y Trảm</b> thành <b>MAX.Thủy Độn.Liên Y Trảm</b>' },
+            { type: 'Duyên Ngầm', name: '<b>Itachi ANBU</b> và <b>Uchiha Shishui</b>' }
+        ],
     },
     {///////////////////////////////////////////////////////////////////////////-ZETSU-//////////////////////////////////////////////////////////////////////////////////////////////
         id: 'zetsu',
