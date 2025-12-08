@@ -203,7 +203,7 @@ function createFatesSection(fatesData) {
         if (item.type && item.type.trim().toLowerCase() === 'duyên ngầm') {
             html += `
                 <div class="p-4 bg-gray-100 rounded-lg shadow-inner border-l-4 border-red-500">
-                    <p class="font-bold text-lg text-dark-700">Duyên Ngầm</p>
+                    <p class="font-bold text-lg text-red-700">DUYÊN NGẦM</p>
                     <p class="text-sm text-gray-700 mt-1">
                         <span class="font-semibold text-indigo-600">Nhân vật:</span> ${item.name || 'N/A'}
                     </p>
