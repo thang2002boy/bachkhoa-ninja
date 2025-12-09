@@ -390,7 +390,7 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên','6 Man Ngưu'],
         thechieny: ['Kiệt Ngao Nhận','Sức Mạnh Ấn Chú','...'],
         doihinh: ['Độc Đốt', 'Akatsuki', '...'],
-        haocam: ['Mặt Nạ Phòng Độc', 'Rối Luyện Tập', 'Sợi Charka'],
+        haocam: ['Mặt Nạ Phòng Độc', 'Rối Luyện Tập', 'Sợi Chakra'],
     },
     {
         id: 'kakashi_ha',
@@ -462,7 +462,7 @@ window.charactersData = [
             { type: 'Duyên', name: 'Quyết Đấu Tàn Khốc', condition: 'Đồng thời có <b>Orochimaru</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Duyên', name: 'Đều Là Jinchuriki', condition: 'Đồng thời có <b>Killer Bee</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Duyên', name: 'Đánh Mất Lý Trí', condition: 'Đồng thời có <b>Naruto [Nhất Vĩ]</b>', effect: 'Công <b>+25%</b>' },
-            { type: 'Huy Chương', name: 'Charka Bùng Nổ', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Jinchuriki</b>', effect: 'HP <b>+15%</b>' },
+            { type: 'Huy Chương', name: 'Chakra Bùng Nổ', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Jinchuriki</b>', effect: 'HP <b>+15%</b>' },
             { type: 'Sách', name: 'Áo Ngoài Vĩ Thú', condition: 'Trang Bị Thức Tỉnh: Sách <b>Hỏa Độn</b>', effect: 'Công <b>+15%</b>' },
             { type: 'Vũ Khí', name: 'Sức Mạnh Yêu Hồ', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Sức Mạnh Vĩ Thú</b>', effect: 'Bí Kĩ: <b>Vĩ Thú Ngọc</b> thành <b>MAX.Vĩ Thú Ngọc</b>' },
             { type: 'Duyên Ngầm', name: '<b>Naruto [Nhất Vĩ]</b> và <b>Killer Bee</b>' }
@@ -497,12 +497,12 @@ window.charactersData = [
         doihinh: ['Siêu Nữ', 'Thuần Phong', '...'],
         haocam: ['Găng Ninja', 'Mũ Trùm Ninja', 'Mặt Nạ Thần Bí'],
         fates: [
-            { type: 'Duyên', name: 'Ký Thác Hy Vọng', condition: 'Đồng thời có <b>Naruto [Charka Cửu Vĩ]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Ký Thác Hy Vọng', condition: 'Đồng thời có <b>Naruto [Chakra Cửu Vĩ]</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Duyên', name: 'Nguồn Sức Mạnh', condition: 'Đồng thời có <b>Uchiha Madara</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Duyên', name: 'Bạn Bè Trọn Đời', condition: 'Đồng thời có <b>Pain</b>', effect: 'HP <b>+25%</b>' },
             { type: 'Huy Chương', name: 'Sức Mạnh Lục Đạo', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Nhẫn Thuật</b>', effect: 'HP <b>+15%</b>' },
             { type: 'Sách', name: 'Hồi Sinh Luân Hồi', condition: 'Trang Bị Thức Tỉnh: Sách <b>Hỏa Độn</b>', effect: 'Công <b>+15%</b>' },
-            { type: 'Vũ Khí', name: 'Hắc Mặc Charka', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Hắc Mặc Charka</b>', effect: 'Bí Kĩ: <b>Địa Bạo Thiên Tinh.Bắn Hủy Diệt</b> thành <b>MAX.Địa Bạo Thiên Tinh.Bắn Hủy Diệt</b>' },
+            { type: 'Vũ Khí', name: 'Hắc Mặc Chakra', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Hắc Mặc Chakra</b>', effect: 'Bí Kĩ: <b>Địa Bạo Thiên Tinh.Bắn Hủy Diệt</b> thành <b>MAX.Địa Bạo Thiên Tinh.Bắn Hủy Diệt</b>' },
             { type: 'Duyên Ngầm', name: '<b>Konan</b> và <b>Naruto Tiên Nhân</b>' }
         ],
     },
@@ -536,7 +536,7 @@ window.charactersData = [
         haocam: ['Giày Đế Bằng', 'Khung Tình Bạn', 'Kusarigama'],
         fates: [
             { type: 'Duyên', name: 'Đối Thủ Vĩnh Viễn', condition: 'Đồng thời có <b>Guy [Kinh Môn]</b>', effect: 'Công <b>+25%</b>' },
-            { type: 'Duyên', name: 'Kề Vai Chiến Đấu', condition: 'Đồng thời có <b>Naruto [Charka Cửu Vĩ]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Kề Vai Chiến Đấu', condition: 'Đồng thời có <b>Naruto [Chakra Cửu Vĩ]</b>', effect: 'HP <b>+25%</b>' },
             { type: 'Duyên', name: 'Trận Chiến Định Mệnh', condition: 'Đồng thời có <b>?</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Huy Chương', name: 'Ninja Sao Chép', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Nhẫn Thuật</b>', effect: 'HP <b>+15%</b>' },
             { type: 'Sách', name: 'Trí Tuệ Chiến Đấu', condition: 'Trang Bị Thức Tỉnh: Sách <b>Lôi Độn</b>', effect: 'Công <b>+15%</b>' },
@@ -574,7 +574,7 @@ window.charactersData = [
         haocam: ['?', '?', '?'],
         fates: [
             { type: 'Duyên', name: 'Cặp Đôi', condition: 'Đồng thời có <b>Namikaze Minato</b>', effect: 'Công <b>+25%</b>' },
-            { type: 'Duyên', name: 'Ký Gửi Giấc Mơ', condition: 'Đồng thời có <b>Naruto [Charka Cửu Vĩ]</b>', effect: 'HP <b>+25%</b>' },
+            { type: 'Duyên', name: 'Ký Gửi Giấc Mơ', condition: 'Đồng thời có <b>Naruto [Chakra Cửu Vĩ]</b>', effect: 'HP <b>+25%</b>' },
             { type: 'Duyên', name: 'Tộc Xoắn Ốc', condition: 'Đồng thời có <b>Nagato</b>', effect: 'HP <b>+25%</b>' },
             { type: 'Huy Chương', name: 'Không Chịu Thua', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Jinchuriki</b>', effect: 'HP <b>+15%</b>' },
             { type: 'Sách', name: 'Hoạt Bát', condition: 'Trang Bị Thức Tỉnh: Sách <b>Thể Thuật</b>', effect: 'Công <b>+15%</b>' },
@@ -680,7 +680,7 @@ window.charactersData = [
                 {
                     name: 'Uy Trang Susanoo',
                     desc: '[Nhẫn]Bản thân tăng <b>15%</b> Tỷ Lệ ST và Tỷ Lệ Miễn ST; Tấn công toàn thể địch, số người mục tiêu đánh trúng càng ít, ST càng cao, tối đa tăng 120%; Mỗi khi đánh trúng 1 mục tiêu, nhận <b>3</b> điểm "Uy Áp"; nếu địch ta chỉ còn 1 người sẽ nhận thêm <b>20</b> điểm "Uy Áp"; Căn cứ theo "Uy Áp" bản thân có để nhận thêm hiệu quả:<br>Từ 20 điểm, tăng <b>15%</b> ST Bạo(2 hiệp)<br>Từ 40 điểm, gây cho mỗi mục tiêu trúng ST thêm bằng <b>45%</b> Công bản thân<br>Từ 60 điểm, kích hoạt ngay Susanoo:Nhị Đao Viêm Vũ, tấn công 1 hàng dọc địch, gây ST[Nhẫn], gây [Đánh Bay], nhận <b>5</b> điểm "Uy Áp", mỗi điểm hiện có sẽ khiến đợt Công này nhận <b>0,5%</b> ST Kỹ Năng, lần này bỏ qua <b>20%</b> Thủ',
-                    upgradedDesc1: 'Bí Kĩ đã thức tỉnh:[Nhẫn]Bản thân tăng <b>20%</b> Tỷ Lệ ST và Tỷ Lệ Miễn ST; Tấn công toàn thể địch, số người mục tiêu đánh trúng càng ít, ST càng cao, tối đa tăng 120%; Mỗi khi đánh trúng 1 mục tiêu(Trừ vật triệu hồi), nhận <b>5</b> điểm "Uy Áp"; nếu địch ta chỉ còn 1 người sẽ nhận thêm <b>35</b> điểm "Uy Áp"; Căn cứ theo "Uy Áp" bản thân có để nhận thêm hiệu quả:<br>Từ 20 điểm, tăng <b>20%</b> ST Bạo(2 hiệp)<br>Từ 40 điểm, gây cho mỗi mục tiêu trúng ST thêm bằng <b>60%</b> Công bản thân<br>Từ 60 điểm, kích hoạt ngay Susanoo:Nhị Đao Viêm Vũ, tấn công 1 hàng dọc địch, gây ST[Nhẫn], gây [Đánh Bay], nhận <b>5</b> điểm "Uy Áp", mỗi điểm hiện có sẽ khiến đợt Công này nhận <b>0,5%</b> ST Kỹ Năng, lần này bỏ qua <b>20%</b> Thủ<br><b>Từ 80 điểm, bản thân vào trạng thái [Hiếu Chiến], tốc độ hồi Charka tăng 30%, mỗi lần Công Thường, K.Năng, Bí Kĩ sẽ có 40% kích hoạt [Susanoo:Nhị Đao Viêm Vũ] lần nữa, duy trì 2 hiệp.</b>',
+                    upgradedDesc1: 'Bí Kĩ đã thức tỉnh:[Nhẫn]Bản thân tăng <b>20%</b> Tỷ Lệ ST và Tỷ Lệ Miễn ST; Tấn công toàn thể địch, số người mục tiêu đánh trúng càng ít, ST càng cao, tối đa tăng 120%; Mỗi khi đánh trúng 1 mục tiêu(Trừ vật triệu hồi), nhận <b>5</b> điểm "Uy Áp"; nếu địch ta chỉ còn 1 người sẽ nhận thêm <b>35</b> điểm "Uy Áp"; Căn cứ theo "Uy Áp" bản thân có để nhận thêm hiệu quả:<br>Từ 20 điểm, tăng <b>20%</b> ST Bạo(2 hiệp)<br>Từ 40 điểm, gây cho mỗi mục tiêu trúng ST thêm bằng <b>60%</b> Công bản thân<br>Từ 60 điểm, kích hoạt ngay Susanoo:Nhị Đao Viêm Vũ, tấn công 1 hàng dọc địch, gây ST[Nhẫn], gây [Đánh Bay], nhận <b>5</b> điểm "Uy Áp", mỗi điểm hiện có sẽ khiến đợt Công này nhận <b>0,5%</b> ST Kỹ Năng, lần này bỏ qua <b>20%</b> Thủ<br><b>Từ 80 điểm, bản thân vào trạng thái [Hiếu Chiến], tốc độ hồi Chakra tăng 30%, mỗi lần Công Thường, K.Năng, Bí Kĩ sẽ có 40% kích hoạt [Susanoo:Nhị Đao Viêm Vũ] lần nữa, duy trì 2 hiệp.</b>',
                     upgradedDesc2: 'Đang chờ cập nhập...',
                     iconUrl: 'img/skill_icons/madara_susanoo.png'
                 }
@@ -800,7 +800,7 @@ window.charactersData = [
         doihinh: ['Lôi Hỏa Uchiha','Thuần Lôi','Đới Đao','...'],
         haocam: ['Mặt Nạ Hô Hấp','Bùa Nổ','Mặt Nạ Thần Bí'],
         fates: [
-            { type: 'Duyên', name: 'Đối Đầu Định Mệnh', condition: 'Đồng thời có <b>Naruto [Charka Cửu Vĩ]</b>', effect: 'Công <b>+25%</b>' },
+            { type: 'Duyên', name: 'Đối Đầu Định Mệnh', condition: 'Đồng thời có <b>Naruto [Chakra Cửu Vĩ]</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Duyên', name: 'Sharingan Kính Vạn Hoa', condition: 'Đồng thời có <b>Uchiha Itachi [Susanoo]</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Duyên', name: 'Tộc Uchiha', condition: 'Đồng thời có <b>Uchiha Madara</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Huy Chương', name: 'Báo Thù Ám Ảnh', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Huyết Tục Giới Hạn</b>', effect: 'HP <b>+15%</b>' },
@@ -903,7 +903,7 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên'],
         thechieny: ['Song Cực Lạc Thiên','Sức Mạnh Ấn Chú','Kiệt Ngao Nhận','...'],
         doihinh: ['Làng Lá','...'],
-        haocam: ['Viên Charka','Máy Chơi Game','Viên Binh Lương'],
+        haocam: ['Viên Chakra','Máy Chơi Game','Viên Binh Lương'],
     },
     {
         id: 'shino',
@@ -932,7 +932,7 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên'],
         thechieny: ['Song Cực Lạc Thiên','Sức Mạnh Ấn Chú','Kiệt Ngao Nhận','...'],
         doihinh: ['Làng Lá','...'],
-        haocam: ['Viên Charka','Máy Chơi Game','Viên Binh Lương'],
+        haocam: ['Viên Chakra','Máy Chơi Game','Viên Binh Lương'],
     },
     {
         id: 'tsunade',
@@ -997,7 +997,7 @@ window.charactersData = [
             { type: 'Duyên', name: 'Tâm Nguyện Hòa Bình', condition: 'Đồng thời có <b>Madara [Mặt Nạ Trắng]</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Huy Chương', name: '6 Người Như 1', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Bí Thuật</b>', effect: 'HP <b>+15%</b>' },
             { type: 'Sách', name: 'Lục Đạo Luân Hồi', condition: 'Trang Bị Thức Tỉnh: Sách <b>Lôi Độn</b>', effect: 'Công <b>+15%</b>' },
-            { type: 'Vũ Khí', name: 'Thiên Đạo Luân Hồi', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Gậy Charka</b>', effect: 'Bí Kĩ: <b>Lục Đạo Luân Hồi</b> thành <b>MAX.Lục Đạo Luân Hồi</b>' },
+            { type: 'Vũ Khí', name: 'Thiên Đạo Luân Hồi', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Gậy Chakra</b>', effect: 'Bí Kĩ: <b>Lục Đạo Luân Hồi</b> thành <b>MAX.Lục Đạo Luân Hồi</b>' },
             { type: 'Duyên Ngầm', name: '<b>Kakashi [Đại Chiến]</b> và <b>Pain</b>' }
         ],
     },
@@ -1144,7 +1144,7 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên','4 Hồng Liên 2 Chiến Hồn'],
         thechieny: ['Song Cực Lạc Thiên','Sức Mạnh Ấn Chú','Kiệt Ngao Nhận','...'],
         doihinh: ['Thuần Lôi/Phong/Thổ,Hỏa,Thủy','Lôi Hỏa Akatsuki','ST Khắc Chế','Team Cơ Bản','...'],
-        haocam: ['Mặt Nạ Phòng Độc','Rối Luyện Tập','Sợi Charka'],
+        haocam: ['Mặt Nạ Phòng Độc','Rối Luyện Tập','Sợi Chakra'],
         fates: [
             { type: 'Duyên', name: 'Nhóm 2 Người Bất Tử', condition: 'Đồng thời có <b>Hidan</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Duyên', name: 'Giàu Có Một Phương', condition: 'Đồng thời có <b>Konan</b>', effect: 'Công <b>+25%</b>' },
@@ -1298,7 +1298,7 @@ window.charactersData = [
         trangsuc: ['6 Mãnh Hổ','6 Hồng Liên'],
         thechieny: ['Truy Mệnh Khô Huyết','<Thẻ 7 Sao>','...'],
         doihinh: ['Siêu Truy Kích','Lôi Hỏa Akatsuki','...'],
-        haocam: ['Thảm Nhện','Túi Nhẫn Cụ','Vòng Tay Charka'],
+        haocam: ['Thảm Nhện','Túi Nhẫn Cụ','Vòng Tay Chakra'],
         fates: [
             { type: 'Duyên', name: 'Sức Mạnh Lục Đạo I', condition: 'Đồng thời có <b>Súc Sinh Đạo</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Duyên', name: 'Sức Mạnh Lục Đạo II', condition: 'Đồng thời có <b>Tu La Đạo</b>', effect: 'Công <b>+25%</b>' },
@@ -1336,7 +1336,7 @@ window.charactersData = [
         trangsuc: ['6 Kiên Thạch','6 Táo Gai'],
         thechieny: ['Cương Trị Liệu Khỏa','Tăng Ý Chí','Ý Trừng Phạt','...'],
         doihinh: ['Siêu Nữ','Làng Lá','...'],
-        haocam: ['Viên Charka','Máy Chơi Game','Viên Binh Lương'],
+        haocam: ['Viên Chakra','Máy Chơi Game','Viên Binh Lương'],
     },
     {
         id: 'naruto3',
@@ -1360,7 +1360,7 @@ window.charactersData = [
         team: 'Đội 7 (Naruto, Sasuke, Sakura)',
         summon: 'Gamakichi, Gamatatsu, Gamabunta',
         relationships: 'Jiraiya (thầy), Minato Namikaze (cha), Kushina Uzumaki (mẹ)',
-        unique_skill: 'Rasengan, Phân Thân, Charka Tiên Thuật',
+        unique_skill: 'Rasengan, Phân Thân, Chakra Tiên Thuật',
         bust_waist_hip  : '???',
         trangsuc: ['6 Hồng Liên'],
         thechieny: ['Song Cực Lạc Thiên','Mộc Nhân Thuật','<Thẻ 7 Sao>','...'],
@@ -1423,7 +1423,7 @@ window.charactersData = [
         trangsuc: ['6 Mãnh Hổ','6 Hồng Liên'],
         thechieny: ['Truy Mệnh Khô Huyết','Sa Kim Hộ Thể','Lốc Xoáy Kim Cang','...'],
         doihinh: ['Thuần Thổ','Thủy Thổ','Thể Thuật','...'],
-        haocam: ['Viên Charka','Khung Tình Bạn','Đạn Sương Mù'],
+        haocam: ['Viên Chakra','Khung Tình Bạn','Đạn Sương Mù'],
         fates: [
             { type: 'Duyên', name: 'Đối Thủ Vĩnh Viễn', condition: 'Đồng thời có <b>Kakashi [Đại Chiến]</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Duyên', name: 'Tinh Tinh Tương Thích', condition: 'Đồng thời có <b>Hoshigaki Kisame</b>', effect: 'Công <b>+25%</b>' },
@@ -1519,7 +1519,7 @@ window.charactersData = [
         trangsuc: ['6 Kiên Thạch','6 Táo Gai'],
         thechieny: ['Phong Thuật Hấp Ấn','Phi Bộc Lưu Tuyền','...'],
         doihinh: ['Lôi Hỏa Akatsuki','...'],
-        haocam: ['Thảm Nhện','Túi Nhẫn Cụ','Vòng Tay Charka'],
+        haocam: ['Thảm Nhện','Túi Nhẫn Cụ','Vòng Tay Chakra'],
     },
     {
         id: 'kabuto_a',
@@ -1785,7 +1785,7 @@ window.charactersData = [
             { type: 'Duyên', name: 'Uế Thổ Chuyển Sinh', condition: 'Đồng thời có <b>Hozuki Gengetsu [Uế Thổ]</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Huy Chương', name: 'Sức Bền Đáng Sợ', condition: 'Trang Bị Thức Tỉnh: Huy chương <b>Kage</b>', effect: 'HP <b>+15%</b>' },
             { type: 'Sách', name: 'Vóc Dáng Cường Tráng', condition: 'Trang Bị Thức Tỉnh: Sách <b>Lôi Độn</b>', effect: 'Công <b>+15%</b>' },
-            { type: 'Vũ Khí', name: 'Hình Thức Charka Lôi Độn', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Áo Raikage Đệ Tam</b>', effect: 'Bí Kĩ: <b>Địa Ngục Đột Thích.Nhất Bản Quán Thủ</b> thành <b>MAX.Địa Ngục Đột Thích.Nhất Bản Quán Thủ</b>' },
+            { type: 'Vũ Khí', name: 'Hình Thức Chakra Lôi Độn', condition: 'Trang Bị Thức Tỉnh: Vũ Khí <b>Áo Raikage Đệ Tam</b>', effect: 'Bí Kĩ: <b>Địa Ngục Đột Thích.Nhất Bản Quán Thủ</b> thành <b>MAX.Địa Ngục Đột Thích.Nhất Bản Quán Thủ</b>' },
             { type: 'Duyên Ngầm', name: '<b>Darui</b> và <b>Raikage Đệ Tứ</b>' }
         ],
     },
@@ -1970,7 +1970,7 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên'],
         thechieny: ['Song Cực Lạc Thiên','Sinh Mệnh Phong Tồn','Lôi Lê Nhiệt Đao','Mộc Nhân Thuật','Sức Mạnh Ấn Chú/Kiệt Ngao Nhận','...'],
         doihinh: ['Uế Thổ Chuyển Sinh','Jinchuriki Thú Hóa','Siêu Nữ','...'],
-        haocam: ['Mặt Nạ Phòng Độc','Rối Luyện Tập','Sợi Charka'],
+        haocam: ['Mặt Nạ Phòng Độc','Rối Luyện Tập','Sợi Chakra'],
         fates: [
             { type: 'Duyên', name: 'Truy Bắt Vĩ Thú', condition: 'Đồng thời có <b>Hidan [Sáng Lập]</b>', effect: 'Công <b>+25%</b>' },
             { type: 'Duyên', name: 'Đều Là Jinchuriki', condition: 'Đồng thời có <b>Deidara [Uế Thổ Chuyển Sinh]</b>', effect: 'Công <b>+25%</b>' },
@@ -2124,7 +2124,7 @@ window.charactersData = [
         trangsuc: ['6 Hồng Liên'],
         thechieny: ['Mộc Nhân Thuật','Hồn Võ Sĩ','<Thẻ 7 Sao>','...'],
         doihinh: ['Thuần Phong','Làng Lá','...'],
-        haocam: ['Viên Charka','Sáo Ma','Mặt Nạ Hổ Vằn'],
+        haocam: ['Viên Chakra','Sáo Ma','Mặt Nạ Hổ Vằn'],
     },
     {
         id: 'shisui',
@@ -2401,7 +2401,7 @@ window.charactersData = [
         trangsuc: ['6 Kiên Thạch','6 Táo Gai'],
         thechieny: ['Thổ Cố Thủ','Kế Thừa Ý Chí','Tu La Công','...'],
         doihinh: ['Thuần Lôi','Kage','...'],
-        haocam: ['Bình Rượu','Áo Ấm','Vòng Tay Charka'],
+        haocam: ['Bình Rượu','Áo Ấm','Vòng Tay Chakra'],
     },
     {
         id: 'ino_a',
@@ -2582,20 +2582,20 @@ window.charactersData = [
                 }
             ],
             warsoul: [
-                { name: 'Hồn Bạch Hổ', desc: 'Khi đồng đội bị tiêu diệt sẽ hồi 126 Charka, khi trận phe địch bị tiêu diệt sẽ hồi 3/4 đồng đội bị tiêu diệt phe ta. (max level)', iconUrl: 'img/skill_icons/guy_warsoul.png' }
+                { name: 'Hồn Bạch Hổ', desc: 'Khi đồng đội bị tiêu diệt sẽ hồi 126 Chakra, khi trận phe địch bị tiêu diệt sẽ hồi 3/4 đồng đội bị tiêu diệt phe ta. (max level)', iconUrl: 'img/skill_icons/guy_warsoul.png' }
             ],
             special_ultimate_skill: [{
                 name: 'KN Bí Kĩ',
-                desc: '<b>Hơi Nước Đỏ:</b> HP và Công bản thân tăng <b>5%</b><br><b>Thiêu Đốt Sinh Mệnh:</b> Kháng Debuff bản thân tăng <b>8%</b><br><b>Bát Môn Độn Giáp-Tử Môn:</b> Khi chịu ST Chí Mạng, bản thân hồi thêm <b>200</b> Charka',
-                upgradedDesc1: '<b>Hơi Nước Đỏ:</b> HP và Công bản thân tăng <b>8%</b><br><b>Thiêu Đốt Sinh Mệnh:</b> Kháng Debuff bản thân tăng <b>15%</b><br><b>Bát Môn Độn Giáp-Tử Môn:</b> Khi chịu ST Chí Mạng, <b>tiến hành [Phản Chí Mạng], tấn công đơn thể địch, gây ST [Thể Thuật] bằng Công*330%, hấp thu từ mục tiêu 200 Charka, gây ST thêm cho mục tiêu, HP mục tiêu càng cao, ST càng cao, tối đa tăng đến 30%.</b>',
-                upgradedDesc2: '<b>Hơi Nước Đỏ:</b> HP và Công bản thân tăng <b>10%</b><br><b>Thiêu Đốt Sinh Mệnh:</b> Kháng Debuff bản thân tăng <b>20%</b><br><b>Bát Môn Độn Giáp-Tử Môn:</b> Khi chịu ST Chí Mạng, <b>tiến hành [Phản Chí Mạng], tấn công đơn thể địch, gây ST [Thể Thuật] bằng Công*400%, hấp thu từ mục tiêu 300 Charka, gây ST thêm cho mục tiêu, HP mục tiêu càng cao, ST càng cao, tối đa tăng đến 40%.</b>',
+                desc: '<b>Hơi Nước Đỏ:</b> HP và Công bản thân tăng <b>5%</b><br><b>Thiêu Đốt Sinh Mệnh:</b> Kháng Debuff bản thân tăng <b>8%</b><br><b>Bát Môn Độn Giáp-Tử Môn:</b> Khi chịu ST Chí Mạng, bản thân hồi thêm <b>200</b> Chakra',
+                upgradedDesc1: '<b>Hơi Nước Đỏ:</b> HP và Công bản thân tăng <b>8%</b><br><b>Thiêu Đốt Sinh Mệnh:</b> Kháng Debuff bản thân tăng <b>15%</b><br><b>Bát Môn Độn Giáp-Tử Môn:</b> Khi chịu ST Chí Mạng, <b>tiến hành [Phản Chí Mạng], tấn công đơn thể địch, gây ST [Thể Thuật] bằng Công*330%, hấp thu từ mục tiêu 200 Chakra, gây ST thêm cho mục tiêu, HP mục tiêu càng cao, ST càng cao, tối đa tăng đến 30%.</b>',
+                upgradedDesc2: '<b>Hơi Nước Đỏ:</b> HP và Công bản thân tăng <b>10%</b><br><b>Thiêu Đốt Sinh Mệnh:</b> Kháng Debuff bản thân tăng <b>20%</b><br><b>Bát Môn Độn Giáp-Tử Môn:</b> Khi chịu ST Chí Mạng, <b>tiến hành [Phản Chí Mạng], tấn công đơn thể địch, gây ST [Thể Thuật] bằng Công*400%, hấp thu từ mục tiêu 300 Chakra, gây ST thêm cho mục tiêu, HP mục tiêu càng cao, ST càng cao, tối đa tăng đến 40%.</b>',
                 iconUrl: 'img/skill_icons/guy_special.png'
             }]
         },
         trangsuc: ['6 Hồng Liên'],
         thechieny: ['Lôi Lê Nhiệt Đao', 'Song Cực Lạc Thiên', 'Sức Mạnh Ấn Chú/Kiệt Ngao Nhận', '...'],
         doihinh: ['Thổ Thuần', 'Thuỷ Thổ','EXODIA','...'],
-        haocam: ['Viên Charka', 'Máy Chơi Game', 'Dao Tập Kích'],
+        haocam: ['Viên Chakra', 'Máy Chơi Game', 'Dao Tập Kích'],
     }, ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
         id: 'pain_animal_ss',
@@ -2624,7 +2624,7 @@ window.charactersData = [
         trangsuc: ['6 Mãnh Hổ'],
         thechieny: ['Chữa Trị Thể Năng','<Thẻ 7 Sao>', '...'],
         doihinh: ['Siêu Truy Kích','...'],
-        haocam: ['Thảm Nhện', 'Túi Nhẫn Cụ', 'Vòng Tay Charka'],
+        haocam: ['Thảm Nhện', 'Túi Nhẫn Cụ', 'Vòng Tay Chakra'],
     },
     {
         id: 'itachi2',
@@ -2771,15 +2771,15 @@ window.charactersData = [
             "passive": [
                 {
                     "name": "Mộc Độn•Bảng Bài Thuật",
-                    desc: 'Tăng Công cho Ninja hệ [Thổ]. Khi ra trận, nhận [Khiên Cây](Mức tối đa là 25% HP, trong thời gian duy trì Khiên, ST Bí Kỹ và ST Kỹ Năng chịu giảm 25%); nếu khi ra trận kẻ địch chỉ có 1 người thì bản thân tăng 25% ST Nhẫn Thuật, duy trì cả trận; khi HP dưới 30%, hồi ngay 300 Charka và 35% HP, vào trạng thái [Bá Thể](Miễn Khống Chế, Miễn ST tăng 20%, khi chịu ST Bí Kỹ đơn thể sẽ kích hoạt Đỡ riêng, ST lần này giảm 40%, gây cho địch ST Phản Kích bằng [120% Công bản thân + 20% HP bản thân đã mất], duy trì 2 hiệp); miễn [Thụ Phược], không thể được thêm [Uế Thổ Chuyển Sinh](Hiệu quả này không kích hoạt thì bị động vẫn có hiệu lực).<br><b style = "color:red" >Ninja hệ [Thổ] phe ta tăng 10% Công (level 1)</b>',
-                    upgradedDesc1: 'Tăng Công cho Ninja hệ [Thổ]. Khi ra trận, nhận [Khiên Cây](Mức tối đa là <b>30%</b> HP, trong thời gian duy trì Khiên, ST Bí Kỹ và ST Kỹ Năng chịu giảm <b>30%</b>); nếu khi ra trận kẻ địch chỉ có 1 người thì bản thân tăng <b>30%</b> ST Nhẫn Thuật, duy trì cả trận; khi HP dưới 30%, hồi ngay 300 Charka và 35% HP, vào trạng thái [Bá Thể](Miễn Khống Chế, Miễn ST tăng 20%, khi chịu ST Bí Kỹ đơn thể sẽ kích hoạt Đỡ riêng, ST lần này giảm 40%, gây cho địch ST Phản Kích bằng [<b>150%</b> Công bản thân + <b>25%</b> HP bản thân đã mất], duy trì 2 hiệp, <b>kích hoạt 4 lần sẽ mất</b>); miễn [Thụ Phược], không thể được thêm [Uế Thổ Chuyển Sinh](Hiệu quả này không kích hoạt thì bị động vẫn có hiệu lực).<br><b style = "color:red" >Ninja hệ [Thổ] phe ta tăng 10% Công (level 1)</b>',
+                    desc: 'Tăng Công cho Ninja hệ [Thổ]. Khi ra trận, nhận [Khiên Cây](Mức tối đa là 25% HP, trong thời gian duy trì Khiên, ST Bí Kỹ và ST Kỹ Năng chịu giảm 25%); nếu khi ra trận kẻ địch chỉ có 1 người thì bản thân tăng 25% ST Nhẫn Thuật, duy trì cả trận; khi HP dưới 30%, hồi ngay 300 Chakra và 35% HP, vào trạng thái [Bá Thể](Miễn Khống Chế, Miễn ST tăng 20%, khi chịu ST Bí Kỹ đơn thể sẽ kích hoạt Đỡ riêng, ST lần này giảm 40%, gây cho địch ST Phản Kích bằng [120% Công bản thân + 20% HP bản thân đã mất], duy trì 2 hiệp); miễn [Thụ Phược], không thể được thêm [Uế Thổ Chuyển Sinh](Hiệu quả này không kích hoạt thì bị động vẫn có hiệu lực).<br><b style = "color:red" >Ninja hệ [Thổ] phe ta tăng 10% Công (level 1)</b>',
+                    upgradedDesc1: 'Tăng Công cho Ninja hệ [Thổ]. Khi ra trận, nhận [Khiên Cây](Mức tối đa là <b>30%</b> HP, trong thời gian duy trì Khiên, ST Bí Kỹ và ST Kỹ Năng chịu giảm <b>30%</b>); nếu khi ra trận kẻ địch chỉ có 1 người thì bản thân tăng <b>30%</b> ST Nhẫn Thuật, duy trì cả trận; khi HP dưới 30%, hồi ngay 300 Chakra và 35% HP, vào trạng thái [Bá Thể](Miễn Khống Chế, Miễn ST tăng 20%, khi chịu ST Bí Kỹ đơn thể sẽ kích hoạt Đỡ riêng, ST lần này giảm 40%, gây cho địch ST Phản Kích bằng [<b>150%</b> Công bản thân + <b>25%</b> HP bản thân đã mất], duy trì 2 hiệp, <b>kích hoạt 4 lần sẽ mất</b>); miễn [Thụ Phược], không thể được thêm [Uế Thổ Chuyển Sinh](Hiệu quả này không kích hoạt thì bị động vẫn có hiệu lực).<br><b style = "color:red" >Ninja hệ [Thổ] phe ta tăng 10% Công (level 1)</b>',
                     "iconUrl": "img/skill_icons/hashirama_sagemode.png"
                 }
             ],
             "warsoul": [
                 {
                     "name": "Hồn Huyền Vũ-Cao",
-                    "desc": "Trong tất cả các tính năng, mỗi lần chịu ST sẽ hồi thêm 48 Charka, ban đầu nhận nhiều Charka (max level)",
+                    "desc": "Trong tất cả các tính năng, mỗi lần chịu ST sẽ hồi thêm 48 Chakra, ban đầu nhận nhiều Chakra (max level)",
                     "iconUrl": "img/skill_icons/hashirama_warsoul.png"
                 }
             ],
@@ -3166,7 +3166,7 @@ window.charactersData = [
         team: 'Akatsuki / Bộ Đôi Hắc Bạch Zetsu',
         summon: '???',
         relationships: 'Phụng sự Kaguya Otsutsuki (Hắc Zetsu); Đồng đội với Tobi/Obito.',
-        unique_skill: '飛雷神 — Zetsubun no Jutsu / Kỹ năng Ẩn Trong Đất ( Hắc Zetsu) , Sao chép cơ thể và Charka người khác (Bạch Zetsu)',
+        unique_skill: '飛雷神 — Zetsubun no Jutsu / Kỹ năng Ẩn Trong Đất ( Hắc Zetsu) , Sao chép cơ thể và Chakra người khác (Bạch Zetsu)',
         bust_waist_hip: '???',
         weapon: 'Không dùng vũ khí vật lý',
         fighting_style: 'Gián Điệp, Bẫy Chakra, Ẩn Nấp',

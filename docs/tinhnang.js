@@ -10,7 +10,7 @@ const features = [
     { id: 4, name: "Trang Sức", desc: "Phụ kiện đặc biệt giúp tăng phòng thủ và chỉ số sống còn.", imageUrl: "hinh-nen-trang-suc.jpg" },
 ];
 
-// tinhnang.js (ĐÃ SỬA: Dùng tinhnangchitiet.html chỉ cho Hảo Cảm)
+// tinhnang.js (ĐÃ SỬA: Dùng tinhnanghaocam.html chỉ cho Hảo Cảm)
 
 /**
  * Hàm để render danh sách tính năng
@@ -23,7 +23,7 @@ function renderFeatures() {
     
     features.forEach(feature => {
         // Kiểm tra ID của tính năng Hảo Cảm (Giả định ID Hảo Cảm là 1)
-        const targetPage = feature.id === 1 ? "tinhnangchitiet.html" : "chi-tiet-tinh-nang.html";
+        const targetPage = feature.id === 1 ? "tinhnanghaocam.html" : "chi-tiet-tinh-nang.html";
         
         const featureCard = `
             <a href="${targetPage}?id=${feature.id}" 

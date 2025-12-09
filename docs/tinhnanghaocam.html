@@ -144,7 +144,7 @@
             </ul>
         </div>
     </header>
-    <div class="main-content-area">
+<div class="main-content-area">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         <h1 class="text-5xl font-extrabold text-gray-900 mb-10 text-center border-b-4 pb-4 border-amber-500 title-font">
@@ -153,6 +153,37 @@
         <p class="text-xl text-center text-gray-600 mb-8">
             Tìm kiếm vật phẩm Hảo Cảm theo tên hoặc lọc theo phẩm chất (Lam, Tím, Vàng).
         </p>
+        <button id="toggle-info-btn"
+    class="mb-6 bg-white border-2 border-amber-500 text-amber-600 font-semibold 
+           py-2 px-5 rounded-lg hover:bg-amber-500 hover:text-white transition-all duration-300">
+    📘 Chi Tiết Hảo Cảm
+    </button>
+
+
+
+
+
+
+        <div id="haocam-info" class="hidden bg-white/90 p-5 rounded-xl shadow-md border-l-4 border-amber-500 mb-10">
+    <h2 class="text-xl font-bold text-gray-800 mb-2">💡 Hảo Cảm là gì?</h2>
+    <p class="text-gray-700 leading-relaxed">
+        Hảo Cảm là một trong các tính năng cực kì quan trọng của game Huyền Thoại Làng Lá. Có rất nhiều cách để kiếm các item hảo cảm như mở rương hảo cảm, thí luyện hàng ngày,
+         chiêu mộ Ninja,... Một số hảo cảm đặc biệt (hiếm) chỉ có thể kiếm ở sự kiện đặc biệt như Tết, Sinh Nhật Game 1/5, Quốc Khánh 2/9. 
+    </p>
+    <h2 class="text-xl font-bold text-gray-800 mb-2">💡 Tác dụng của Hảo Cảm </h2>
+    <p class="text-gray-700 leading-relaxed">
+        Khi nâng hảo cảm cho một Ninja, nhân vật đó sẽ được Buff thuộc tính cơ bản và đặc biệt như: Công, Thủ, HP, Tỷ lệ Bạo, Kháng Bạo, Cường Độ Bạo, Tỷ lệ Đỡ, Tỷ lệ Phá Kích, Độ mạnh Đỡ, Tỷ lệ ST, Tỷ lệ Miễn ST.
+        <hr> Hảo Cảm của 1 Ninja được chia làm nhiều cấp độ lần lượt như sau: D -> C -> B -> A -> S -> SS -> SSS <hr>
+        Cấp độ càng cao thì điểm "Tốc" của Ninja đó càng cao. Khi điểm "Tốc" của Ninja phe ta cao hơn Ninja phe đối thủ, Ninja phe ta sẽ tung kĩ năng Bí Kỹ (Ultimate) trước, điều này rất quan trọng khi PK. 
+    </p> 
+    <h2 class="text-xl font-bold text-gray-800 mb-2">💡 Lưu ý & Khác</h2>
+    <p class="text-gray-700 leading-relaxed">
+        Tránh nuôi đội hình có quá nhiều Ninja trùng hảo cảm của nhau, hậu quả là luôn ra chiêu sau đối phương khiến tỉ lệ thua cao hơn nhiều (Trừ khi bạn nạp căng :> ). <hr>
+        Ngoài ra, khi nạp tới các mốc VIP cao như V10 trở lên, bạn có thể sử dụng quyền lợi VIPCARE để yêu cầu nhà phát hành reset Hảo Cảm mà không tốn item "Đá Reset Hảo Cảm", tuy nhiên có giới hạn số lượt reset mỗi tuần hoặc mỗi tháng. <hr>
+        <b>KẾT LUẬN:</b> Tôi làm ra tính năng tra cứu Hảo Cảm này mục đích là giúp anh em chơi game có thêm thông tin hữu ích và chính xác, xây dựng đội hình một cách hợp lý tránh dùng tài nguyên lãng phí sai cách. Nếu có sai số hoặc thiếu sót ở đâu mong anh em thông cảm, hãy liên hệ để tôi sửa. Cảm ơn anh em !!!
+    </p>
+</div>
+
         
         <div class="bg-white p-6 rounded-xl shadow-lg mb-12">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
@@ -169,11 +200,29 @@
                 </div>
             </div>
         </div>
+
+        
         
         <div id="item-grid" class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4">
             </div>
 
     </div>
+    
 </div>
+<script>
+    const toggleBtn = document.getElementById("toggle-info-btn");
+    const infoBox = document.getElementById("haocam-info");
 
-<script src="tinhnangchitiet.js"></script>
+    toggleBtn.addEventListener("click", () => {
+        infoBox.classList.toggle("hidden");
+
+        // Đổi text nút khi ẩn/hiện
+        if (infoBox.classList.contains("hidden")) {
+            toggleBtn.textContent = "📘 Chi Tiết Hảo Cảm";
+        } else {
+            toggleBtn.textContent = "📕 Thu Gọn Chi Tiết";
+        }
+    });
+</script>
+
+<script src="tinhnanghaocam.js"></script>
